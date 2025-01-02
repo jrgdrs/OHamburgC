@@ -12,18 +12,24 @@
 
     @media print {
                         body {
-                                color: black;
-                                margin: 2cm;
+                                __color: rgb(42, 42, 42);
+                                __margin: 2cm;
                         }
                 }
 
                 @page {
                         size: 297mm 210mm;
-                        margin: 6mm; 
+                        padding: 6mm; 
+                        margin: 0mm;
                 }
 
                 body {
+                        color: rgba(0, 0, 0, .8);
+
                         background-color: linen;
+                        __background-image: url("hahnemuehle.jpg"); 
+                        background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .8)), url('hahnemuehle.jpg'); backdrop-filter: blur(1px);
+                        text-shadow: 1px 1px 1px rgba(255, 255, 255, .4) ;
                         margin: 0;
                 }
 
