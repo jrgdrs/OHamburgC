@@ -4,32 +4,20 @@
 <head>
         <meta charset="utf-8">
 
-        <!--  -webkit-print-color-adjust: exact !important; -->
-
         <style>
-    @font-face { font-family: OHamburgC; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
-
-
-    @media print {
-                        body {
-                                __color: rgb(42, 42, 42);
-                                __margin: 2cm;
-                        }
-                }
+                
+                @font-face { font-family: OHamburgC; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
 
                 @page {
                         size: 297mm 210mm;
-                        padding: 6mm; 
-                        margin: 0mm;
+                        margin: 6mm; 
                 }
 
                 body {
-                        color: rgba(0, 0, 0, .8);
-
-                        background-color: linen;
-                        __background-image: url("hahnemuehle.jpg"); 
-                        background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .8)), url('hahnemuehle.jpg'); backdrop-filter: blur(1px);
-                        text-shadow: 1px 1px 1px rgba(255, 255, 255, .4) ;
+                        color: rgba(0, 0, 0, .85);
+                        background-image: url("hahnemuehle.jpg"); 
+                        __background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('hahnemuehle.jpg'); __backdrop-filter: blur(2px);
+                        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35) ;
                         margin: 0;
                 }
 
