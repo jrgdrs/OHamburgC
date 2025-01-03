@@ -40,7 +40,7 @@ for i in $AMFF ; do
   node scripts/print.js qa/Frequency.html ../fonts/ttf/$i.ttf ../out/qa/4-Frequency-$i.pdf
  # node scripts/print.js qa/Kafka.html ../fonts/ttf/$i.ttf ../out/qa/5-Kafka-$i.pdf
  # node scripts/print.js qa/News.html ../fonts/ttf/$i.ttf ../out/qa/6-News-$i.pdf
- # node scripts/print.js qa/Diacritics.html ../fonts/ttf/$i.ttf ../out/qa/7-Diacritics-$i.pdf
+  node scripts/print.js qa/Diacritics.html ../fonts/ttf/$i.ttf ../out/qa/7-Diacritics-$i.pdf
 done
 
 
@@ -63,7 +63,7 @@ echo '-- create specimen for documentation'
  node scripts/print.js specimen/Woolf.html
  node scripts/print.js specimen/Schiller.html
  node scripts/print.js specimen/Martens.html
-# node scripts/print.js specimen/Dumas.html
+ node scripts/print.js specimen/Dumas.html
 # node scripts/print.js specimen/Adamson.html
 # node scripts/print.js specimen/Endrődi.html
 # node scripts/print.js specimen/Heisenberg.html

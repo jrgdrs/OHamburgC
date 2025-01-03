@@ -60,7 +60,8 @@ const htmlPost = '</body></html>';
       let coverX = Math.round(bbox.x2 ) - Math.round(bbox.x1 );
 
       // legt den ausschnitt des svg fest in der voewbpx
-      let bboxString = Math.round(bbox.x1 ) + " " + ( descender /3 ) + " " + Math.round(bbox.x2) + " " + ( lineHeight + 200 );
+      // height-controller /8
+      let bboxString = Math.round(bbox.x1 ) + " " + ( descender / 8 ) + " " + Math.round(bbox.x2) + " " + ( lineHeight + 200 );
 
       // adjust negative widths
       if (glyph.advanceWidth + leftSB < 0) {
