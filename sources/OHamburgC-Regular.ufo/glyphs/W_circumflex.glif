@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Wcircumflex" format="2">
-  <advance width="970"/>
+  <advance width="963"/>
   <unicode hex="0174"/>
   <outline>
     <component base="W"/>
-    <component base="circumflexcomb.case" xOffset="335" yOffset="232"/>
+    <component base="uni0302.case" xOffset="335" yOffset="232"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 09:15:55 +0000</string>
+      <string>2025-01-05 23:06:41 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

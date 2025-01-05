@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae" format="2">
-  <advance width="592"/>
+  <advance width="594"/>
   <unicode hex="00E6"/>
   <outline>
     <contour>
@@ -95,7 +95,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 09:15:55 +0000</string>
+      <string>2025-01-05 22:19:10 +0000</string>
     </dict>
   </lib>
 </glyph>

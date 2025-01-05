@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis" format="2">
-  <advance width="660"/>
+  <advance width="666"/>
   <unicode hex="00DC"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscomb.case" xOffset="204" yOffset="183"/>
+    <component base="uni0308.case" xOffset="204" yOffset="183"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 18:35:36 +0000</string>
+      <string>2025-01-05 23:06:09 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eth" format="2">
-  <advance width="520"/>
+  <advance width="513"/>
   <unicode hex="00F0"/>
   <outline>
     <contour>
@@ -47,7 +47,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 09:15:55 +0000</string>
+      <string>2025-01-05 22:19:42 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

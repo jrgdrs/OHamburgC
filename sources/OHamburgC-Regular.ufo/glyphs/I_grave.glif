@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Igrave" format="2">
-  <advance width="296"/>
+  <advance width="297"/>
   <unicode hex="00CC"/>
   <outline>
     <component base="I"/>
@@ -9,7 +9,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 18:35:36 +0000</string>
+      <string>2025-01-05 23:00:01 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflex" format="2">
-  <advance width="580"/>
+  <advance width="576"/>
   <unicode hex="00CA"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexcomb.case" xOffset="138" yOffset="232"/>
+    <component base="uni0302.case" xOffset="138" yOffset="232"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 18:35:36 +0000</string>
+      <string>2025-01-05 22:59:21 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

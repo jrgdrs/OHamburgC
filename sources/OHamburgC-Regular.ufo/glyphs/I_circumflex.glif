@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icircumflex" format="2">
-  <advance width="296"/>
+  <advance width="297"/>
   <unicode hex="00CE"/>
   <outline>
     <component base="I"/>
-    <component base="circumflexcomb.case" xOffset="-2" yOffset="232"/>
+    <component base="uni0302.case" xOffset="-2" yOffset="232"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 18:35:36 +0000</string>
+      <string>2025-01-05 23:00:00 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

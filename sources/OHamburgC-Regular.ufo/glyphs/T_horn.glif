@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Thorn" format="2">
-  <advance width="491"/>
+  <advance width="495"/>
   <unicode hex="00DE"/>
   <outline>
     <contour>
       <point x="253" y="135" type="curve" smooth="yes"/>
-      <point x="377" y="135"/>
-      <point x="464" y="209"/>
-      <point x="464" y="314" type="curve" smooth="yes"/>
-      <point x="464" y="416"/>
-      <point x="377" y="487"/>
+      <point x="381" y="135"/>
+      <point x="468" y="209"/>
+      <point x="468" y="314" type="curve" smooth="yes"/>
+      <point x="468" y="416"/>
+      <point x="381" y="487"/>
       <point x="253" y="485" type="curve" smooth="yes"/>
       <point x="214" y="484"/>
       <point x="216" y="480"/>
       <point x="184" y="480" type="curve"/>
       <point x="184" y="452" type="line"/>
       <point x="253" y="454" type="line" smooth="yes"/>
-      <point x="326" y="456"/>
-      <point x="378" y="398"/>
-      <point x="378" y="314" type="curve" smooth="yes"/>
-      <point x="378" y="244"/>
-      <point x="326" y="183"/>
+      <point x="330" y="456"/>
+      <point x="382" y="398"/>
+      <point x="382" y="314" type="curve" smooth="yes"/>
+      <point x="382" y="244"/>
+      <point x="330" y="183"/>
       <point x="253" y="166" type="curve" smooth="yes"/>
       <point x="237" y="162"/>
       <point x="208" y="159"/>
@@ -34,7 +34,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-01-04 18:37:07 +0000</string>
+      <string>2025-01-05 23:03:09 +0000</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

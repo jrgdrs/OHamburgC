@@ -1,33 +1,55 @@
-# automatic
-@Uppercase = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I IJ Iacute Icircumflex Idieresis Igrave J Jacute K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Germandbls T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z ];
+	markClass [uni0308] <anchor 142 447> @mark_top;
+	markClass [gravecomb] <anchor 150 399> @mark_top;
+	markClass [acutecomb] <anchor 150 399> @mark_top;
+	markClass [uni0302] <anchor 150 399> @mark_top;
+	markClass [uni030A] <anchor 144 384> @mark_top;
+	markClass [tildecomb] <anchor 157 384> @mark_top;
+	markClass [uni0327] <anchor 159 0> @mark_bottom;
+	markClass [uni0308.case] <anchor 142 433> @mark_top;
+	markClass [gravecomb.case] <anchor 153 384> @mark_top;
+	markClass [acutecomb.case] <anchor 147 384> @mark_top;
+	markClass [uni0302.case] <anchor 150 384> @mark_top;
+	markClass [uni030A.case] <anchor 144 384> @mark_top;
+	markClass [tildecomb.case] <anchor 157 384> @mark_top;
+	markClass [uni0327.case] <anchor 159 0> @mark_bottom;
+### class:0:Uppercase ###
+@Uppercase = [
+### open class 'Uppercase' ###
+A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I IJ Iacute Icircumflex Idieresis Igrave J uni004A0301 K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S uni1E9E T U Uacute Ucircumflex Udieresis Ugrave V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z
+### close class 'Uppercase' ###
+];
 
-# Prefix: Languagesystems
-# automatic
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
 languagesystem DFLT dflt;
 
 languagesystem latn dflt;
 languagesystem latn NLD;
+### close prefix 'Languagesystems' ###
 
+### feature:0:aalt ###
 feature aalt {
-# automatic
+### open feature 'aalt' ###
 feature locl;
 feature tnum;
 feature case;
+### close feature 'aalt' ###
 } aalt;
 
+### feature:1:ccmp ###
 feature ccmp {
-# automatic
+### open feature 'ccmp' ###
 lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb gravecomb ringcomb tildecomb];
+	@CombiningTopAccents = [acutecomb uni0302 uni0308 gravecomb uni030A tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
+	sub i' @CombiningTopAccents by dotlessi;
+	sub j' @CombiningTopAccents by uni0237;
 } ccmp_DFLT_1;
 
 lookup ccmp_Other_1 {
 	lookupflag 0;
-	@Markscomb = [dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb];
-	@MarkscombCase = [dieresiscomb.case gravecomb.case acutecomb.case circumflexcomb.case ringcomb.case tildecomb.case cedillacomb.case];
+	@Markscomb = [uni0308 gravecomb acutecomb uni0302 uni030A tildecomb uni0327];
+	@MarkscombCase = [uni0308.case gravecomb.case acutecomb.case uni0302.case uni030A.case tildecomb.case uni0327.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
@@ -37,20 +59,24 @@ lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+### close feature 'ccmp' ###
 } ccmp;
 
+### feature:2:locl ###
 feature locl {
-# automatic
+### open feature 'locl' ###
 script latn;
 language NLD;
 lookup locl_latn_0 {
-	sub iacute j' by jacute;
-	sub Iacute J' by Jacute;
+	sub iacute j' by uni006A0301;
+	sub Iacute J' by uni004A0301;
 } locl_latn_0;
+### close feature 'locl' ###
 } locl;
 
+### feature:3:tnum ###
 feature tnum {
-# automatic
+### open feature 'tnum' ###
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -61,17 +87,19 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
+### close feature 'tnum' ###
 } tnum;
 
+### feature:4:case ###
 feature case {
-# automatic
-sub dieresiscomb by dieresiscomb.case;
+### open feature 'case' ###
+sub uni0308 by uni0308.case;
 sub gravecomb by gravecomb.case;
 sub acutecomb by acutecomb.case;
-sub circumflexcomb by circumflexcomb.case;
-sub ringcomb by ringcomb.case;
+sub uni0302 by uni0302.case;
+sub uni030A by uni030A.case;
 sub tildecomb by tildecomb.case;
-sub cedillacomb by cedillacomb.case;
+sub uni0327 by uni0327.case;
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -82,22 +110,377 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
+### close feature 'case' ###
 } case;
 
+### feature:5:dlig ###
 feature dlig {
-# automatic
+### open feature 'dlig' ###
 lookupflag IgnoreMarks;
 sub c t by c_t;
 sub s t by s_t;
+### close feature 'dlig' ###
 } dlig;
 
+### feature:6:liga ###
 feature liga {
-# automatic
+### open feature 'liga' ###
 lookupflag IgnoreMarks;
 sub f f i by f_f_i;
 sub f f l by f_f_l;
 sub f f by f_f;
 sub f i by f_i;
 sub f l by f_l;
+### close feature 'liga' ###
 } liga;
+
+### feature:-1:kern ###
+feature kern {
+### open feature 'kern' ###
+	lookup kern_DFLT {
+		lookupflag IgnoreMarks;
+		pos zero three -27;
+		pos zero five -27;
+		pos two five -45;
+		pos two seven -27;
+		pos three five -27;
+		pos four five -54;
+		pos four seven -45;
+		pos five zero -45;
+		pos five five -45;
+		pos five six -27;
+		pos five nine -27;
+		pos six five -27;
+		pos seven i -72;
+		pos seven five -27;
+		pos seven comma -72;
+		pos eight five -45;
+		pos eight seven -18;
+		pos nine five -18;
+		pos space A -54;
+		pos space T -36;
+		pos space V -72;
+		pos space W -72;
+		pos space Y -27;
+		pos space i -72;
+		pos space space -225;
+		pos space quoteleft -72;
+		pos space quoteright -108;
+		pos period space -72;
+		pos period quoteright -72;
+		pos comma space -72;
+		pos comma quoteright -72;
+		pos colon space -108;
+		pos semicolon space -108;
+		pos slash i -36;
+		pos hyphen V -108;
+		pos hyphen W -108;
+		pos hyphen i -90;
+		pos parenleft J 54;
+		pos parenleft seven 54;
+		pos bracketleft J 54;
+		pos bracketleft seven 54;
+		pos quoteleft Y 18;
+		pos quoteright m -36;
+		pos quoteright s -72;
+		pos quoteright space -72;
+		pos quotesingle U 18;
+		pos quotesingle i -72;
+		pos quotesingle s -45;
+		pos quotesingle t -27;
+		pos quotesingle quotesingle -36;
+	} kern_DFLT;
+	lookup kern_latn {
+		lookupflag IgnoreMarks;
+		pos A T -90;
+		pos A V -108;
+		pos A W -108;
+		pos A Y -72;
+		pos A c -18;
+		pos A v -18;
+		pos A w -18;
+		pos A y -18;
+		pos A space -54;
+		pos A quotesingle -108;
+		pos D seven -18;
+		pos F A -36;
+		pos F O -27;
+		pos F period -45;
+		pos F comma -45;
+		pos J odieresis -18;
+		pos K a -18;
+		pos K y -36;
+		pos L A -27;
+		pos L O -36;
+		pos L T -72;
+		pos L V -108;
+		pos L W -108;
+		pos L Y -54;
+		pos L y -27;
+		pos L quotesingle -108;
+		pos O V -54;
+		pos O W -54;
+		pos P A -54;
+		pos P period -72;
+		pos P comma -72;
+		pos R O -54;
+		pos R T -90;
+		pos R V -108;
+		pos R W -108;
+		pos R Y -45;
+		pos R odieresis -54;
+		pos R y -27;
+		pos T A -54;
+		pos T a -45;
+		pos T c -45;
+		pos T e -90;
+		pos T i 0;
+		pos T o -72;
+		pos T odieresis -18;
+		pos T r -27;
+		pos T s -72;
+		pos T udieresis -18;
+		pos T space -36;
+		pos T period -90;
+		pos T comma -90;
+		pos T colon -90;
+		pos T semicolon -54;
+		pos T hyphen -72;
+		pos T bracketright 54;
+		pos T guillemotleft -108;
+		pos T guillemotright -108;
+		pos V A -108;
+		pos V AE -108;
+		pos V a -108;
+		pos V e -90;
+		pos V i -27;
+		pos V o -90;
+		pos V odieresis -90;
+		pos V r -90;
+		pos V s -108;
+		pos V germandbls -36;
+		pos V u -45;
+		pos V udieresis -72;
+		pos V y -45;
+		pos V seven -72;
+		pos V space -72;
+		pos V period -108;
+		pos V comma -108;
+		pos V colon -90;
+		pos V semicolon -90;
+		pos V hyphen -36;
+		pos V guillemotleft -108;
+		pos V guillemotright -108;
+		pos W A -108;
+		pos W a -90;
+		pos W e -90;
+		pos W i -18;
+		pos W o -72;
+		pos W odieresis -90;
+		pos W r -18;
+		pos W s -90;
+		pos W germandbls -36;
+		pos W u -18;
+		pos W udieresis -72;
+		pos W y -18;
+		pos W seven -72;
+		pos W space -72;
+		pos W period -90;
+		pos W comma -108;
+		pos W colon -90;
+		pos W semicolon -27;
+		pos W hyphen -27;
+		pos W guillemotleft -108;
+		pos W guillemotright -108;
+		pos X i -36;
+		pos Y A -54;
+		pos Y a -90;
+		pos Y e -90;
+		pos Y i -27;
+		pos Y o -90;
+		pos Y p -36;
+		pos Y q -90;
+		pos Y s -108;
+		pos Y u -45;
+		pos Y v -18;
+		pos Y seven -108;
+		pos Y space -27;
+		pos Y period -90;
+		pos Y comma -90;
+		pos Y colon -72;
+		pos Y semicolon -72;
+		pos Y hyphen -36;
+		pos Y guillemotleft -108;
+		pos Y guillemotright -108;
+		pos a y -27;
+		pos a quoteright -36;
+		pos b quotesingle -18;
+		pos c Adieresis -36;
+		pos c seven -18;
+		pos d quotesingle -18;
+		pos e Y -90;
+		pos f space -36;
+		pos f comma -36;
+		pos f exclam 54;
+		pos f question 27;
+		pos f bracketright 54;
+		pos f quotesingle 45;
+		pos g j 45;
+		pos k hyphen -18;
+		pos l quotesingle -27;
+		pos n hyphen -18;
+		pos n quoteright -18;
+		pos n quotesingle -72;
+		pos o T -72;
+		pos o V -90;
+		pos o W -72;
+		pos o hyphen 18;
+		pos r c -9;
+		pos r d -9;
+		pos r e -9;
+		pos r g -18;
+		pos r m 18;
+		pos r n 18;
+		pos r o -9;
+		pos r q -27;
+		pos r t 18;
+		pos r u 18;
+		pos r v 36;
+		pos r w 36;
+		pos r x 36;
+		pos r y 36;
+		pos r z 9;
+		pos r space -27;
+		pos r period -36;
+		pos r comma -36;
+		pos r question 36;
+		pos r hyphen -18;
+		pos r quotesingle -18;
+		pos s quotesingle -36;
+		pos germandbls Adieresis -36;
+		pos germandbls C -27;
+		pos germandbls T -18;
+		pos germandbls V -18;
+		pos germandbls W -18;
+		pos germandbls Y -18;
+		pos germandbls asterisk -18;
+		pos u quotesingle -54;
+		pos v A -18;
+		pos v period -72;
+		pos v comma -54;
+		pos w odieresis -18;
+		pos w seven -18;
+		pos w period -72;
+		pos w comma -72;
+		pos y Adieresis -54;
+		pos y V -90;
+		pos y W -90;
+		pos y Y -90;
+		pos y seven 18;
+		pos y period -72;
+		pos y comma -54;
+		pos y slash -18;
+		pos f_f comma -36;
+		pos f_f exclam 54;
+		pos f_f question 27;
+	} kern_latn;
+	lookupflag 0;
+	script latn;
+	lookup kern_latn;
+	lookupflag 0;
+### close feature 'kern' ###
+} kern;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_latn {
+		lookupflag 0;
+		pos base A <anchor 354 0> mark @mark_bottom <anchor 354 616> mark @mark_top;
+		pos base B <anchor 280 0> mark @mark_bottom <anchor 280 616> mark @mark_top;
+		pos base C <anchor 358 0> mark @mark_bottom <anchor 358 616> mark @mark_top;
+		pos base D <anchor 352 0> mark @mark_bottom <anchor 352 616> mark @mark_top;
+		pos base E <anchor 288 0> mark @mark_bottom <anchor 288 616> mark @mark_top;
+		pos base F <anchor 240 0> mark @mark_bottom <anchor 240 616> mark @mark_top;
+		pos base G <anchor 354 0> mark @mark_bottom <anchor 354 616> mark @mark_top;
+		pos base H <anchor 376 0> mark @mark_bottom <anchor 376 616> mark @mark_top;
+		pos base I <anchor 148 0> mark @mark_bottom <anchor 148 616> mark @mark_top;
+		pos base J <anchor 136 0> mark @mark_bottom <anchor 136 616> mark @mark_top;
+		pos base K <anchor 320 0> mark @mark_bottom <anchor 320 616> mark @mark_top;
+		pos base L <anchor 304 0> mark @mark_bottom <anchor 304 616> mark @mark_top;
+		pos base M <anchor 428 0> mark @mark_bottom <anchor 428 616> mark @mark_top;
+		pos base N <anchor 376 0> mark @mark_bottom <anchor 376 616> mark @mark_top;
+		pos base O <anchor 378 0> mark @mark_bottom <anchor 378 616> mark @mark_top;
+		pos base P <anchor 240 0> mark @mark_bottom <anchor 240 616> mark @mark_top;
+		pos base Q <anchor 378 0> mark @mark_bottom <anchor 378 616> mark @mark_top;
+		pos base R <anchor 312 0> mark @mark_bottom <anchor 312 616> mark @mark_top;
+		pos base S <anchor 241 0> mark @mark_bottom <anchor 237 616> mark @mark_top;
+		pos base T <anchor 325 0> mark @mark_bottom <anchor 325 616> mark @mark_top;
+		pos base U <anchor 322 0> mark @mark_bottom <anchor 346 616> mark @mark_top;
+		pos base V <anchor 365 0> mark @mark_bottom <anchor 365 616> mark @mark_top;
+		pos base W <anchor 485 0> mark @mark_bottom <anchor 485 616> mark @mark_top;
+		pos base X <anchor 306 0> mark @mark_bottom <anchor 306 616> mark @mark_top;
+		pos base Y <anchor 277 0> mark @mark_bottom <anchor 277 616> mark @mark_top;
+		pos base Z <anchor 324 0> mark @mark_bottom <anchor 324 616> mark @mark_top;
+		pos base a <anchor 196 0> mark @mark_bottom <anchor 196 384> mark @mark_top;
+		pos base b <anchor 244 0> mark @mark_bottom <anchor 244 384> mark @mark_top;
+		pos base c <anchor 200 0> mark @mark_bottom <anchor 200 384> mark @mark_top;
+		pos base d <anchor 248 0> mark @mark_bottom <anchor 248 384> mark @mark_top;
+		pos base e <anchor 208 0> mark @mark_bottom <anchor 208 384> mark @mark_top;
+		pos base f <anchor 158 0> mark @mark_bottom <anchor 158 694> mark @mark_top;
+		pos base g <anchor 208 -232> mark @mark_bottom <anchor 208 384> mark @mark_top;
+		pos base h <anchor 245 0> mark @mark_bottom <anchor 245 694> mark @mark_top;
+		pos base i <anchor 115 0> mark @mark_bottom;
+		pos base dotlessi <anchor 120 0> mark @mark_bottom <anchor 120 384> mark @mark_top;
+		pos base uni0237 <anchor 108 -232> mark @mark_bottom <anchor 108 384> mark @mark_top;
+		pos base k <anchor 237 0> mark @mark_bottom <anchor 237 694> mark @mark_top;
+		pos base l <anchor 117 0> mark @mark_bottom <anchor 117 694> mark @mark_top;
+		pos base m <anchor 370 0> mark @mark_bottom <anchor 370 384> mark @mark_top;
+		pos base n <anchor 246 0> mark @mark_bottom <anchor 246 384> mark @mark_top;
+		pos base o <anchor 248 0> mark @mark_bottom <anchor 248 384> mark @mark_top;
+		pos base oslash <anchor 244 0> mark @mark_bottom <anchor 244 384> mark @mark_top;
+		pos base p <anchor 245 0> mark @mark_bottom <anchor 245 384> mark @mark_top;
+		pos base q <anchor 248 0> mark @mark_bottom <anchor 248 384> mark @mark_top;
+		pos base r <anchor 162 0> mark @mark_bottom <anchor 162 384> mark @mark_top;
+		pos base s <anchor 168 0> mark @mark_bottom <anchor 168 384> mark @mark_top;
+		pos base t <anchor 148 0> mark @mark_bottom <anchor 148 474> mark @mark_top;
+		pos base u <anchor 245 0> mark @mark_bottom <anchor 245 384> mark @mark_top;
+		pos base v <anchor 208 0> mark @mark_bottom <anchor 208 384> mark @mark_top;
+		pos base w <anchor 308 0> mark @mark_bottom <anchor 308 384> mark @mark_top;
+		pos base x <anchor 208 0> mark @mark_bottom <anchor 208 384> mark @mark_top;
+		pos base y <anchor 208 0> mark @mark_bottom <anchor 208 384> mark @mark_top;
+		pos base z <anchor 200 0> mark @mark_bottom <anchor 200 384> mark @mark_top;
+	} mark_latn;
+	lookupflag 0;
+	script latn;
+	lookup mark_latn;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+### feature:-1:mkmk ###
+feature mkmk {
+### open feature 'mkmk' ###
+	lookup mkmk_DFLT_bottom {
+		lookupflag UseMarkFilteringSet @mark_bottom;
+		pos mark uni0327 <anchor 159 -234> mark @mark_bottom;
+		pos mark uni0327.case <anchor 159 -234> mark @mark_bottom;
+	} mkmk_DFLT_bottom;
+	lookup mkmk_DFLT_top {
+		lookupflag UseMarkFilteringSet @mark_top;
+		pos mark uni0308 <anchor 150 622> mark @mark_top;
+		pos mark gravecomb <anchor 150 622> mark @mark_top;
+		pos mark acutecomb <anchor 150 622> mark @mark_top;
+		pos mark uni0302 <anchor 150 622> mark @mark_top;
+		pos mark uni030A <anchor 144 0> mark @mark_top;
+		pos mark tildecomb <anchor 157 633> mark @mark_top;
+		pos mark uni0308.case <anchor 150 634> mark @mark_top;
+		pos mark gravecomb.case <anchor 153 646> mark @mark_top;
+		pos mark acutecomb.case <anchor 147 646> mark @mark_top;
+		pos mark uni0302.case <anchor 150 647> mark @mark_top;
+		pos mark uni030A.case <anchor 144 0> mark @mark_top;
+		pos mark tildecomb.case <anchor 157 633> mark @mark_top;
+	} mkmk_DFLT_top;
+### close feature 'mkmk' ###
+} mkmk;
 
