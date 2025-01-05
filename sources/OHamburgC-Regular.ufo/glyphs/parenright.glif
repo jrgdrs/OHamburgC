@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright" format="2">
+  <advance width="294"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="145" y="281" type="curve" smooth="yes"/>
+      <point x="145" y="125"/>
+      <point x="91" y="-45"/>
+      <point x="27" y="-130" type="curve"/>
+      <point x="52" y="-158" type="line"/>
+      <point x="145" y="-72"/>
+      <point x="213" y="110"/>
+      <point x="213" y="281" type="curve" smooth="yes"/>
+      <point x="213" y="452"/>
+      <point x="145" y="634"/>
+      <point x="52" y="720" type="curve"/>
+      <point x="27" y="692" type="line"/>
+      <point x="91" y="607"/>
+      <point x="145" y="437"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-04 18:37:07 +0000</string>
+    </dict>
+  </lib>
+</glyph>

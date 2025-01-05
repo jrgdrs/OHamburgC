@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftBlackSmallTriangle" format="2">
+  <advance width="1000"/>
+  <unicode hex="25C2"/>
+  <outline>
+    <contour>
+      <point x="629" y="174" type="line"/>
+      <point x="629" y="426" type="line"/>
+      <point x="371" y="300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-04 09:15:56 +0000</string>
+      <key>public.markColor</key>
+      <string>0.97,0.9,0,1</string>
+    </dict>
+  </lib>
+</glyph>

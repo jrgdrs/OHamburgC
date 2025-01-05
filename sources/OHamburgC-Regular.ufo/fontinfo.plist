@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>694</integer>
+    <key>capHeight</key>
+    <integer>616</integer>
+    <key>descender</key>
+    <integer>-232</integer>
+    <key>familyName</key>
+    <string>OHamburgC</string>
+    <key>guidelines</key>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>osf figures</string>
+        <key>x</key>
+        <integer>280</integer>
+        <key>y</key>
+        <integer>567</integer>
+      </dict>
+    </array>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>note</key>
+    <string>Fixed width I=250, m=734, e,n,p=490 , e,a=408, i,l=245 , r was 410 but its free 
+
+Module 81,56
+
+1--82
+2--163
+3--245 il
+4--326 r
+368
+336 bei er connection
+5--408 ea
+6--489 nop
+7--571
+8--653
+9--734 m
+
+darum r=326
+
+stem 72 width
+serifs 20 height, 65 distance from stem
+reduced x-height from 400 to 395 because of overshoots gave 10 to 405
+
+
+Manual
+
+17.3 * 28
+
+190
+208 /space
+225
+242 il
+260
+277
+294 Itf
+311 
+329 sr
+346
+363
+381
+398 ae
+415 v
+433
+450 g
+467 b
+484 nopu
+502
+519
+709
+727 m
+744
+761 O
+779 H
+796
+813
+830
+848
+865
+882
+900
+917
+934
+952
+969
+986</string>
+    <key>openTypeHeadCreated</key>
+    <string>2024/11/13 15:33:12</string>
+    <key>openTypeHheaAscender</key>
+    <integer>920</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-280</integer>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Regular</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2StrikeoutPosition</key>
+    <integer>267</integer>
+    <key>openTypeOS2StrikeoutSize</key>
+    <integer>53</integer>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>3</integer>
+    </array>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>920</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-280</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>TBLD</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>920</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>280</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-11</integer>
+      <integer>0</integer>
+      <integer>384</integer>
+      <integer>395</integer>
+      <integer>616</integer>
+      <integer>627</integer>
+      <integer>694</integer>
+      <integer>705</integer>
+    </array>
+    <key>postscriptFontName</key>
+    <string>OHamburgC-Regular</string>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-243</integer>
+      <integer>-232</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>36</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>72</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-133</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>53</integer>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>7</integer>
+    <key>xHeight</key>
+    <integer>384</integer>
+  </dict>
+</plist>

@@ -89,7 +89,7 @@ const htmlPost = '</body></html>';
         var myBearingString = '<path class="pCross" d="' + getMyCross( 0, ascender ) + getMyCross( glyphW, ascender ) + '"/>\r\n'
 
         //Cadence
-        var myCadence = 8; /// CADENCE
+        var myCadence = 9; /// CADENCE
         var myCadenceString = '<path class="pCadence" d="' + getGutter( 0, glyphW, myCadence )  + '"/>\r\n'
                            + '<path class="pCadenceV" d="' + getGutter( 0, glyphW, myCadence * 5 )  + '"/>\r\n'
         var myCadenceCount = glyphW / myCadence;
@@ -158,7 +158,7 @@ function getGutter( x, w, f ){ // x start, w width, f frequency
   let h = 1400; 
   let y = 400;
   let outstring = "";
-  for( i = 0; i * f < w +8 ; i++ ){
+  for( i = 0; i * f < w + 8 ; i++ ){
     outstring += 'M' + ( i * f + x ) + ' ' + h + ' ' + 'l0 -' + h + ' ' + 'l1 0 ' + 'l0 ' + h + ' ' + 'l-1 0 Z '
   }  
   return( outstring )

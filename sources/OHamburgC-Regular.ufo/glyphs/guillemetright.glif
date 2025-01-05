@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemetright" format="2">
+  <advance width="520"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="101" y="50" type="line"/>
+      <point x="277" y="200" type="line"/>
+      <point x="106" y="354" type="line"/>
+      <point x="66" y="325" type="line"/>
+      <point x="176" y="200" type="line"/>
+      <point x="73" y="71" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="50" type="line"/>
+      <point x="469" y="200" type="line"/>
+      <point x="298" y="354" type="line"/>
+      <point x="258" y="325" type="line"/>
+      <point x="368" y="200" type="line"/>
+      <point x="265" y="71" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-04 09:15:56 +0000</string>
+    </dict>
+  </lib>
+</glyph>

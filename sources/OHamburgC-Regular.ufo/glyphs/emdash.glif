@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="693"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="6" y="186" type="line"/>
+      <point x="686" y="190" type="line"/>
+      <point x="693" y="253" type="line"/>
+      <point x="611" y="253" type="line"/>
+      <point x="83" y="239" type="line"/>
+      <point x="0" y="231" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-04 18:35:07 +0000</string>
+    </dict>
+  </lib>
+</glyph>
