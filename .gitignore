@@ -5,8 +5,8 @@ build.stamp
 proof
 ___fonts
 node_modules
-package-lock.json
-package.json
+__package-lock.json
+__package.json
 master_ufo
 instance_ufos
 .ninja_log
@@ -15,6 +15,7 @@ renovate.json
 requirement*.*
 out
 dorm
+*.code-workspace
 
 # OS generated files #
 ######################
