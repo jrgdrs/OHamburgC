@@ -71,3 +71,6 @@ echo '-- create specimen for documentation'
  mv specimen/*.pdf ../documentation
 
 cd ..
+
+
+# node custom/scripts/metrics.js fonts/otf/OHamburgC-Regular.otf > documentation/metrics.txt
