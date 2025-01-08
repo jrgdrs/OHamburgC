@@ -17,7 +17,24 @@ gvxy - 423 (47)
 ace - 405 (45)
 s - 351 (39)
 frt - 315 (35)
-ijlIJ - 225-297 (25-33)"
+ijlIJ - 225-297 (25-33)",
+"Typobold domain
+shape strong robust powerful characters
+for reading and consulting typography
+on paper like books and good news
+on screen for lexicon or dating apps
+not dècorative nor display
+but graceful and cosy
+not an end in itself
+servant at its best
+make mature become
+iterate (da capo al fine)
+
+
+
+ 
+ 
+ "
 );
 classes = (
 {
@@ -158,11 +175,11 @@ fontMaster = (
 customParameters = (
 {
 name = typoAscender;
-value = 920;
+value = 900;
 },
 {
 name = typoDescender;
-value = -280;
+value = -120;
 },
 {
 name = typoLineGap;
@@ -170,23 +187,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 920;
+value = 400;
 },
 {
 name = winDescent;
-value = 280;
+value = 100;
 },
 {
 name = hheaAscender;
-value = 920;
+value = 400;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -100;
 },
 {
 name = strikeoutPosition;
-value = 267;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -194,7 +211,7 @@ value = 53;
 },
 {
 name = underlinePosition;
-value = -133;
+value = 0;
 },
 {
 name = underlineThickness;
@@ -214,11 +231,11 @@ id = m005;
 metricValues = (
 {
 over = 11;
-pos = 694;
+pos = 900;
 },
 {
 over = 11;
-pos = 616;
+pos = 400;
 },
 {
 over = 11;
@@ -229,7 +246,7 @@ over = -11;
 },
 {
 over = -11;
-pos = -232;
+pos = -300;
 },
 {
 }
@@ -3603,7 +3620,7 @@ unicode = 7838;
 },
 {
 glyphname = T;
-lastChange = "2025-01-05 23:05:29 +0000";
+lastChange = "2025-01-06 21:31:09 +0000";
 layers = (
 {
 anchors = (
@@ -3670,6 +3687,11 @@ nodes = (
 );
 }
 );
+};
+backgroundImage = {
+imagePath = "../../../Desktop/joerg-ectd-creative-domain.png";
+pos = (-17438,-12340);
+scale = (23.7294,23.7294);
 };
 layerId = m005;
 shapes = (
@@ -6297,7 +6319,7 @@ unicode = 104;
 {
 color = 4;
 glyphname = i;
-lastChange = "2025-01-05 09:04:20 +0000";
+lastChange = "2025-01-06 21:19:37 +0000";
 layers = (
 {
 anchors = (
@@ -13023,7 +13045,7 @@ unicode = 44;
 },
 {
 glyphname = colon;
-lastChange = "2025-01-05 22:23:29 +0000";
+lastChange = "2025-01-06 21:21:05 +0000";
 layers = (
 {
 layerId = m005;
@@ -13998,7 +14020,7 @@ unicode = 35;
 },
 {
 glyphname = slash;
-lastChange = "2025-01-05 22:25:33 +0000";
+lastChange = "2025-01-06 21:21:13 +0000";
 layers = (
 {
 layerId = m005;
@@ -36641,6 +36663,7 @@ Adieresis = -36;
 seven = -18;
 };
 colon = {
+slash = -30;
 space = -108;
 };
 comma = {
@@ -36713,6 +36736,9 @@ V = -108;
 W = -108;
 i = -90;
 two = 20;
+};
+i = {
+n = 2;
 };
 k = {
 hyphen = -18;
@@ -36805,7 +36831,9 @@ four = -40;
 seven = -20;
 };
 slash = {
+colon = -70;
 i = -36;
+slash = -180;
 };
 space = {
 A = -54;
@@ -36813,7 +36841,7 @@ T = -36;
 V = -72;
 W = -72;
 Y = -27;
-i = -72;
+i = 0;
 parenleft = -50;
 quoteleft = -72;
 quoteright = -108;

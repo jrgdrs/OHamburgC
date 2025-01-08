@@ -7,6 +7,7 @@ var filename = process.argv[2];
 ( async () => {
   const buffer = fs.readFileSync(filename, null).buffer
   const font = opentype.parse(await buffer)
+  var outPivot = [];
 
   // font spec
   let fontModified = new Date(font.tables.head.modified * 1000); // fontMod.toISOString()
@@ -16,6 +17,7 @@ var filename = process.argv[2];
   let fontXMax = font.tables.head.xMax;
   let fontYMax = font.tables.head.yMax;
   console.log(fontModified.toISOString(), fontCreated.toISOString(), fontXMin, fontYMin, fontXMax, fontYMax);
+  console.log( font.tables);
 
   let psname = font.tables.name.postScriptName.en;
   console.log(psname);
@@ -68,10 +70,28 @@ var filename = process.argv[2];
       if (pathData) {
         let letter = glyph.name
         console.log( [letter, glyphW, leftSB, rightSB, cadences.toFixed(1)].join(";"))
+        outPivot.push([letter,glyphW])
       }
 
     }
 }
+
+console.log(outPivot);
+
+outPivot.sort((a, b) => a[1] - b[1]);
+
+var ml = []; var lc = 0;
+outPivot.forEach((m) => {
+  if( m[1] != lc ){
+    ml.push = m[1] + ml;
+  } 
+  lc = m[1]
+  ml.push(m[0])
+});
+ml.push = m[1] + ml;
+
+console.log( ml )
+
   
 
 })()

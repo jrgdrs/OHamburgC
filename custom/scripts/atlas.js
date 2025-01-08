@@ -89,7 +89,7 @@ const htmlPost = '</body></html>';
         var myBearingString = '<path class="pCross" d="' + getMyCross( 0, ascender ) + getMyCross( glyphW, ascender ) + '"/>\r\n'
 
         //Cadence
-        var myCadence = 9; /// CADENCE
+        var myCadence = 18; /// CADENCE
         var myCadenceString = '<path class="pCadence" d="' + getGutter( 0, glyphW, myCadence )  + '"/>\r\n'
                            + '<path class="pCadenceV" d="' + getGutter( 0, glyphW, myCadence * 5 )  + '"/>\r\n'
         var myCadenceCount = glyphW / myCadence;
