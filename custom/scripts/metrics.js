@@ -17,7 +17,7 @@ var filename = process.argv[2];
   let fontXMax = font.tables.head.xMax;
   let fontYMax = font.tables.head.yMax;
   console.log(fontModified.toISOString(), fontCreated.toISOString(), fontXMin, fontYMin, fontXMax, fontYMax);
-  console.log( font.tables);
+  //console.log( font.tables);
 
   let psname = font.tables.name.postScriptName.en;
   console.log(psname);
@@ -65,32 +65,35 @@ var filename = process.argv[2];
 
       let glyphId = glyph.name ? glyph.name.replaceAll('.', '_') : glyph.unicode ? glyph.unicode : glyph.index
 
-      let cadences = glyphW / 9;
-
       if (pathData) {
         let letter = glyph.name
-        console.log( [letter, glyphW, leftSB, rightSB, cadences.toFixed(1)].join(";"))
+        //console.log( [letter, glyphW ].join(";"))
         outPivot.push([letter,glyphW])
       }
 
     }
 }
 
-console.log(outPivot);
+//console.log(outPivot);
 
 outPivot.sort((a, b) => a[1] - b[1]);
 
-var ml = []; var lc = 0;
-outPivot.forEach((m) => {
-  if( m[1] != lc ){
-    ml.push = m[1] + ml;
+var list = [], lettersammlung = []; var lastletter = 0; var dickte = 0; var intervall = 0;
+outPivot.forEach((pair) => {
+  let letter = pair[0];
+   dickte = pair[1];
+  if( dickte != lastletter ){
+    list.push( { [lastletter] : lettersammlung, intervallDown: intervall, intervallUp: (dickte - lastletter) } );
+     intervall = dickte - lastletter;
+    lettersammlung = [];
   } 
-  lc = m[1]
-  ml.push(m[0])
-});
-ml.push = m[1] + ml;
+  lastletter = dickte;
+  lettersammlung.push(letter)
+})
 
-console.log( ml )
+list.push( { [dickte]: lettersammlung } );
+
+console.log( JSON.stringify(list) )
 
   
 
