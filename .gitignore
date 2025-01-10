@@ -16,6 +16,7 @@ requirement*.*
 out
 dorm
 *.code-workspace
+_*
 
 # OS generated files #
 ######################
