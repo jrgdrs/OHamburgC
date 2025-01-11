@@ -4,6 +4,10 @@ OHamburgC is a renaissance serif font created as of an exercise for an assignmen
 
 ![Sample Image](documentation/image-OHamburgC-Regular.png)
 
+now also with small caps
+
+![Sample Image](documentation/image-OHamburgCSC-Regular.png)
+
 
 ## Specimen
 
