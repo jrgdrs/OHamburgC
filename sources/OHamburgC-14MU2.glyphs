@@ -1,12 +1,6 @@
 {
 .appVersion = "3340";
 .formatVersion = 3;
-DisplayStrings = (
-"Im Anfang war das Wort, und das Wort war bei Gott, und Gott war das Wort. Dasselbe war im Anfang bei Gott. Alle Dinge sind durch dasselbe gemacht, und ohne dasselbe ist nichts gemacht, was gemacht ist. In ihm war das Leben, und das Leben war das Licht der Menschen. Und das Licht scheint in der Finsternis, und die Finsternis hat’s nicht ergriffen. Es war ein Mensch, von Gott gesandt, der hieß Johannes. Der kam zum Zeugnis, um von dem Licht zu zeugen, damit sie alle durch ihn glaubten. Er war nicht das Licht, sondern er sollte zeugen von dem Licht. Das war das wahre Licht, das alle Menschen erleuchtet, die in diese Welt kommen. Er war in der Welt, und die Welt ist durch ihn gemacht; aber die Welt erkannte ihn nicht. ",
-"ENIRSTADH-/e.1/e.-1 e/n.-1/n.1 ni/r.-1/r.1 r/s.-1/s.1 s/t.1/t.-1 t/a.1/a.-1 a/d.-1/d.1 d/h.-1/h.1 h
-
-H"
-);
 classes = (
 {
 automatic = 1;
@@ -752,7 +746,7 @@ value = O;
 },
 {
 name = unitizerUnit;
-value = "18";
+value = 7.95823;
 }
 );
 guides = (
@@ -760,16 +754,6 @@ guides = (
 lockAngle = 1;
 name = "osf figures";
 pos = (710,500);
-},
-{
-lockAngle = 1;
-name = "osf figures";
-pos = (280,567);
-},
-{
-lockAngle = 1;
-name = "osf figures";
-pos = (280,567);
 },
 {
 lockAngle = 1;
@@ -8868,7 +8852,7 @@ unicode = 98;
 {
 color = 2;
 glyphname = c;
-lastChange = "2025-01-10 17:35:01 +0000";
+lastChange = "2025-01-18 14:03:18 +0000";
 layers = (
 {
 anchors = (
@@ -8954,11 +8938,11 @@ nodes = (
 (276,367,o),
 (321,319,o),
 (323,251,c),
-(362,251,l),
-(360,300,o),
-(361,349,o),
-(365,371,c),
-(324,385,o),
+(357,251,l),
+(355,300,o),
+(356,349,o),
+(360,371,c),
+(319,385,o),
 (267,395,o),
 (227,395,c)
 );
@@ -24093,7 +24077,7 @@ unicode = 48;
 },
 {
 glyphname = one;
-lastChange = "2025-01-11 12:14:00 +0000";
+lastChange = "2025-01-18 14:04:48 +0000";
 layers = (
 {
 hints = (
@@ -24133,9 +24117,9 @@ nodes = (
 (286,530,o),
 (288,604,o),
 (292,645,c),
-(76,572,l),
-(76,549,l),
-(127,549,o),
+(94,572,l),
+(94,543,l),
+(145,560,o),
 (214,574,o),
 (214,512,cs),
 (214,451,o),
@@ -24145,9 +24129,9 @@ nodes = (
 (202,54,o),
 (186,43,cs),
 (176,36,o),
-(143,30,o),
-(97,25,c),
-(97,0,l)
+(161,30,o),
+(115,25,c),
+(115,0,l)
 );
 }
 );
@@ -24158,7 +24142,7 @@ unicode = 49;
 },
 {
 glyphname = two;
-lastChange = "2025-01-11 12:14:35 +0000";
+lastChange = "2025-01-18 14:16:40 +0000";
 layers = (
 {
 background = {
@@ -24281,27 +24265,26 @@ nodes = (
 (351,79,o),
 (217,68,o),
 (117,68,c),
-(108,45,l),
-(279,230,o),
-(396,343,o),
-(396,494,cs),
-(396,588,o),
-(334,654,o),
-(247,654,cs),
-(178,654,o),
-(108,606,o),
-(78,538,c),
-(96,524,l),
-(125,565,o),
-(176,594,o),
-(217,594,cs),
-(277,594,o),
-(316,544,o),
-(319,474,cs),
-(324,355,o),
-(242,252,o),
-(166,161,cs),
-(47,18,l),
+(118,45,l),
+(214,167,o),
+(416,349,o),
+(399,509,cs),
+(390,594,o),
+(340,654,o),
+(257,654,cs),
+(177,654,o),
+(79,598,o),
+(62,518,c),
+(76,512,l),
+(91,560,o),
+(143,597,o),
+(198,597,cs),
+(289,597,o),
+(325,531,o),
+(331,460,cs),
+(343,313,o),
+(130,137,o),
+(45,16,c),
 (53,0,l)
 );
 }
@@ -24313,7 +24296,7 @@ unicode = 50;
 },
 {
 glyphname = three;
-lastChange = "2025-01-11 12:14:58 +0000";
+lastChange = "2025-01-18 14:15:56 +0000";
 layers = (
 {
 hints = (
@@ -24361,8 +24344,8 @@ nodes = (
 (278,346,o),
 (316,302,o),
 (316,239,cs),
-(316,156,o),
-(225,52,o),
+(316,143,o),
+(235,52,o),
 (97,1,c),
 (105,-32,l)
 );
@@ -24619,7 +24602,7 @@ unicode = 55;
 },
 {
 glyphname = eight;
-lastChange = "2025-01-11 12:15:43 +0000";
+lastChange = "2025-01-18 14:17:42 +0000";
 layers = (
 {
 hints = (
@@ -24648,9 +24631,9 @@ shapes = (
 closed = 1;
 nodes = (
 (343,-11,o),
-(419,50,o),
-(419,150,c),
-(419,304,o),
+(426,50,o),
+(426,150,c),
+(426,304,o),
 (153,374,o),
 (153,494,cs),
 (153,561,o),
@@ -24661,9 +24644,9 @@ nodes = (
 (81,593,o),
 (81,489,cs),
 (81,328,o),
-(349,247,o),
-(349,146,c),
-(349,84,o),
+(356,247,o),
+(356,146,c),
+(356,84,o),
 (302,25,o),
 (235,25,c),
 (235,-11,l)
@@ -24674,16 +24657,16 @@ closed = 1;
 nodes = (
 (235,25,l),
 (174,25,o),
-(131,77,o),
-(131,151,cs),
-(131,211,o),
-(173,277,o),
-(233,313,c),
-(204,328,l),
-(120,281,o),
-(61,202,o),
-(61,124,cs),
-(61,45,o),
+(126,90,o),
+(126,164,cs),
+(126,224,o),
+(173,281,o),
+(233,317,c),
+(204,332,l),
+(120,285,o),
+(56,215,o),
+(56,137,cs),
+(56,58,o),
 (133,-11,o),
 (235,-11,c)
 );
@@ -24696,10 +24679,10 @@ nodes = (
 (335,564,o),
 (335,490,cs),
 (335,431,o),
-(293,373,o),
-(233,337,c),
-(262,322,l),
-(346,369,o),
+(293,387,o),
+(233,351,c),
+(262,336,l),
+(346,383,o),
 (403,440,o),
 (403,517,cs),
 (403,597,o),
