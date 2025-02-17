@@ -8,6 +8,10 @@ now also with small caps
 
 ![Sample Image](documentation/image-OHamburgCSC-Regular.png)
 
+and today the first italic
+
+![Sample Image](documentation/image-OHamburgC-Italic.png)
+
 
 ## Specimen
 

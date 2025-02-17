@@ -6,7 +6,11 @@
 
         <style>
                 
-                @font-face { font-family: OHamburgC; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
+
+                @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgC-Italic.ttf"); }
+@font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf"); }
+@font-face { font-family: SC; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf"); }
+
 
                 @page {
                         size: 297mm 210mm;
@@ -119,7 +123,9 @@ border-top:0;
 
         <script>
 
-                setSample("OHamburgC", 400);
+setSample("Regular", 400);
+setSample("SC", 400);
+setSample("Italic", 400);
 
 
                 function setSample(fontFamily, fontWeight) {
