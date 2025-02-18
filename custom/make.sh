@@ -67,6 +67,7 @@ echo '-- create specimen for documentation'
  node scripts/print.js specimen/Adamson.html
  node scripts/print.js specimen/Endrődi.html
  node scripts/print.js specimen/Heisenberg.html
+ node scripts/print.js specimen/Cicero.html
 
  mv specimen/*.pdf ../documentation
 
