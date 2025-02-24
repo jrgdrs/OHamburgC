@@ -90,8 +90,9 @@ const htmlPost = '</body></html>';
 
         //Cadence
         var myCadence = 18; /// CADENCE
-        var myCadenceString = '<path class="pCadence" d="' + getGutter( 0, glyphW, myCadence )  + '"/>\r\n'
-                           + '<path class="pCadenceV" d="' + getGutter( 0, glyphW, myCadence * 5 )  + '"/>\r\n'
+        var myAngle = 15; // ANGLE
+        var myCadenceString = '<path class="pCadence" d="' + getGutter( 0, glyphW, myCadence, myAngle )  + '"/>\r\n'
+                           + '<path class="pCadenceV" d="' + getGutter( 0, glyphW, myCadence * 5, myAngle )  + '"/>\r\n'
         var myCadenceCount = glyphW / myCadence;
 
         //Marker
@@ -154,12 +155,25 @@ const htmlPost = '</body></html>';
 
 })()
 
-function getGutter( x, w, f ){ // x start, w width, f frequency
+function getGutterOld( x, w, f ){ // x start, w width, f frequency
   let h = 1400; 
   let y = 400;
   let outstring = "";
   for( i = 0; i * f < w + 8 ; i++ ){
     outstring += 'M' + ( i * f + x ) + ' ' + h + ' ' + 'l0 -' + h + ' ' + 'l1 0 ' + 'l0 ' + h + ' ' + 'l-1 0 Z '
+  }  
+  return( outstring )
+}
+
+function getGutter( x, w, f, angle ){ // x start, w width, f frequency
+  let h = 1400; 
+  let y = 400;
+  let outstring = "";
+  let s = Math.round( Math.tan((angle * Math.PI) / 180) * h ); // Gegenkathete
+  let t = Math.round( s * y / h * 1.58); // Position y=0
+
+  for( i = 0; i * f < w + 8 ; i++ ){
+    outstring += 'M' + ( i * f + x - t ) + ' ' + h + ' ' + 'l' + s + ' -' + h + ' ' + 'l1 0 ' + 'l-' + s + ' ' + h + ' ' + 'l-1 0 Z '
   }  
   return( outstring )
 }
