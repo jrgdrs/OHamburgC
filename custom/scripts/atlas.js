@@ -28,6 +28,9 @@ const htmlPost = '</body></html>';
   let fontYMax = font.tables.head.yMax;
   console.error(fontModified.toISOString(), fontCreated.toISOString(), fontXMin, fontYMin, fontXMax, fontYMax);
 
+  let fontAngle = Math.abs( font.tables.post.italicAngle === undefined ? 0 : font.tables.post.italicAngle );
+  console.error( "fontAngle", fontAngle); ///20250225
+
   let psname = font.tables.name.postScriptName.en;
   console.error(psname);
 
@@ -90,7 +93,7 @@ const htmlPost = '</body></html>';
 
         //Cadence
         var myCadence = 18; /// CADENCE
-        var myAngle = 15; // ANGLE
+        var myAngle = fontAngle; // ANGLE e.g. 15 degree
         var myCadenceString = '<path class="pCadence" d="' + getGutter( 0, glyphW, myCadence, myAngle )  + '"/>\r\n'
                            + '<path class="pCadenceV" d="' + getGutter( 0, glyphW, myCadence * 5, myAngle )  + '"/>\r\n'
         var myCadenceCount = glyphW / myCadence;
