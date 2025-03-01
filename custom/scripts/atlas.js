@@ -80,7 +80,7 @@ const htmlPost = '</body></html>';
 
       if (pathData) {
         let letter = glyph.name
-        console.error(letter, glyphW, leftSB, rightSB, poxX)
+        ///console.error(letter, glyphW, leftSB, rightSB, poxX)
 
         //Glyph
         var myPath = glyph.getPath(poxX, ascender, 1000); //font.getPath(letter, poxX, ascender, 1000) ///OKJOKOK
@@ -146,14 +146,14 @@ const htmlPost = '</body></html>';
             .replace('((cadence))', myCadenceCount.toFixed(1) + " x " + myCadence )
 
       } else {
-        console.error( "NO PATHDATA for", glyphId)
+        ///console.error( "NO PATHDATA for", glyphId)
       }
     } else {
-      console.error( "NO GLYPH on sequence", i )
+      ///console.error( "NO GLYPH on sequence", i )
     }
   }
 
-  console.error("ENDE")
+  ///console.error("ENDE")
   console.log(htmlPre + svgCollection + htmlPost)
 
 })()
