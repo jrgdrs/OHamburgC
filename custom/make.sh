@@ -57,19 +57,21 @@ cp ../out/qa/*.pdf ../documentation
 
 echo '-- create specimen for documentation'
 
- node scripts/print.js specimen/Specimen.html
- node scripts/print.js specimen/Etik.html
- node scripts/print.js specimen/Brentano.html
- node scripts/print.js specimen/Woolf.html
- node scripts/print.js specimen/Schiller.html
- node scripts/print.js specimen/Martens.html
- node scripts/print.js specimen/Dumas.html
- node scripts/print.js specimen/Adamson.html
- node scripts/print.js specimen/Endrődi.html
- node scripts/print.js specimen/Heisenberg.html
- node scripts/print.js specimen/Cicero.html
+node scripts/print.js specimen/Specimen.html
+node scripts/print.js specimen/Etik.html
+node scripts/print.js specimen/Brentano.html
+node scripts/print.js specimen/Woolf.html
+node scripts/print.js specimen/Schiller.html
+node scripts/print.js specimen/Martens.html
+node scripts/print.js specimen/Dumas.html
+node scripts/print.js specimen/Adamson.html
+node scripts/print.js specimen/Endrődi.html
+node scripts/print.js specimen/Heisenberg.html
+node scripts/print.js specimen/Cicero.html
+node scripts/print.js specimen/Aristoteles.html
 
- mv specimen/*.pdf ../documentation
+
+mv specimen/*.pdf ../documentation
 
 cd ..
 
