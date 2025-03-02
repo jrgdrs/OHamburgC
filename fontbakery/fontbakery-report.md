@@ -66,7 +66,7 @@ fontbakery version: 0.13.2
 </div>
 </details>
 
-<details><summary>[22] OHamburgC-14MU2[wght].ttf</summary>
+<details><summary>[21] OHamburgC-14MU2[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
@@ -308,33 +308,15 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
-
-- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
 
 - Contour 5 in glyph 'c_t': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
 
 - Contour 4 in glyph 'f_t': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -802,12 +784,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, hebrew, tifinagh, duployan, malayalam, math, canadian-aboriginal, todhri, old-permic, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, hebrew, canadian-aboriginal, tifinagh, duployan, coptic, todhri, tai-le, math, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1353,7 +1335,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[20] OHamburgC-14MU2SC[wght].ttf</summary>
+<details><summary>[19] OHamburgC-14MU2SC[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
@@ -1577,33 +1559,15 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
-
-- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
 
 - Contour 5 in glyph 'c_t': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
 
 - Contour 4 in glyph 'f_t': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -2071,12 +2035,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, hebrew, tifinagh, duployan, malayalam, math, canadian-aboriginal, todhri, old-permic, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, hebrew, canadian-aboriginal, tifinagh, duployan, coptic, todhri, tai-le, math, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -8962,8 +8926,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 19 | 25 | 173 | 13 | 225 | 0 | 
-| 0% | 0% | 4% | 5% | 38% | 3% | 49% | 0% | 
+| 0 | 0 | 19 | 23 | 173 | 13 | 227 | 0 | 
+| 0% | 0% | 4% | 5% | 38% | 3% | 50% | 0% | 
 
 
 
