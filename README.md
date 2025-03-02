@@ -8,9 +8,13 @@ now also with small caps
 
 ![Sample Image](documentation/image-OHamburgCSC-Regular.png)
 
-and today the first italic
+and with italic
 
 ![Sample Image](documentation/image-OHamburgC-Italic.png)
+
+today also in first black
+
+![Sample Image](documentation/image-OHamburgC-Black.png)
 
 
 ## Specimen
