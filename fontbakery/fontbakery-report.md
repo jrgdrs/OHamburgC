@@ -35,7 +35,7 @@ fontbakery version: 0.13.2
 <li>
 <p>'OHamburgC SC' was found in:</p>
 <ul>
-<li>OHamburgC-14MU2SC[wght].ttf (nameID 16)</li>
+<li>OHamburgC-14MU2SC[wght].ttf (nameID 1)</li>
 </ul>
 </li>
 </ul>
@@ -66,32 +66,8 @@ fontbakery version: 0.13.2
 </div>
 </details>
 
-<details><summary>[24] OHamburgC-14MU2[wght].ttf</summary>
+<details><summary>[22] OHamburgC-14MU2[wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>'Light' instance has the same coordinates as the default instance; its subfamily name should be 'Regular'.</p>
-<p>Note: If the default instance really is meant to be called 'Light', the problem may be that the font lacks NameID 17, which should probably be present and set to 'Light'.</p>
- [code: invalid-default-instance-subfamily-name]
-
-
-
-* 🔥 **FAIL** <p>'Light' instance has the same coordinates as the default instance; its postscript name should be 'OHamburgC-Regular', instead of 'OHamburgC-Light'.</p>
- [code: invalid-default-instance-postscript-name]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
@@ -222,65 +198,6 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>OHamburgC</strong></td>
-<td align="left"><strong>OHamburgC Light</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left">Regular</td>
-<td align="left">Regular</td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left"><strong>OHamburgC Regular</strong></td>
-<td align="left"><strong>OHamburgC Light</strong></td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left"><strong>OHamburgC-Regular</strong></td>
-<td align="left"><strong>OHamburgC-Light</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left"><strong>N/A</strong></td>
-<td align="left"><strong>OHamburgC</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>N/A</strong></td>
-<td align="left"><strong>Light</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
     <div>
 
@@ -391,13 +308,13 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 4 in glyph 'f_t': becomes underweight between wght=300 and wght=900.
+<pre><code>- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
 
-- Contour 2 in glyph 't': becomes underweight between wght=300 and wght=900.
+- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
 
-- Contour 4 in glyph 's_t': becomes underweight between wght=300 and wght=900.
+- Contour 5 in glyph 'c_t': becomes underweight between wght=400 and wght=900.
 
-- Contour 5 in glyph 'c_t': becomes underweight between wght=300 and wght=900.
+- Contour 4 in glyph 'f_t': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
 
@@ -885,12 +802,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew, math, canadian-aboriginal, syriac, coptic, duployan, tifinagh, malayalam, todhri, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, hebrew, tifinagh, duployan, malayalam, math, canadian-aboriginal, todhri, old-permic, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1660,13 +1577,13 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 4 in glyph 'f_t': becomes underweight between wght=300 and wght=900.
+<pre><code>- Contour 2 in glyph 't': becomes underweight between wght=400 and wght=900.
 
-- Contour 2 in glyph 't': becomes underweight between wght=300 and wght=900.
+- Contour 4 in glyph 's_t': becomes underweight between wght=400 and wght=900.
 
-- Contour 4 in glyph 's_t': becomes underweight between wght=300 and wght=900.
+- Contour 5 in glyph 'c_t': becomes underweight between wght=400 and wght=900.
 
-- Contour 5 in glyph 'c_t': becomes underweight between wght=300 and wght=900.
+- Contour 4 in glyph 'f_t': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
 
@@ -2154,12 +2071,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew, math, canadian-aboriginal, syriac, coptic, duployan, tifinagh, malayalam, todhri, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, hebrew, tifinagh, duployan, malayalam, math, canadian-aboriginal, todhri, old-permic, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -9045,8 +8962,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 21 | 25 | 173 | 13 | 223 | 0 | 
-| 0% | 0% | 5% | 5% | 38% | 3% | 49% | 0% | 
+| 0 | 0 | 19 | 25 | 173 | 13 | 225 | 0 | 
+| 0% | 0% | 4% | 5% | 38% | 3% | 49% | 0% | 
 
 
 
