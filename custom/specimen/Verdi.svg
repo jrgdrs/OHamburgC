@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+	<style type="text/css">
+
+    @font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
+    @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgC-ItalicD.ttf");}
+    @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgC-Black.ttf");}
+
+	.st0{fill:#BE1622;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family: Regular;}
+	.st3{font-size:60px;}
+	.st4{font-family: Italic;}
+	.st5{font-size:24px;}
+	.st6{font-size:32px;}
+	.st7{font-size:160px;}
+	.st8{fill:none;}
+	.st9{font-size:14px;}
+	.st10{letter-spacing:1;}
+	.sta{ width: 597; text-align: center; inline-size: 580;}
+
+	</style>
+	<rect y="-1" class="st0" width="597" height="845"/>
+	<text text-anchor="middle" transform="matrix(1 0 0 1 300 109.2471)" class="st1 st2 st3 sta">Teatro alla Scala</text>
+	<text text-anchor="middle" transform="matrix(1 0 0 1 300 145.2471)" class="st4 st5 sta">Sabato 17 Gennaio 2018 alle ore 21 precise</text>
+	<text text-anchor="middle" transform="matrix(1 0 0 1 300 536.2471)" class="st2 st6 sta">Musica di Giuseppe Verdi</text>
+
+	<text transform="matrix(1 0 0 1 300 347.7772)">
+		<tspan text-anchor="middle" x="0" y="0" class="st1 st4 st7">La</tspan>
+		<tspan text-anchor="middle" x="0" y="120" class="st1 st4 st7">Traviata</tspan>
+	</text>
+
+  </svg>

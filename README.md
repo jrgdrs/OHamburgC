@@ -8,11 +8,12 @@ now also with small caps
 
 ![Sample Image](documentation/image-OHamburgCSC-Regular.png)
 
-and with italic
+and two italics
 
-![Sample Image](documentation/image-OHamburgC-Italic.png)
+![Sample Image](documentation/image-OHamburgC-ItalicD.png)
+![Sample Image](documentation/image-OHamburgC-ItalicT.png)
 
-today also in first black
+also with black cut
 
 ![Sample Image](documentation/image-OHamburgC-Black.png)
 
