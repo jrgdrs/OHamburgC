@@ -316,7 +316,7 @@ immediately.
             
                 <h2>OpenType Specification Checks</h2>
 <span class='section__emoji'>
-    🔥🔥🔥🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     
@@ -394,58 +394,6 @@ immediately.
         </details>
     
 
-    
-
-    
-    <h3>
-    
-    Make sure all font files have the same version value.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:opentype/family/equal_font_versions&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                ⚠️
-                
-                Family Check
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Version info differs among font files of the same font project.
-These were the version values found:</p>
-<ul>
-<li>fonts/variable/OHamburgC-14MU2[wght].ttf: 1.0189971923828125</li>
-<li>fonts/variable/OHamburgC-14MU2SC[wght].ttf: 1.0189971923828125</li>
-<li>fonts/variable/OHamburgC-Italic[opsz].ttf: 1.0050048828125</li>
-</ul>
-
-                            
-                             [code: mismatch]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
     
@@ -3034,7 +2982,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     
@@ -3153,11 +3101,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, math, old-permic, tai-le, malayalam, todhri, syriac, coptic, canadian-aboriginal, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, coptic, math, old-permic, tifinagh, hebrew, syriac, tai-le, canadian-aboriginal, duployan, malayalam</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -3216,11 +3164,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, math, old-permic, tai-le, malayalam, todhri, syriac, coptic, canadian-aboriginal, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, coptic, math, old-permic, tifinagh, hebrew, syriac, tai-le, canadian-aboriginal, duployan, malayalam</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -3257,6 +3205,44 @@ definitions.</p>
         </details>
     
 
+    
+        <details>
+            <summary>
+                ⚠️
+                OHamburgC-Italic[opsz].ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin-ext</code></p>
+
+                            
+                             [code: unreachable-subsetting]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
     
@@ -11266,6 +11252,28 @@ definitions.</p>
 
 * four (U+0034): X=401.0,Y=-1.0 (should be at baseline 0?)
 
+* uni2619 (U+2619): X=435.0,Y=2.0 (should be at baseline 0?)
+
+* uni2619 (U+2619): X=435.0,Y=2.0 (should be at baseline 0?)
+
+* uni2619 (U+2619): X=983.0,Y=618.0 (should be at cap-height 616?)
+
+* uni2740 (U+2740): X=339.0,Y=-1.0 (should be at baseline 0?)
+
+* uni2740 (U+2740): X=368.0,Y=-1.0 (should be at baseline 0?)
+
+* uni2766 (U+2766): X=114.5,Y=617.0 (should be at cap-height 616?)
+
+* uni2767 (U+2767): X=699.0,Y=2.0 (should be at baseline 0?)
+
+* uni2767 (U+2767): X=699.0,Y=2.0 (should be at baseline 0?)
+
+* uni2767 (U+2767): X=151.0,Y=618.0 (should be at cap-height 616?)
+
+* paragraph (U+00B6): X=206.0,Y=-232.0 (should be at descender -230?)
+
+* paragraph (U+00B6): X=206.0,Y=-232.0 (should be at descender -230?)
+
 * uni0308 (U+0308): X=146.0,Y=639.0 (should be at ascender 637?)
 
 * uni0308 (U+0308): X=213.5,Y=639.0 (should be at ascender 637?)
@@ -12012,13 +12020,13 @@ The font may be embedded but must only be installed temporarily on other systems
 </thead>
 <tbody>
 <tr>
-<td align="left">ItalicT</td>
-<td align="left">opsz=8.0</td>
+<td align="left">ItalicD</td>
+<td align="left">opsz=24.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
-<td align="left">ItalicD</td>
-<td align="left">opsz=24.0</td>
+<td align="left">ItalicT</td>
+<td align="left">opsz=8.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -12278,9 +12286,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0025 (PERCENT SIGN)
 
 
-- 0x0026 (AMPERSAND)
-
-
 - 0x0027 (APOSTROPHE)
 
 
@@ -12309,9 +12314,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x003F (QUESTION MARK)
-
-
-- 0x0040 (COMMERCIAL AT)
 
 
 - 0x005B (LEFT SQUARE BRACKET)
@@ -12384,9 +12386,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B6 (PILCROW SIGN)
 
 
 - 0x00B7 (MIDDLE DOT)
