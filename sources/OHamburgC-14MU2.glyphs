@@ -1,9 +1,6 @@
 {
 .appVersion = "3401";
 .formatVersion = 3;
-DisplayStrings = (
-"/b.sc"
-);
 axes = (
 {
 name = Weight;
@@ -36396,7 +36393,7 @@ metricRight = t;
 {
 export = 0;
 glyphname = f_f;
-lastChange = "2025-03-07 13:10:03 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -36544,7 +36541,7 @@ metricRight = f;
 {
 export = 0;
 glyphname = f_f_i;
-lastChange = "2025-03-07 13:10:11 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -36700,7 +36697,7 @@ metricRight = i;
 {
 export = 0;
 glyphname = f_f_l;
-lastChange = "2025-03-07 13:10:06 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -36856,7 +36853,7 @@ metricRight = l;
 {
 export = 0;
 glyphname = f_i;
-lastChange = "2025-03-07 13:10:13 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -37079,7 +37076,7 @@ metricRight = i;
 {
 export = 0;
 glyphname = f_l;
-lastChange = "2025-03-07 13:10:09 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -37256,7 +37253,7 @@ metricRight = l;
 {
 export = 0;
 glyphname = f_t;
-lastChange = "2025-03-07 13:10:15 +0000";
+lastChange = "2025-03-10 15:08:57 +0000";
 layers = (
 {
 anchors = (
@@ -104780,5 +104777,5 @@ Title = s;
 "Letterink-StrokeType" = Brush;
 };
 versionMajor = 1;
-versionMinor = 19;
+versionMinor = 20;
 }
