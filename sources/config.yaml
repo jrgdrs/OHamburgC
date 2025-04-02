@@ -8,7 +8,7 @@
 # directory.     
 sources:
   - OHamburgC-14MU2.glyphs
-  - OHamburgC-Italic.glyphs 
+##  - OHamburgC-Italic.glyphs 
 # You don't have to supply the family name, but builds are slightly
 # faster if you do. 
 familyName: "OHamburgC"
@@ -26,7 +26,7 @@ familyName: "OHamburgC"
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
 
-#buildVariable: false
+buildVariable: true
 buildStatic: true  
 buildTTF: true
 buildOTF: true

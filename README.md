@@ -8,14 +8,23 @@ now also with small caps
 
 ![Sample Image](documentation/image-OHamburgCSC-Regular.png)
 
-and two italics
+and italic
 
 ![Sample Image](documentation/image-OHamburgC-ItalicD.png)
-![Sample Image](documentation/image-OHamburgC-ItalicT.png)
+
 
 also with black cut
 
 ![Sample Image](documentation/image-OHamburgC-Black.png)
+
+
+The current version contains a version condensed by exactly one unit of the cadence and an extended version by exactly one unit on the variable wdth axis 80-120
+
+![Sample Image](documentation/unitVariants.png)
+
+Also a new testbed for justification checks
+
+<a href="https://jrgdrs.github.io/OHamburgC/index_v5.html">Check different justificationo methods</a>
 
 
 ## Specimen
