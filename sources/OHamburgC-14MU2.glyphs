@@ -1,11 +1,13 @@
 {
-.appVersion = "3406";
+.appVersion = "3410";
 .formatVersion = 3;
 DisplayStrings = (
 OHamburgefonstiv,
 "Hamburg
 Hamburg
-Hamburg"
+Hamburg",
+"-",
+"‐"
 );
 axes = (
 {
@@ -132039,7 +132041,7 @@ width = 396;
 },
 {
 glyphname = hyphen;
-lastChange = "2025-03-23 19:29:39 +0000";
+lastChange = "2025-04-09 19:45:15 +0000";
 layers = (
 {
 color = 4;
@@ -132344,6 +132346,85 @@ width = 594;
 }
 );
 unicode = 95;
+},
+{
+glyphname = uni2010;
+lastChange = "2025-04-09 19:33:40 +0000";
+layers = (
+{
+color = 4;
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,190,l),
+(252,253,l),
+(203,253,l),
+(77,239,l),
+(36,231,l),
+(39,186,l)
+);
+}
+);
+width = 288;
+},
+{
+color = 4;
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(339,202,l),
+(342,278,l),
+(283,278,l),
+(86,261,l),
+(36,251,l),
+(39,197,l)
+);
+}
+);
+width = 351;
+},
+{
+color = 4;
+layerId = m006;
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,190,l),
+(288,253,l),
+(239,253,l),
+(77,239,l),
+(36,231,l),
+(39,186,l)
+);
+}
+);
+width = 324;
+},
+{
+color = 4;
+layerId = m007;
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,190,l),
+(288,253,l),
+(239,253,l),
+(77,239,l),
+(36,231,l),
+(39,186,l)
+);
+}
+);
+width = 324;
+}
+);
+unicode = 8208;
 },
 {
 glyphname = parenleft;
