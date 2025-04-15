@@ -10,7 +10,7 @@ now also with small caps
 
 and italic
 
-![Sample Image](documentation/image-OHamburgC-ItalicD.png)
+![Sample Image](documentation/image-OHamburgC-Italic.png)
 
 
 also with black cut
@@ -20,7 +20,6 @@ also with black cut
 
 The current version contains a version condensed by exactly one unit of the cadence and an extended version by exactly one unit on the variable wdth axis 80-120
 
-![Sample Image](documentation/unitVariants.png)
 
 Also a new testbed for justification checks
 
