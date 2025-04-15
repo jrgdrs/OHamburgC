@@ -254,9 +254,6 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
-<p>U+0021</p>
-</li>
-<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -267,15 +264,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+0025</p>
-</li>
-<li>
-<p>U+0027</p>
-</li>
-<li>
-<p>U+0028</p>
-</li>
-<li>
-<p>U+0029</p>
 </li>
 <li>
 <p>U+002a</p>
@@ -296,16 +284,7 @@ OHamburgC: -280</p>
 <p>U+003e</p>
 </li>
 <li>
-<p>U+003f</p>
-</li>
-<li>
-<p>U+005b</p>
-</li>
-<li>
 <p>U+005c</p>
-</li>
-<li>
-<p>U+005d</p>
 </li>
 <li>
 <p>U+005e</p>
@@ -314,22 +293,13 @@ OHamburgC: -280</p>
 <p>U+005f</p>
 </li>
 <li>
-<p>U+007b</p>
-</li>
-<li>
 <p>U+007c</p>
-</li>
-<li>
-<p>U+007d</p>
 </li>
 <li>
 <p>U+007e</p>
 </li>
 <li>
 <p>U+00a0</p>
-</li>
-<li>
-<p>U+00a1</p>
 </li>
 <li>
 <p>U+00a2</p>
@@ -372,9 +342,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+00bb</p>
-</li>
-<li>
-<p>U+00bf</p>
 </li>
 <li>
 <p>U+00c0</p>
@@ -1615,9 +1582,6 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
-<p>U+0021</p>
-</li>
-<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -1628,15 +1592,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+0025</p>
-</li>
-<li>
-<p>U+0027</p>
-</li>
-<li>
-<p>U+0028</p>
-</li>
-<li>
-<p>U+0029</p>
 </li>
 <li>
 <p>U+002a</p>
@@ -1657,16 +1612,7 @@ OHamburgC: -280</p>
 <p>U+003e</p>
 </li>
 <li>
-<p>U+003f</p>
-</li>
-<li>
-<p>U+005b</p>
-</li>
-<li>
 <p>U+005c</p>
-</li>
-<li>
-<p>U+005d</p>
 </li>
 <li>
 <p>U+005e</p>
@@ -1675,22 +1621,13 @@ OHamburgC: -280</p>
 <p>U+005f</p>
 </li>
 <li>
-<p>U+007b</p>
-</li>
-<li>
 <p>U+007c</p>
-</li>
-<li>
-<p>U+007d</p>
 </li>
 <li>
 <p>U+007e</p>
 </li>
 <li>
 <p>U+00a0</p>
-</li>
-<li>
-<p>U+00a1</p>
 </li>
 <li>
 <p>U+00a2</p>
@@ -1733,9 +1670,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+00bb</p>
-</li>
-<li>
-<p>U+00bf</p>
 </li>
 <li>
 <p>U+00c0</p>
@@ -2976,9 +2910,6 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
-<p>U+0021</p>
-</li>
-<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -2989,15 +2920,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+0025</p>
-</li>
-<li>
-<p>U+0027</p>
-</li>
-<li>
-<p>U+0028</p>
-</li>
-<li>
-<p>U+0029</p>
 </li>
 <li>
 <p>U+002a</p>
@@ -3018,16 +2940,7 @@ OHamburgC: -280</p>
 <p>U+003e</p>
 </li>
 <li>
-<p>U+003f</p>
-</li>
-<li>
-<p>U+005b</p>
-</li>
-<li>
 <p>U+005c</p>
-</li>
-<li>
-<p>U+005d</p>
 </li>
 <li>
 <p>U+005e</p>
@@ -3036,22 +2949,13 @@ OHamburgC: -280</p>
 <p>U+005f</p>
 </li>
 <li>
-<p>U+007b</p>
-</li>
-<li>
 <p>U+007c</p>
-</li>
-<li>
-<p>U+007d</p>
 </li>
 <li>
 <p>U+007e</p>
 </li>
 <li>
 <p>U+00a0</p>
-</li>
-<li>
-<p>U+00a1</p>
 </li>
 <li>
 <p>U+00a2</p>
@@ -3094,9 +2998,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+00bb</p>
-</li>
-<li>
-<p>U+00bf</p>
 </li>
 <li>
 <p>U+00c0</p>
@@ -4934,7 +4835,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -4947,7 +4848,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -6241,7 +6142,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -6254,7 +6155,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -13351,7 +13252,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[27] OHamburgC-Italic.ttf</summary>
+<details><summary>[25] OHamburgC-Italic.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
@@ -13370,29 +13271,6 @@ definitions.</p>
 
 * 🔥 **FAIL** <p>fsSelection Regular flag True does not match font style Italic</p>
  [code: bad-REGULAR]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking post.italicAngle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-italic-angle">opentype/italic_angle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The value of post.italicAngle is negative, which is likely a mistake and should become positive for left-leaning Italics.
-post.italicAngle: -15.0
-angle calculated from outlines: 50.3)</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-Google Fonts has different policies on checking for italic angle.</p>
- [code: negative]
 
 
 
@@ -13688,10 +13566,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0021 (EXCLAMATION MARK)
-
-
-- 0x0022 (QUOTATION MARK)
+<pre><code>- 0x0022 (QUOTATION MARK)
 
 
 - 0x0023 (NUMBER SIGN)
@@ -13701,15 +13576,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x0025 (PERCENT SIGN)
-
-
-- 0x0027 (APOSTROPHE)
-
-
-- 0x0028 (LEFT PARENTHESIS)
-
-
-- 0x0029 (RIGHT PARENTHESIS)
 
 
 - 0x002A (ASTERISK)
@@ -13730,16 +13596,7 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x003E (GREATER-THAN SIGN)
 
 
-- 0x003F (QUESTION MARK)
-
-
-- 0x005B (LEFT SQUARE BRACKET)
-
-
 - 0x005C (REVERSE SOLIDUS)
-
-
-- 0x005D (RIGHT SQUARE BRACKET)
 
 
 - 0x005E (CIRCUMFLEX ACCENT)
@@ -13751,22 +13608,13 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0060 (GRAVE ACCENT)
 
 
-- 0x007B (LEFT CURLY BRACKET)
-
-
 - 0x007C (VERTICAL LINE)
-
-
-- 0x007D (RIGHT CURLY BRACKET)
 
 
 - 0x007E (TILDE)
 
 
 - 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x00A1 (INVERTED EXCLAMATION MARK)
 
 
 - 0x00A2 (CENT SIGN)
@@ -13815,9 +13663,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00BF (INVERTED QUESTION MARK)
 
 
 - 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
@@ -14456,26 +14301,6 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Indicator
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -14570,9 +14395,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* D (U+0044): X=307.0,Y=617.0 (should be at cap-height 616?)
+<pre><code>* C (U+0043): X=500.0,Y=618.0 (should be at cap-height 616?)
 
-* D (U+0044): X=173.0,Y=-0.5 (should be at baseline 0?)
+* C (U+0043): X=415.0,Y=-2.0 (should be at baseline 0?)
+
+* D (U+0044): X=303.5,Y=617.0 (should be at cap-height 616?)
 
 * E (U+0045): X=-26.0,Y=-2.0 (should be at baseline 0?)
 
@@ -14580,13 +14407,13 @@ definitions.</p>
 
 * E (U+0045): X=195.5,Y=616.5 (should be at cap-height 616?)
 
-* E (U+0045): X=392.5,Y=616.5 (should be at cap-height 616?)
+* E (U+0045): X=390.0,Y=616.5 (should be at cap-height 616?)
 
-* E (U+0045): X=510.5,Y=617.5 (should be at cap-height 616?)
+* E (U+0045): X=503.0,Y=617.5 (should be at cap-height 616?)
 
-* E (U+0045): X=371.5,Y=-1.5 (should be at baseline 0?)
+* E (U+0045): X=364.0,Y=-1.5 (should be at baseline 0?)
 
-* E (U+0045): X=238.0,Y=-0.5 (should be at baseline 0?)
+* E (U+0045): X=235.5,Y=-0.5 (should be at baseline 0?)
 
 * E (U+0045): X=27.0,Y=-0.5 (should be at baseline 0?)
 
@@ -14606,11 +14433,15 @@ definitions.</p>
 
 * F (U+0046): X=-27.0,Y=-1.0 (should be at baseline 0?)
 
-* G (U+0047): X=619.0,Y=618.0 (should be at cap-height 616?)
+* G (U+0047): X=500.0,Y=618.0 (should be at cap-height 616?)
 
-* J (U+004A): X=-105.0,Y=-232.0 (should be at descender -230?)
+* G (U+0047): X=426.0,Y=-1.5 (should be at baseline 0?)
 
-* J (U+004A): X=-105.0,Y=-232.0 (should be at descender -230?)
+* H (U+0048): X=105.0,Y=2.0 (should be at baseline 0?)
+
+* J (U+004A): X=-125.0,Y=-232.0 (should be at descender -230?)
+
+* J (U+004A): X=-125.0,Y=-232.0 (should be at descender -230?)
 
 * L (U+004C): X=297.5,Y=1.0 (should be at baseline 0?)
 
@@ -14620,13 +14451,11 @@ definitions.</p>
 
 * P (U+0050): X=217.0,Y=616.5 (should be at cap-height 616?)
 
-* P (U+0050): X=345.5,Y=616.5 (should be at cap-height 616?)
+* P (U+0050): X=332.5,Y=616.5 (should be at cap-height 616?)
 
 * P (U+0050): X=418.0,Y=618.0 (should be at cap-height 616?)
 
-* Q (U+0051): X=670.0,Y=-232.0 (should be at descender -230?)
-
-* Q (U+0051): X=670.0,Y=-232.0 (should be at descender -230?)
+* Q (U+0051): X=433.0,Y=1.0 (should be at baseline 0?)
 
 * R (U+0052): X=139.0,Y=618.0 (should be at cap-height 616?)
 
@@ -14636,11 +14465,13 @@ definitions.</p>
 
 * R (U+0052): X=391.0,Y=618.0 (should be at cap-height 616?)
 
-* Z (U+005A): X=143.0,Y=617.0 (should be at cap-height 616?)
+* T (U+0054): X=412.0,Y=614.0 (should be at cap-height 616?)
 
-* Z (U+005A): X=198.5,Y=614.0 (should be at cap-height 616?)
+* Z (U+005A): X=153.0,Y=617.0 (should be at cap-height 616?)
 
-* Z (U+005A): X=273.0,Y=614.5 (should be at cap-height 616?)
+* Z (U+005A): X=208.0,Y=614.0 (should be at cap-height 616?)
+
+* Z (U+005A): X=280.0,Y=614.5 (should be at cap-height 616?)
 
 * Z (U+005A): X=341.0,Y=615.0 (should be at cap-height 616?)
 
@@ -14656,23 +14487,23 @@ definitions.</p>
 
 * Z (U+005A): X=298.0,Y=1.0 (should be at baseline 0?)
 
-* Z (U+005A): X=249.5,Y=1.0 (should be at baseline 0?)
+* Z (U+005A): X=251.0,Y=1.0 (should be at baseline 0?)
 
-* Z (U+005A): X=159.5,Y=0.5 (should be at baseline 0?)
+* Z (U+005A): X=164.5,Y=0.5 (should be at baseline 0?)
 
 * b (U+0062): X=117.0,Y=636.0 (should be at ascender 637?)
 
-* b (U+0062): X=230.0,Y=403.5 (should be at x-height 402?)
+* b (U+0062): X=232.0,Y=404.0 (should be at x-height 402?)
 
-* d (U+0064): X=310.0,Y=636.0 (should be at ascender 637?)
+* d (U+0064): X=305.0,Y=636.0 (should be at ascender 637?)
 
-* f (U+0066): X=125.0,Y=403.0 (should be at x-height 402?)
+* d (U+0064): X=379.5,Y=639.0 (should be at ascender 637?)
 
-* f (U+0066): X=260.5,Y=617.0 (should be at cap-height 616?)
+* f (U+0066): X=127.0,Y=403.0 (should be at x-height 402?)
+
+* f (U+0066): X=261.0,Y=617.0 (should be at cap-height 616?)
 
 * f (U+0066): X=191.0,Y=404.0 (should be at x-height 402?)
-
-* g (U+0067): X=126.5,Y=1.5 (should be at baseline 0?)
 
 * h (U+0068): X=117.0,Y=636.0 (should be at ascender 637?)
 
@@ -14702,9 +14533,11 @@ definitions.</p>
 
 * q (U+0071): X=365.0,Y=402.5 (should be at x-height 402?)
 
-* germandbls (U+00DF): X=240.5,Y=617.0 (should be at cap-height 616?)
+* germandbls (U+00DF): X=258.5,Y=617.0 (should be at cap-height 616?)
 
 * t (U+0074): X=198.0,Y=404.0 (should be at x-height 402?)
+
+* w (U+0077): X=357.5,Y=403.0 (should be at x-height 402?)
 
 * x (U+0078): X=141.0,Y=400.0 (should be at x-height 402?)
 
@@ -14712,21 +14545,25 @@ definitions.</p>
 
 * y (U+0079): X=46.0,Y=-228.0 (should be at descender -230?)
 
+* y (U+0079): X=210.0,Y=1.0 (should be at baseline 0?)
+
 * y (U+0079): X=298.5,Y=400.5 (should be at x-height 402?)
 
 * y (U+0079): X=46.0,Y=-228.0 (should be at descender -230?)
 
-* z (U+007A): X=353.0,Y=401.0 (should be at x-height 402?)
-
-* z (U+007A): X=353.0,Y=401.0 (should be at x-height 402?)
-
 * z (U+007A): X=155.0,Y=-0.5 (should be at baseline 0?)
+
+* three (U+0033): X=-106.0,Y=-228.0 (should be at descender -230?)
 
 * four (U+0034): X=401.0,Y=-1.0 (should be at baseline 0?)
 
 * four (U+0034): X=356.5,Y=0.5 (should be at baseline 0?)
 
 * four (U+0034): X=312.0,Y=2.0 (should be at baseline 0?)
+
+* eight (U+0038): X=305.0,Y=614.0 (should be at cap-height 616?)
+
+* exclam (U+0021): X=140.0,Y=618.0 (should be at cap-height 616?)
 
 * uni2619 (U+2619): X=435.0,Y=2.0 (should be at baseline 0?)
 
@@ -14748,17 +14585,9 @@ definitions.</p>
 
 * uni2767 (U+2767): X=699.0,Y=2.0 (should be at baseline 0?)
 
-* paragraph (U+00B6): X=206.0,Y=-232.0 (should be at descender -230?)
+* paragraph (U+00B6): X=96.0,Y=-232.0 (should be at descender -230?)
 
-* paragraph (U+00B6): X=206.0,Y=-232.0 (should be at descender -230?)
-
-* uni0308 (U+0308): X=146.0,Y=639.0 (should be at ascender 637?)
-
-* uni0308 (U+0308): X=213.5,Y=639.0 (should be at ascender 637?)
-
-* uni0308 (U+0308): X=291.0,Y=639.0 (should be at ascender 637?)
-
-* uni0308 (U+0308): X=358.0,Y=639.0 (should be at ascender 637?)
+* paragraph (U+00B6): X=96.0,Y=-232.0 (should be at descender -230?)
 </code></pre>
  [code: found-misalignments]
 
@@ -14778,11 +14607,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* d (U+0064): L&lt;&lt;272.0,241.0&gt;--&lt;283.0,281.0&gt;&gt; -&gt; L&lt;&lt;283.0,281.0&gt;--&lt;301.0,340.0&gt;&gt;
+<pre><code>* d (U+0064): L&lt;&lt;262.0,221.0&gt;--&lt;278.0,281.0&gt;&gt; -&gt; L&lt;&lt;278.0,281.0&gt;--&lt;298.0,344.0&gt;&gt;
 
 * d (U+0064): L&lt;&lt;419.0,538.0&gt;--&lt;350.0,308.0&gt;&gt; -&gt; L&lt;&lt;350.0,308.0&gt;--&lt;324.0,217.0&gt;&gt;
 
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
+* paragraph (U+00B6): L&lt;&lt;497.0,519.0&gt;--&lt;436.0,310.0&gt;&gt; -&gt; L&lt;&lt;436.0,310.0&gt;--&lt;393.0,148.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -14802,9 +14631,11 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* U (U+0055): B&lt;&lt;175.0,481.5&gt;-&lt;185.0,519.0&gt;-&lt;183.0,511.0&gt;&gt;/B&lt;&lt;183.0,511.0&gt;-&lt;190.0,537.0&gt;-&lt;175.0,558.0&gt;&gt; = 1.032244691565731
+<pre><code>* M (U+004D): L&lt;&lt;399.0,117.0&gt;--&lt;394.0,107.0&gt;&gt;/L&lt;&lt;394.0,107.0&gt;--&lt;782.0,616.0&gt;&gt; = 10.752460639626584
 
-* Udieresis (U+00DC): B&lt;&lt;175.0,481.5&gt;-&lt;185.0,519.0&gt;-&lt;183.0,511.0&gt;&gt;/B&lt;&lt;183.0,511.0&gt;-&lt;190.0,537.0&gt;-&lt;175.0,558.0&gt;&gt; = 1.032244691565731
+* four (U+0034): L&lt;&lt;354.0,352.0&gt;--&lt;377.0,374.0&gt;&gt;/L&lt;&lt;377.0,374.0&gt;--&lt;33.0,66.0&gt;&gt; = 1.887331605989034
+
+* h (U+0068): B&lt;&lt;153.0,308.0&gt;-&lt;153.0,307.0&gt;-&lt;152.0,306.0&gt;&gt;/B&lt;&lt;152.0,306.0&gt;-&lt;185.0,356.0&gt;-&lt;220.5,385.0&gt;&gt; = 11.575188817396214
 
 * h (U+0068): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;207.0,480.0&gt;-&lt;188.5,423.0&gt;&gt; = 2.299799421792004
 
@@ -14814,9 +14645,11 @@ definitions.</p>
 
 * n (U+006E): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
 
-* u (U+0075): B&lt;&lt;284.0,128.0&gt;-&lt;292.0,156.0&gt;-&lt;300.0,182.0&gt;&gt;/B&lt;&lt;300.0,182.0&gt;-&lt;255.0,90.0&gt;-&lt;204.5,41.0&gt;&gt; = 8.961935109233377
+* three (U+0033): B&lt;&lt;263.5,270.0&gt;-&lt;218.0,223.0&gt;-&lt;140.0,184.0&gt;&gt;/B&lt;&lt;140.0,184.0&gt;-&lt;149.0,186.0&gt;-&lt;160.5,186.5&gt;&gt; = 14.03624346792643
 
-* udieresis (U+00FC): B&lt;&lt;284.0,128.0&gt;-&lt;292.0,156.0&gt;-&lt;300.0,182.0&gt;&gt;/B&lt;&lt;300.0,182.0&gt;-&lt;255.0,90.0&gt;-&lt;204.5,41.0&gt;&gt; = 8.961935109233377
+* u (U+0075): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* udieresis (U+00FC): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -15458,7 +15291,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -15471,7 +15304,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -16704,7 +16537,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -16717,7 +16550,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -24299,7 +24132,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -24312,7 +24145,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -31926,7 +31759,7 @@ definitions.</p>
 <ul>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, canadian-aboriginal, old-permic, coptic, malayalam, tai-le, tifinagh, math, syriac, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, tai-le, math, duployan, tifinagh, malayalam, syriac, coptic, old-permic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -31939,7 +31772,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, armenian, coptic, kaithi, kharoshthi, cham, yi, arabic, syloti-nagri, sundanese, sora-sompeng, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, lisu, kaithi, arabic, sora-sompeng, yi, sundanese, syloti-nagri, kayah-li, kharoshthi, coptic, cham, armenian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -32704,7 +32537,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 77 | 87 | 734 | 36 | 616 | 0 | 
+| 0 | 0 | 76 | 86 | 734 | 36 | 618 | 0 | 
 | 0% | 0% | 5% | 6% | 47% | 2% | 40% | 0% | 
 
 
