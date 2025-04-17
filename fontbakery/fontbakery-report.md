@@ -4833,9 +4833,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -4848,7 +4848,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -6140,9 +6140,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -6155,7 +6155,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -15289,9 +15289,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -15304,7 +15304,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -16535,9 +16535,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -16550,7 +16550,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -24130,9 +24130,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -24145,7 +24145,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -31757,9 +31757,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, tifinagh, syriac, todhri, canadian-aboriginal, coptic, hebrew, old-permic, tai-le, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -31772,7 +31772,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: lisu, kaithi, sundanese, arabic, syloti-nagri, yi, coptic, hebrew, kayah-li, kharoshthi, sora-sompeng, armenian, cham</li>
+<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
