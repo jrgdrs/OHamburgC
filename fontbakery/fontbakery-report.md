@@ -30,6 +30,7 @@ fontbakery version: 0.13.2
 <p>'OHamburgC SC' was found in:</p>
 <ul>
 <li>OHamburgCSC-Bold.ttf (nameID 1)</li>
+<li>OHamburgCSC-Italic.ttf (nameID 1)</li>
 <li>OHamburgCSC-Black.ttf (nameID 16)</li>
 <li>OHamburgCSC-Regular.ttf (nameID 1)</li>
 </ul>
@@ -64,6 +65,7 @@ fontbakery version: 0.13.2
 * 🔥 **FAIL** <p>Thickness of the underline is not the same across this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
 Detected underlineThickness values are:
 fonts/ttf/OHamburgCSC-Bold.ttf: 53
+fonts/ttf/OHamburgCSC-Italic.ttf: 50
 fonts/ttf/OHamburgC-Bold.ttf: 53
 fonts/ttf/OHamburgCSC-Black.ttf: 53
 fonts/ttf/OHamburgCSC-Regular.ttf: 53
@@ -84,6 +86,16 @@ fonts/ttf/OHamburgC-Regular.ttf: 53</p>
 
 
 
+
+
+
+* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgCSC-Bold.ttf has no STAT table</p>
+ [code: no-stat]
+
+
+
+* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgCSC-Italic.ttf has no STAT table</p>
+ [code: no-stat]
 
 
 
@@ -112,6 +124,7 @@ fonts/ttf/OHamburgC-Regular.ttf: 53</p>
 
 * 🔥 **FAIL** <p>sTypoAscender is not the same across the family:
 OHamburgC SC Bold: 920
+OHamburgC SC Italic: 637
 OHamburgC Bold: 920
 OHamburgC SC Black: 920
 OHamburgC SC: 920
@@ -124,6 +137,7 @@ OHamburgC: 920</p>
 
 * 🔥 **FAIL** <p>sTypoDescender is not the same across the family:
 OHamburgC SC Bold: -280
+OHamburgC SC Italic: -230
 OHamburgC Bold: -280
 OHamburgC SC Black: -280
 OHamburgC SC: -280
@@ -136,6 +150,7 @@ OHamburgC: -280</p>
 
 * 🔥 **FAIL** <p>sTypoLineGap is not the same across the family:
 OHamburgC SC Bold: 0
+OHamburgC SC Italic: 333
 OHamburgC Bold: 0
 OHamburgC SC Black: 0
 OHamburgC SC: 0
@@ -148,6 +163,7 @@ OHamburgC: 0</p>
 
 * 🔥 **FAIL** <p>usWinAscent is not the same across the family:
 OHamburgC SC Bold: 920
+OHamburgC SC Italic: 970
 OHamburgC Bold: 920
 OHamburgC SC Black: 920
 OHamburgC SC: 920
@@ -160,6 +176,7 @@ OHamburgC: 920</p>
 
 * 🔥 **FAIL** <p>usWinDescent is not the same across the family:
 OHamburgC SC Bold: 280
+OHamburgC SC Italic: 230
 OHamburgC Bold: 280
 OHamburgC SC Black: 280
 OHamburgC SC: 280
@@ -172,6 +189,7 @@ OHamburgC: 280</p>
 
 * 🔥 **FAIL** <p>ascent is not the same across the family:
 OHamburgC SC Bold: 920
+OHamburgC SC Italic: 970
 OHamburgC Bold: 920
 OHamburgC SC Black: 920
 OHamburgC SC: 920
@@ -184,6 +202,7 @@ OHamburgC: 920</p>
 
 * 🔥 **FAIL** <p>descent is not the same across the family:
 OHamburgC SC Bold: -280
+OHamburgC SC Italic: -230
 OHamburgC Bold: -280
 OHamburgC SC Black: -280
 OHamburgC SC: -280
@@ -254,6 +273,9 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
+<p>U+2020</p>
+</li>
+<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -266,6 +288,12 @@ OHamburgC: -280</p>
 <p>U+0025</p>
 </li>
 <li>
+<p>U+2022</p>
+</li>
+<li>
+<p>U+2026</p>
+</li>
+<li>
 <p>U+002a</p>
 </li>
 <li>
@@ -273,6 +301,15 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+002f</p>
+</li>
+<li>
+<p>U+2030</p>
+</li>
+<li>
+<p>U+2039</p>
+</li>
+<li>
+<p>U+203a</p>
 </li>
 <li>
 <p>U+003c</p>
@@ -344,37 +381,10 @@ OHamburgC: -280</p>
 <p>U+00bb</p>
 </li>
 <li>
-<p>U+00c0</p>
-</li>
-<li>
-<p>U+00c1</p>
-</li>
-<li>
-<p>U+00c2</p>
-</li>
-<li>
-<p>U+00c3</p>
-</li>
-<li>
-<p>U+00c5</p>
-</li>
-<li>
 <p>U+00c6</p>
 </li>
 <li>
 <p>U+00c7</p>
-</li>
-<li>
-<p>U+00c8</p>
-</li>
-<li>
-<p>U+00c9</p>
-</li>
-<li>
-<p>U+00ca</p>
-</li>
-<li>
-<p>U+00cb</p>
 </li>
 <li>
 <p>U+00cc</p>
@@ -392,34 +402,10 @@ OHamburgC: -280</p>
 <p>U+00d0</p>
 </li>
 <li>
-<p>U+00d1</p>
-</li>
-<li>
-<p>U+00d2</p>
-</li>
-<li>
-<p>U+00d3</p>
-</li>
-<li>
-<p>U+00d4</p>
-</li>
-<li>
-<p>U+00d5</p>
-</li>
-<li>
 <p>U+00d7</p>
 </li>
 <li>
 <p>U+00d8</p>
-</li>
-<li>
-<p>U+00d9</p>
-</li>
-<li>
-<p>U+00da</p>
-</li>
-<li>
-<p>U+00db</p>
 </li>
 <li>
 <p>U+00dd</p>
@@ -428,37 +414,10 @@ OHamburgC: -280</p>
 <p>U+00de</p>
 </li>
 <li>
-<p>U+00e0</p>
-</li>
-<li>
-<p>U+00e1</p>
-</li>
-<li>
-<p>U+00e2</p>
-</li>
-<li>
-<p>U+00e3</p>
-</li>
-<li>
-<p>U+00e5</p>
-</li>
-<li>
 <p>U+00e6</p>
 </li>
 <li>
 <p>U+00e7</p>
-</li>
-<li>
-<p>U+00e8</p>
-</li>
-<li>
-<p>U+00e9</p>
-</li>
-<li>
-<p>U+00ea</p>
-</li>
-<li>
-<p>U+00eb</p>
 </li>
 <li>
 <p>U+00ec</p>
@@ -476,34 +435,10 @@ OHamburgC: -280</p>
 <p>U+00f0</p>
 </li>
 <li>
-<p>U+00f1</p>
-</li>
-<li>
-<p>U+00f2</p>
-</li>
-<li>
-<p>U+00f3</p>
-</li>
-<li>
-<p>U+00f4</p>
-</li>
-<li>
-<p>U+00f5</p>
-</li>
-<li>
 <p>U+00f7</p>
 </li>
 <li>
 <p>U+00f8</p>
-</li>
-<li>
-<p>U+00f9</p>
-</li>
-<li>
-<p>U+00fa</p>
-</li>
-<li>
-<p>U+00fb</p>
 </li>
 <li>
 <p>U+00fd</p>
@@ -887,12 +822,6 @@ OHamburgC: -280</p>
 <p>U+01a1</p>
 </li>
 <li>
-<p>U+2020</p>
-</li>
-<li>
-<p>U+2022</p>
-</li>
-<li>
 <p>U+01af</p>
 </li>
 <li>
@@ -900,12 +829,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+01b2</p>
-</li>
-<li>
-<p>U+2026</p>
-</li>
-<li>
-<p>U+2030</p>
 </li>
 <li>
 <p>U+2205</p>
@@ -930,12 +853,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+221e</p>
-</li>
-<li>
-<p>U+2039</p>
-</li>
-<li>
-<p>U+203a</p>
 </li>
 <li>
 <p>U+0237</p>
@@ -968,57 +885,6 @@ OHamburgC: -280</p>
 <p>U+028b</p>
 </li>
 <li>
-<p>U+0300</p>
-</li>
-<li>
-<p>U+0301</p>
-</li>
-<li>
-<p>U+0302</p>
-</li>
-<li>
-<p>U+0303</p>
-</li>
-<li>
-<p>U+0304</p>
-</li>
-<li>
-<p>U+0306</p>
-</li>
-<li>
-<p>U+0307</p>
-</li>
-<li>
-<p>U+0309</p>
-</li>
-<li>
-<p>U+030a</p>
-</li>
-<li>
-<p>U+030b</p>
-</li>
-<li>
-<p>U+030c</p>
-</li>
-<li>
-<p>U+0312</p>
-</li>
-<li>
-<p>U+031b</p>
-</li>
-<li>
-<p>U+0323</p>
-</li>
-<li>
-<p>U+0326</p>
-</li>
-<li>
-<p>U+0327</p>
-</li>
-<li>
-<p>U+0328</p>
-</li>
-<li>
 <p>U+0374</p>
 </li>
 <li>
@@ -1026,12 +892,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+037e</p>
-</li>
-<li>
-<p>U+0384</p>
-</li>
-<li>
-<p>U+0385</p>
 </li>
 <li>
 <p>U+0386</p>
@@ -1582,6 +1442,9 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
+<p>U+2020</p>
+</li>
+<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -1594,6 +1457,12 @@ OHamburgC: -280</p>
 <p>U+0025</p>
 </li>
 <li>
+<p>U+2022</p>
+</li>
+<li>
+<p>U+2026</p>
+</li>
+<li>
 <p>U+002a</p>
 </li>
 <li>
@@ -1601,6 +1470,15 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+002f</p>
+</li>
+<li>
+<p>U+2030</p>
+</li>
+<li>
+<p>U+2039</p>
+</li>
+<li>
+<p>U+203a</p>
 </li>
 <li>
 <p>U+003c</p>
@@ -1672,37 +1550,10 @@ OHamburgC: -280</p>
 <p>U+00bb</p>
 </li>
 <li>
-<p>U+00c0</p>
-</li>
-<li>
-<p>U+00c1</p>
-</li>
-<li>
-<p>U+00c2</p>
-</li>
-<li>
-<p>U+00c3</p>
-</li>
-<li>
-<p>U+00c5</p>
-</li>
-<li>
 <p>U+00c6</p>
 </li>
 <li>
 <p>U+00c7</p>
-</li>
-<li>
-<p>U+00c8</p>
-</li>
-<li>
-<p>U+00c9</p>
-</li>
-<li>
-<p>U+00ca</p>
-</li>
-<li>
-<p>U+00cb</p>
 </li>
 <li>
 <p>U+00cc</p>
@@ -1720,34 +1571,10 @@ OHamburgC: -280</p>
 <p>U+00d0</p>
 </li>
 <li>
-<p>U+00d1</p>
-</li>
-<li>
-<p>U+00d2</p>
-</li>
-<li>
-<p>U+00d3</p>
-</li>
-<li>
-<p>U+00d4</p>
-</li>
-<li>
-<p>U+00d5</p>
-</li>
-<li>
 <p>U+00d7</p>
 </li>
 <li>
 <p>U+00d8</p>
-</li>
-<li>
-<p>U+00d9</p>
-</li>
-<li>
-<p>U+00da</p>
-</li>
-<li>
-<p>U+00db</p>
 </li>
 <li>
 <p>U+00dd</p>
@@ -1756,37 +1583,10 @@ OHamburgC: -280</p>
 <p>U+00de</p>
 </li>
 <li>
-<p>U+00e0</p>
-</li>
-<li>
-<p>U+00e1</p>
-</li>
-<li>
-<p>U+00e2</p>
-</li>
-<li>
-<p>U+00e3</p>
-</li>
-<li>
-<p>U+00e5</p>
-</li>
-<li>
 <p>U+00e6</p>
 </li>
 <li>
 <p>U+00e7</p>
-</li>
-<li>
-<p>U+00e8</p>
-</li>
-<li>
-<p>U+00e9</p>
-</li>
-<li>
-<p>U+00ea</p>
-</li>
-<li>
-<p>U+00eb</p>
 </li>
 <li>
 <p>U+00ec</p>
@@ -1804,34 +1604,10 @@ OHamburgC: -280</p>
 <p>U+00f0</p>
 </li>
 <li>
-<p>U+00f1</p>
-</li>
-<li>
-<p>U+00f2</p>
-</li>
-<li>
-<p>U+00f3</p>
-</li>
-<li>
-<p>U+00f4</p>
-</li>
-<li>
-<p>U+00f5</p>
-</li>
-<li>
 <p>U+00f7</p>
 </li>
 <li>
 <p>U+00f8</p>
-</li>
-<li>
-<p>U+00f9</p>
-</li>
-<li>
-<p>U+00fa</p>
-</li>
-<li>
-<p>U+00fb</p>
 </li>
 <li>
 <p>U+00fd</p>
@@ -2215,12 +1991,6 @@ OHamburgC: -280</p>
 <p>U+01a1</p>
 </li>
 <li>
-<p>U+2020</p>
-</li>
-<li>
-<p>U+2022</p>
-</li>
-<li>
 <p>U+01af</p>
 </li>
 <li>
@@ -2228,12 +1998,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+01b2</p>
-</li>
-<li>
-<p>U+2026</p>
-</li>
-<li>
-<p>U+2030</p>
 </li>
 <li>
 <p>U+2205</p>
@@ -2258,12 +2022,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+221e</p>
-</li>
-<li>
-<p>U+2039</p>
-</li>
-<li>
-<p>U+203a</p>
 </li>
 <li>
 <p>U+0237</p>
@@ -2296,57 +2054,6 @@ OHamburgC: -280</p>
 <p>U+028b</p>
 </li>
 <li>
-<p>U+0300</p>
-</li>
-<li>
-<p>U+0301</p>
-</li>
-<li>
-<p>U+0302</p>
-</li>
-<li>
-<p>U+0303</p>
-</li>
-<li>
-<p>U+0304</p>
-</li>
-<li>
-<p>U+0306</p>
-</li>
-<li>
-<p>U+0307</p>
-</li>
-<li>
-<p>U+0309</p>
-</li>
-<li>
-<p>U+030a</p>
-</li>
-<li>
-<p>U+030b</p>
-</li>
-<li>
-<p>U+030c</p>
-</li>
-<li>
-<p>U+0312</p>
-</li>
-<li>
-<p>U+031b</p>
-</li>
-<li>
-<p>U+0323</p>
-</li>
-<li>
-<p>U+0326</p>
-</li>
-<li>
-<p>U+0327</p>
-</li>
-<li>
-<p>U+0328</p>
-</li>
-<li>
 <p>U+0374</p>
 </li>
 <li>
@@ -2354,12 +2061,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+037e</p>
-</li>
-<li>
-<p>U+0384</p>
-</li>
-<li>
-<p>U+0385</p>
 </li>
 <li>
 <p>U+0386</p>
@@ -2910,6 +2611,9 @@ OHamburgC: -280</p>
 <p>U+201e</p>
 </li>
 <li>
+<p>U+2020</p>
+</li>
+<li>
 <p>U+0022</p>
 </li>
 <li>
@@ -2922,6 +2626,12 @@ OHamburgC: -280</p>
 <p>U+0025</p>
 </li>
 <li>
+<p>U+2022</p>
+</li>
+<li>
+<p>U+2026</p>
+</li>
+<li>
 <p>U+002a</p>
 </li>
 <li>
@@ -2929,6 +2639,15 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+002f</p>
+</li>
+<li>
+<p>U+2030</p>
+</li>
+<li>
+<p>U+2039</p>
+</li>
+<li>
+<p>U+203a</p>
 </li>
 <li>
 <p>U+003c</p>
@@ -3000,37 +2719,10 @@ OHamburgC: -280</p>
 <p>U+00bb</p>
 </li>
 <li>
-<p>U+00c0</p>
-</li>
-<li>
-<p>U+00c1</p>
-</li>
-<li>
-<p>U+00c2</p>
-</li>
-<li>
-<p>U+00c3</p>
-</li>
-<li>
-<p>U+00c5</p>
-</li>
-<li>
 <p>U+00c6</p>
 </li>
 <li>
 <p>U+00c7</p>
-</li>
-<li>
-<p>U+00c8</p>
-</li>
-<li>
-<p>U+00c9</p>
-</li>
-<li>
-<p>U+00ca</p>
-</li>
-<li>
-<p>U+00cb</p>
 </li>
 <li>
 <p>U+00cc</p>
@@ -3048,34 +2740,10 @@ OHamburgC: -280</p>
 <p>U+00d0</p>
 </li>
 <li>
-<p>U+00d1</p>
-</li>
-<li>
-<p>U+00d2</p>
-</li>
-<li>
-<p>U+00d3</p>
-</li>
-<li>
-<p>U+00d4</p>
-</li>
-<li>
-<p>U+00d5</p>
-</li>
-<li>
 <p>U+00d7</p>
 </li>
 <li>
 <p>U+00d8</p>
-</li>
-<li>
-<p>U+00d9</p>
-</li>
-<li>
-<p>U+00da</p>
-</li>
-<li>
-<p>U+00db</p>
 </li>
 <li>
 <p>U+00dd</p>
@@ -3084,37 +2752,10 @@ OHamburgC: -280</p>
 <p>U+00de</p>
 </li>
 <li>
-<p>U+00e0</p>
-</li>
-<li>
-<p>U+00e1</p>
-</li>
-<li>
-<p>U+00e2</p>
-</li>
-<li>
-<p>U+00e3</p>
-</li>
-<li>
-<p>U+00e5</p>
-</li>
-<li>
 <p>U+00e6</p>
 </li>
 <li>
 <p>U+00e7</p>
-</li>
-<li>
-<p>U+00e8</p>
-</li>
-<li>
-<p>U+00e9</p>
-</li>
-<li>
-<p>U+00ea</p>
-</li>
-<li>
-<p>U+00eb</p>
 </li>
 <li>
 <p>U+00ec</p>
@@ -3132,34 +2773,10 @@ OHamburgC: -280</p>
 <p>U+00f0</p>
 </li>
 <li>
-<p>U+00f1</p>
-</li>
-<li>
-<p>U+00f2</p>
-</li>
-<li>
-<p>U+00f3</p>
-</li>
-<li>
-<p>U+00f4</p>
-</li>
-<li>
-<p>U+00f5</p>
-</li>
-<li>
 <p>U+00f7</p>
 </li>
 <li>
 <p>U+00f8</p>
-</li>
-<li>
-<p>U+00f9</p>
-</li>
-<li>
-<p>U+00fa</p>
-</li>
-<li>
-<p>U+00fb</p>
 </li>
 <li>
 <p>U+00fd</p>
@@ -3543,12 +3160,6 @@ OHamburgC: -280</p>
 <p>U+01a1</p>
 </li>
 <li>
-<p>U+2020</p>
-</li>
-<li>
-<p>U+2022</p>
-</li>
-<li>
 <p>U+01af</p>
 </li>
 <li>
@@ -3556,12 +3167,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+01b2</p>
-</li>
-<li>
-<p>U+2026</p>
-</li>
-<li>
-<p>U+2030</p>
 </li>
 <li>
 <p>U+2205</p>
@@ -3586,12 +3191,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+221e</p>
-</li>
-<li>
-<p>U+2039</p>
-</li>
-<li>
-<p>U+203a</p>
 </li>
 <li>
 <p>U+0237</p>
@@ -3624,57 +3223,6 @@ OHamburgC: -280</p>
 <p>U+028b</p>
 </li>
 <li>
-<p>U+0300</p>
-</li>
-<li>
-<p>U+0301</p>
-</li>
-<li>
-<p>U+0302</p>
-</li>
-<li>
-<p>U+0303</p>
-</li>
-<li>
-<p>U+0304</p>
-</li>
-<li>
-<p>U+0306</p>
-</li>
-<li>
-<p>U+0307</p>
-</li>
-<li>
-<p>U+0309</p>
-</li>
-<li>
-<p>U+030a</p>
-</li>
-<li>
-<p>U+030b</p>
-</li>
-<li>
-<p>U+030c</p>
-</li>
-<li>
-<p>U+0312</p>
-</li>
-<li>
-<p>U+031b</p>
-</li>
-<li>
-<p>U+0323</p>
-</li>
-<li>
-<p>U+0326</p>
-</li>
-<li>
-<p>U+0327</p>
-</li>
-<li>
-<p>U+0328</p>
-</li>
-<li>
 <p>U+0374</p>
 </li>
 <li>
@@ -3682,12 +3230,6 @@ OHamburgC: -280</p>
 </li>
 <li>
 <p>U+037e</p>
-</li>
-<li>
-<p>U+0384</p>
-</li>
-<li>
-<p>U+0385</p>
 </li>
 <li>
 <p>U+0386</p>
@@ -4210,7 +3752,7 @@ OHamburgC: -280</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/OHamburgCSC-Bold.ttf', 'fonts/ttf/OHamburgC-Bold.ttf', 'fonts/ttf/OHamburgCSC-Black.ttf', 'fonts/ttf/OHamburgC-Italic.ttf', 'fonts/ttf/OHamburgC-Black.ttf'].</p>
+* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/OHamburgCSC-Bold.ttf', 'fonts/ttf/OHamburgCSC-Italic.ttf', 'fonts/ttf/OHamburgC-Bold.ttf', 'fonts/ttf/OHamburgCSC-Black.ttf', 'fonts/ttf/OHamburgC-Italic.ttf', 'fonts/ttf/OHamburgC-Black.ttf'].</p>
  [code: missing-os2-fsselection-bit7]
 
 
@@ -4833,11 +4375,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -4848,7 +4390,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -6140,11 +5682,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -6155,7 +5697,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -13252,7 +12794,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[25] OHamburgC-Italic.ttf</summary>
+<details><summary>[26] OHamburgC-Italic.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
@@ -13665,37 +13207,10 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
 
 
-- 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
-
-
-- 0x00C1 (LATIN CAPITAL LETTER A WITH ACUTE)
-
-
-- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
-
-
-- 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
-
-
-- 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
-
-
 - 0x00C6 (LATIN CAPITAL LETTER AE)
 
 
 - 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-- 0x00C8 (LATIN CAPITAL LETTER E WITH GRAVE)
-
-
-- 0x00C9 (LATIN CAPITAL LETTER E WITH ACUTE)
-
-
-- 0x00CA (LATIN CAPITAL LETTER E WITH CIRCUMFLEX)
-
-
-- 0x00CB (LATIN CAPITAL LETTER E WITH DIAERESIS)
 
 
 - 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
@@ -13713,34 +13228,10 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00D0 (LATIN CAPITAL LETTER ETH)
 
 
-- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
-
-
-- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
-
-
-- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
-
-
-- 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
-
-
-- 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
-
-
 - 0x00D7 (MULTIPLICATION SIGN)
 
 
 - 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
-
-
-- 0x00D9 (LATIN CAPITAL LETTER U WITH GRAVE)
-
-
-- 0x00DA (LATIN CAPITAL LETTER U WITH ACUTE)
-
-
-- 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
 
 
 - 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
@@ -13749,37 +13240,10 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00DE (LATIN CAPITAL LETTER THORN)
 
 
-- 0x00E0 (LATIN SMALL LETTER A WITH GRAVE)
-
-
-- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
-
-
-- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
-
-
-- 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
-
-
 - 0x00E6 (LATIN SMALL LETTER AE)
 
 
 - 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
-
-
-- 0x00E8 (LATIN SMALL LETTER E WITH GRAVE)
-
-
-- 0x00E9 (LATIN SMALL LETTER E WITH ACUTE)
-
-
-- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
-
-
-- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
 
 
 - 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
@@ -13797,34 +13261,10 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00F0 (LATIN SMALL LETTER ETH)
 
 
-- 0x00F1 (LATIN SMALL LETTER N WITH TILDE)
-
-
-- 0x00F2 (LATIN SMALL LETTER O WITH GRAVE)
-
-
-- 0x00F3 (LATIN SMALL LETTER O WITH ACUTE)
-
-
-- 0x00F4 (LATIN SMALL LETTER O WITH CIRCUMFLEX)
-
-
-- 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
-
-
 - 0x00F7 (DIVISION SIGN)
 
 
 - 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-- 0x00F9 (LATIN SMALL LETTER U WITH GRAVE)
-
-
-- 0x00FA (LATIN SMALL LETTER U WITH ACUTE)
-
-
-- 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
 
 
 - 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
@@ -14142,45 +13582,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x02DD (DOUBLE ACUTE ACCENT)
 
 
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
 - 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
 
 
@@ -14301,6 +13702,46 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 817.0, but got 637 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0308.case.001
+
+- uni030C.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -14334,12 +13775,25 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+0384 GREEK TONOS: try adding greek</li>
+<li>U+0385 GREEK DIALYTIKA TONOS: try adding greek</li>
 <li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
 <li>U+2740 WHITE FLORETTE: try adding symbols</li>
 <li>U+2766 FLORAL HEART: try adding symbols</li>
 <li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
 
 
@@ -14375,223 +13829,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ỉ ǐ i̒ ì̛ í̛ î̛ ĩ̛ ī̛ ĭ̛ i̛̇ ï̛ ỉ̛</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* C (U+0043): X=514.5,Y=638.0 (should be at ascender 637?)
-
-* C (U+0043): X=404.5,Y=-2.0 (should be at baseline 0?)
-
-* D (U+0044): X=290.0,Y=616.5 (should be at cap-height 616?)
-
-* D (U+0044): X=344.0,Y=617.5 (should be at cap-height 616?)
-
-* E (U+0045): X=-26.0,Y=-2.0 (should be at baseline 0?)
-
-* E (U+0045): X=139.0,Y=618.0 (should be at cap-height 616?)
-
-* E (U+0045): X=195.5,Y=616.5 (should be at cap-height 616?)
-
-* E (U+0045): X=390.0,Y=616.5 (should be at cap-height 616?)
-
-* E (U+0045): X=503.0,Y=617.5 (should be at cap-height 616?)
-
-* E (U+0045): X=364.0,Y=-1.5 (should be at baseline 0?)
-
-* E (U+0045): X=235.5,Y=-0.5 (should be at baseline 0?)
-
-* E (U+0045): X=27.0,Y=-0.5 (should be at baseline 0?)
-
-* E (U+0045): X=-26.0,Y=-2.0 (should be at baseline 0?)
-
-* F (U+0046): X=-27.0,Y=-1.0 (should be at baseline 0?)
-
-* F (U+0046): X=139.0,Y=618.0 (should be at cap-height 616?)
-
-* F (U+0046): X=195.0,Y=616.5 (should be at cap-height 616?)
-
-* F (U+0046): X=388.5,Y=616.5 (should be at cap-height 616?)
-
-* F (U+0046): X=502.5,Y=617.5 (should be at cap-height 616?)
-
-* F (U+0046): X=7.5,Y=-0.5 (should be at baseline 0?)
-
-* F (U+0046): X=-27.0,Y=-1.0 (should be at baseline 0?)
-
-* G (U+0047): X=514.0,Y=638.0 (should be at ascender 637?)
-
-* G (U+0047): X=415.0,Y=-1.5 (should be at baseline 0?)
-
-* H (U+0048): X=105.0,Y=2.0 (should be at baseline 0?)
-
-* J (U+004A): X=-125.0,Y=-232.0 (should be at descender -230?)
-
-* J (U+004A): X=-125.0,Y=-232.0 (should be at descender -230?)
-
-* L (U+004C): X=297.5,Y=1.0 (should be at baseline 0?)
-
-* L (U+004C): X=101.5,Y=-0.5 (should be at baseline 0?)
-
-* P (U+0050): X=139.0,Y=618.0 (should be at cap-height 616?)
-
-* P (U+0050): X=217.0,Y=616.5 (should be at cap-height 616?)
-
-* P (U+0050): X=332.5,Y=616.5 (should be at cap-height 616?)
-
-* P (U+0050): X=418.0,Y=618.0 (should be at cap-height 616?)
-
-* R (U+0052): X=139.0,Y=618.0 (should be at cap-height 616?)
-
-* R (U+0052): X=222.0,Y=616.5 (should be at cap-height 616?)
-
-* R (U+0052): X=311.5,Y=616.5 (should be at cap-height 616?)
-
-* R (U+0052): X=391.0,Y=618.0 (should be at cap-height 616?)
-
-* T (U+0054): X=412.0,Y=614.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=153.0,Y=617.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=208.0,Y=614.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=280.0,Y=614.5 (should be at cap-height 616?)
-
-* Z (U+005A): X=341.0,Y=615.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=393.5,Y=615.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=552.5,Y=618.0 (should be at cap-height 616?)
-
-* Z (U+005A): X=439.0,Y=-2.0 (should be at baseline 0?)
-
-* Z (U+005A): X=391.5,Y=0.5 (should be at baseline 0?)
-
-* Z (U+005A): X=338.5,Y=1.0 (should be at baseline 0?)
-
-* Z (U+005A): X=298.0,Y=1.0 (should be at baseline 0?)
-
-* Z (U+005A): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* Z (U+005A): X=164.5,Y=0.5 (should be at baseline 0?)
-
-* b (U+0062): X=117.0,Y=636.0 (should be at ascender 637?)
-
-* b (U+0062): X=232.0,Y=404.0 (should be at x-height 402?)
-
-* d (U+0064): X=305.0,Y=636.0 (should be at ascender 637?)
-
-* d (U+0064): X=379.5,Y=639.0 (should be at ascender 637?)
-
-* f (U+0066): X=127.0,Y=403.0 (should be at x-height 402?)
-
-* f (U+0066): X=261.0,Y=617.0 (should be at cap-height 616?)
-
-* f (U+0066): X=191.0,Y=404.0 (should be at x-height 402?)
-
-* h (U+0068): X=117.0,Y=636.0 (should be at ascender 637?)
-
-* i (U+0069): X=219.0,Y=615.0 (should be at cap-height 616?)
-
-* j (U+006A): X=219.0,Y=615.0 (should be at cap-height 616?)
-
-* k (U+006B): X=117.0,Y=636.0 (should be at ascender 637?)
-
-* k (U+006B): X=355.0,Y=402.5 (should be at x-height 402?)
-
-* l (U+006C): X=117.0,Y=636.0 (should be at ascender 637?)
-
-* m (U+006D): X=312.0,Y=1.0 (should be at baseline 0?)
-
-* m (U+006D): X=111.0,Y=1.0 (should be at baseline 0?)
-
-* n (U+006E): X=111.0,Y=1.0 (should be at baseline 0?)
-
-* n (U+006E): X=75.5,Y=-2.0 (should be at baseline 0?)
-
-* p (U+0070): X=100.0,Y=1.0 (should be at baseline 0?)
-
-* p (U+0070): X=229.0,Y=400.0 (should be at x-height 402?)
-
-* q (U+0071): X=327.0,Y=400.0 (should be at x-height 402?)
-
-* q (U+0071): X=365.0,Y=402.5 (should be at x-height 402?)
-
-* germandbls (U+00DF): X=258.5,Y=617.0 (should be at cap-height 616?)
-
-* t (U+0074): X=198.0,Y=404.0 (should be at x-height 402?)
-
-* w (U+0077): X=357.5,Y=403.0 (should be at x-height 402?)
-
-* x (U+0078): X=141.0,Y=400.0 (should be at x-height 402?)
-
-* x (U+0078): X=415.5,Y=400.5 (should be at x-height 402?)
-
-* y (U+0079): X=46.0,Y=-228.0 (should be at descender -230?)
-
-* y (U+0079): X=210.0,Y=1.0 (should be at baseline 0?)
-
-* y (U+0079): X=298.5,Y=400.5 (should be at x-height 402?)
-
-* y (U+0079): X=46.0,Y=-228.0 (should be at descender -230?)
-
-* z (U+007A): X=155.0,Y=-0.5 (should be at baseline 0?)
-
-* three (U+0033): X=-106.0,Y=-228.0 (should be at descender -230?)
-
-* four (U+0034): X=406.0,Y=-1.0 (should be at baseline 0?)
-
-* four (U+0034): X=362.5,Y=0.5 (should be at baseline 0?)
-
-* four (U+0034): X=319.0,Y=2.0 (should be at baseline 0?)
-
-* six (U+0036): X=278.0,Y=1.0 (should be at baseline 0?)
-
-* eight (U+0038): X=295.0,Y=614.0 (should be at cap-height 616?)
-
-* exclam (U+0021): X=140.0,Y=618.0 (should be at cap-height 616?)
-
-* uni2619 (U+2619): X=435.0,Y=2.0 (should be at baseline 0?)
-
-* uni2619 (U+2619): X=983.0,Y=618.0 (should be at cap-height 616?)
-
-* uni2619 (U+2619): X=435.0,Y=2.0 (should be at baseline 0?)
-
-* uni2740 (U+2740): X=339.0,Y=-1.0 (should be at baseline 0?)
-
-* uni2740 (U+2740): X=368.0,Y=-1.0 (should be at baseline 0?)
-
-* uni2766 (U+2766): X=202.0,Y=615.0 (should be at cap-height 616?)
-
-* uni2766 (U+2766): X=114.5,Y=617.0 (should be at cap-height 616?)
-
-* uni2767 (U+2767): X=699.0,Y=2.0 (should be at baseline 0?)
-
-* uni2767 (U+2767): X=151.0,Y=618.0 (should be at cap-height 616?)
-
-* uni2767 (U+2767): X=699.0,Y=2.0 (should be at baseline 0?)
-
-* paragraph (U+00B6): X=96.0,Y=-232.0 (should be at descender -230?)
-
-* paragraph (U+00B6): X=96.0,Y=-232.0 (should be at descender -230?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -14647,9 +13887,17 @@ definitions.</p>
 
 * n (U+006E): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
 
+* ntilde (U+00F1): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
+
 * u (U+0075): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
 
+* uacute (U+00FA): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* ucircumflex (U+00FB): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
 * udieresis (U+00FC): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* ugrave (U+00F9): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -15289,11 +14537,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -15304,7 +14552,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -16535,11 +15783,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -16550,7 +15798,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -23653,6 +22901,993 @@ definitions.</p>
 </div>
 </details>
 
+<details><summary>[20] OHamburgCSC-Italic.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 970 instead</p>
+ [code: ascent]
+
+
+
+* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 270, but got 230 instead</p>
+ [code: descent]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#linegaps">linegaps</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
+<p><em>Overridden</em>: This check was originally a WARN but was
+overridden by the universal profile:
+For Google Fonts, all messages from this check are considered FAILs.</p>
+ [code: OS/2]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2 sTypoAscender (637) and hhea ascent (970) must be equal.</p>
+ [code: ascender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
+ [code: missing-whitespace-glyph-0x00A0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>No GF glyphset was found to be supported &gt;80%, so language shaping support couldn't get checked.</p>
+ [code: no-glyphset-supported]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
+ [code: drm]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x0022 (QUOTATION MARK)
+
+
+- 0x0023 (NUMBER SIGN)
+
+
+- 0x0024 (DOLLAR SIGN)
+
+
+- 0x0025 (PERCENT SIGN)
+
+
+- 0x002A (ASTERISK)
+
+
+- 0x002B (PLUS SIGN)
+
+
+- 0x002F (SOLIDUS)
+
+
+- 0x003C (LESS-THAN SIGN)
+
+
+- 0x003D (EQUALS SIGN)
+
+
+- 0x003E (GREATER-THAN SIGN)
+
+
+- 0x005C (REVERSE SOLIDUS)
+
+
+- 0x005E (CIRCUMFLEX ACCENT)
+
+
+- 0x005F (LOW LINE)
+
+
+- 0x0060 (GRAVE ACCENT)
+
+
+- 0x007C (VERTICAL LINE)
+
+
+- 0x007E (TILDE)
+
+
+- 0x00A0 (NO-BREAK SPACE)
+
+
+- 0x00A2 (CENT SIGN)
+
+
+- 0x00A3 (POUND SIGN)
+
+
+- 0x00A5 (YEN SIGN)
+
+
+- 0x00A7 (SECTION SIGN)
+
+
+- 0x00A8 (DIAERESIS)
+
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+- 0x00AE (REGISTERED SIGN)
+
+
+- 0x00AF (MACRON)
+
+
+- 0x00B0 (DEGREE SIGN)
+
+
+- 0x00B4 (ACUTE ACCENT)
+
+
+- 0x00B7 (MIDDLE DOT)
+
+
+- 0x00B8 (CEDILLA)
+
+
+- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+- 0x00C6 (LATIN CAPITAL LETTER AE)
+
+
+- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
+
+
+- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
+
+
+- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
+
+
+- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
+
+
+- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
+
+
+- 0x00D0 (LATIN CAPITAL LETTER ETH)
+
+
+- 0x00D7 (MULTIPLICATION SIGN)
+
+
+- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
+
+
+- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
+
+
+- 0x00DE (LATIN CAPITAL LETTER THORN)
+
+
+- 0x00E6 (LATIN SMALL LETTER AE)
+
+
+- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
+
+
+- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
+
+
+- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
+
+
+- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
+
+
+- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
+
+
+- 0x00F0 (LATIN SMALL LETTER ETH)
+
+
+- 0x00F7 (DIVISION SIGN)
+
+
+- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
+
+
+- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
+
+
+- 0x00FE (LATIN SMALL LETTER THORN)
+
+
+- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
+
+
+- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
+
+
+- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
+
+
+- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
+
+
+- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
+
+
+- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
+
+
+- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+- 0x010D (LATIN SMALL LETTER C WITH CARON)
+
+
+- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
+
+
+- 0x010F (LATIN SMALL LETTER D WITH CARON)
+
+
+- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
+
+
+- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
+
+
+- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
+
+
+- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
+
+
+- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
+
+
+- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
+
+
+- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
+
+
+- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
+
+
+- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
+
+
+- 0x011B (LATIN SMALL LETTER E WITH CARON)
+
+
+- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
+
+
+- 0x011F (LATIN SMALL LETTER G WITH BREVE)
+
+
+- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
+
+
+- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
+
+
+- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
+
+
+- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
+
+
+- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
+
+
+- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
+
+
+- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
+
+
+- 0x012B (LATIN SMALL LETTER I WITH MACRON)
+
+
+- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
+
+
+- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
+
+
+- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
+
+
+- 0x0131 (LATIN SMALL LETTER DOTLESS I)
+
+
+- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
+
+
+- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
+
+
+- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
+
+
+- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
+
+
+- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
+
+
+- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
+
+
+- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
+
+
+- 0x013E (LATIN SMALL LETTER L WITH CARON)
+
+
+- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
+
+
+- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
+
+
+- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
+
+
+- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
+
+
+- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
+
+
+- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
+
+
+- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
+
+
+- 0x0148 (LATIN SMALL LETTER N WITH CARON)
+
+
+- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0152 (LATIN CAPITAL LIGATURE OE)
+
+
+- 0x0153 (LATIN SMALL LIGATURE OE)
+
+
+- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
+
+
+- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
+
+
+- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
+
+
+- 0x0159 (LATIN SMALL LETTER R WITH CARON)
+
+
+- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
+
+
+- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
+
+
+- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
+
+
+- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
+
+
+- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
+
+
+- 0x0161 (LATIN SMALL LETTER S WITH CARON)
+
+
+- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
+
+
+- 0x0165 (LATIN SMALL LETTER T WITH CARON)
+
+
+- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
+
+
+- 0x016B (LATIN SMALL LETTER U WITH MACRON)
+
+
+- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
+
+
+- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
+
+
+- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
+
+
+- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
+
+
+- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
+
+
+- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
+
+
+- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
+
+
+- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
+
+
+- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
+
+
+- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
+
+
+- 0x017E (LATIN SMALL LETTER Z WITH CARON)
+
+
+- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
+
+
+- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
+
+
+- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
+
+
+- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
+
+
+- 0x0237 (LATIN SMALL LETTER DOTLESS J)
+
+
+- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
+
+
+- 0x02C7 (CARON)
+
+
+- 0x02D8 (BREVE)
+
+
+- 0x02D9 (DOT ABOVE)
+
+
+- 0x02DA (RING ABOVE)
+
+
+- 0x02DB (OGONEK)
+
+
+- 0x02DC (SMALL TILDE)
+
+
+- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
+
+
+- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
+
+
+- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
+
+
+- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
+
+
+- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
+
+
+- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
+
+
+- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+
+
+- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
+
+
+- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
+
+
+- 0x2013 (EN DASH)
+
+
+- 0x2014 (EM DASH)
+
+
+- 0x2018 (LEFT SINGLE QUOTATION MARK)
+
+
+- 0x2019 (RIGHT SINGLE QUOTATION MARK)
+
+
+- 0x201A (SINGLE LOW-9 QUOTATION MARK)
+
+
+- 0x201C (LEFT DOUBLE QUOTATION MARK)
+
+
+- 0x201D (RIGHT DOUBLE QUOTATION MARK)
+
+
+- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
+
+
+- 0x2022 (BULLET)
+
+
+- 0x2026 (HORIZONTAL ELLIPSIS)
+
+
+- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
+
+
+- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
+
+
+- 0x20AC (EURO SIGN)
+
+
+- 0x2122 (TRADE MARK SIGN)
+
+
+- 0x2212 (MINUS SIGN)
+</code></pre>
+ [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;333&quot; it should be 0</p>
+ [code: bad-OS/2.sTypoLineGap]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: w	Contours detected: 2	Expected: 1
+
+- Glyph name: w	Contours detected: 2	Expected: 1
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 817.0, but got 637 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0308.case.001
+
+- uni030C.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+0384 GREEK TONOS: try adding greek</li>
+<li>U+0385 GREEK DIALYTIKA TONOS: try adding greek</li>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* d (U+0064): L&lt;&lt;262.0,221.0&gt;--&lt;278.0,281.0&gt;&gt; -&gt; L&lt;&lt;278.0,281.0&gt;--&lt;298.0,344.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;419.0,538.0&gt;--&lt;350.0,308.0&gt;&gt; -&gt; L&lt;&lt;350.0,308.0&gt;--&lt;324.0,217.0&gt;&gt;
+
+* paragraph (U+00B6): L&lt;&lt;497.0,519.0&gt;--&lt;436.0,310.0&gt;&gt; -&gt; L&lt;&lt;436.0,310.0&gt;--&lt;393.0,148.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* M (U+004D): L&lt;&lt;399.0,117.0&gt;--&lt;394.0,107.0&gt;&gt;/L&lt;&lt;394.0,107.0&gt;--&lt;782.0,616.0&gt;&gt; = 10.752460639626584
+
+* four (U+0034): L&lt;&lt;339.0,352.0&gt;--&lt;362.0,374.0&gt;&gt;/L&lt;&lt;362.0,374.0&gt;--&lt;36.0,66.0&gt;&gt; = 0.35322717665818615
+
+* h (U+0068): B&lt;&lt;153.0,308.0&gt;-&lt;153.0,307.0&gt;-&lt;152.0,306.0&gt;&gt;/B&lt;&lt;152.0,306.0&gt;-&lt;185.0,356.0&gt;-&lt;220.5,385.0&gt;&gt; = 11.575188817396214
+
+* h (U+0068): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;207.0,480.0&gt;-&lt;188.5,423.0&gt;&gt; = 2.299799421792004
+
+* k (U+006B): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;209.0,489.0&gt;-&lt;193.5,439.5&gt;&gt; = 2.9842821435933584
+
+* m (U+006D): B&lt;&lt;383.0,261.5&gt;-&lt;380.0,251.0&gt;-&lt;379.0,247.0&gt;&gt;/B&lt;&lt;379.0,247.0&gt;-&lt;422.0,329.0&gt;-&lt;473.5,372.5&gt;&gt; = 13.635834754832322
+
+* n (U+006E): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
+
+* ntilde (U+00F1): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
+
+* u (U+0075): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* uacute (U+00FA): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* ucircumflex (U+00FB): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* udieresis (U+00FC): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+
+* ugrave (U+00F9): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
+ [code: unknown]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
 <details><summary>[19] OHamburgCSC-Regular.ttf</summary>
 <div>
 <details>
@@ -24130,11 +24365,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -24145,7 +24380,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -31757,11 +31992,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, canadian-aboriginal, coptic, syriac, hebrew, todhri, malayalam, old-permic, duployan</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -31772,7 +32007,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, armenian, lisu, coptic, arabic, kharoshthi, sora-sompeng, hebrew, kaithi, yi, sundanese, kayah-li, cham</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -32537,8 +32772,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 76 | 86 | 734 | 36 | 618 | 0 | 
-| 0% | 0% | 5% | 6% | 47% | 2% | 40% | 0% | 
+| 0 | 0 | 86 | 97 | 839 | 41 | 706 | 0 | 
+| 0% | 0% | 5% | 5% | 47% | 2% | 40% | 0% | 
 
 
 
