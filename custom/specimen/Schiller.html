@@ -2,35 +2,12 @@
 <html lang="de">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
   <style>
-    @font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
-    @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
-    @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
 
-
-    @page {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom: 28mm;
-      background-color: yellowgreen;
-      -webkit-print-color-adjust: exact;
-    }
-
-    @page:first {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom:0mm;
-    }
-
-    body { 
-      background-color: white;
-    }
-
-    h2, h3 {
-        font-family: Regular;
-        font-weight: normal;
-        line-height: 1.2em;
-    }
+        @page:first {
+            background-color: rgb(255, 149, 0);
+        }
 
     p {
         font-family: Regular;
@@ -54,51 +31,6 @@
 
     }
 
-    .ini { 
-        text-indent:0; 
-        padding-top: calc(1.25em * 10);
-    }
-
-    .ini::first-letter {
-        -webkit-initial-letter: 3;
-        initial-letter: 3;
-        padding-right:3pt;
-    }
-
-    table.poem {
-        font-family: Italic;
-        font-size: 11pt;
-        line-height: 1.35em;
-        margin: 0;
-        text-align: left;
-        margin:1em;
-    }
-
-    .head {
-        page-break-after: always;
-    }
-
-    .right {
-        text-align: right;
-    }
-
-    .left { 
-        text-align: left; 
-        text-indent: 0;
-    }
-
-    .center { 
-        text-align: center; 
-        text-indent: 0;
-    }
-
-    .brand { 
-        position: absolute; 
-        top:125mm; 
-        width: 97mm;
-        text-align: center; 
-        text-indent: 0;
-    }
 
     pre { display: none; }
 
@@ -106,18 +38,33 @@
 </head>
 <body>
 
-    <div class="brand">
-        <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);" />
-        <p class="center">Type specimen in English language<br />
-            DRM free content from Project Gutenberg<br />
-            set in OHamburgC-Regular<br /></p>
-    </div>
+<section id="intro">
+
+  <div class="brand">
+    <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);" />
+    <p class="center">Type specimen in English language<br />
+        DRM free content from Project Gutenberg<br />
+        set in OHamburgC-Regular<br /></p>
+</div>
+
+<div class="head">
+    <h3 class="author"></h3>
+    <h2 class="title"><span style="color:black">Friedrich Schiller</span><br />The Revolt of the Netherlands</h2>
+  </div>
+
+  <div class="head">
+  </div>
+
+  <div class="head">
+    <h3 class="author">Friedrich Schiller<br />The Revolt of the Netherlands</h2>
+  </div>
+
+  <div class="head">
+  </div>
+
+</section>
 
 
-    <div class="head">
-        <h3 class="author">Friedrich Schiller</h3>
-        <h2 class="title">The Revolt of the Netherlands</h2>
-    </div>
 
     <p class="ini">
             Of those important political events which make the sixteenth century to
@@ -11328,6 +11275,10 @@
             of August, 1585, to make overtures to the Duke of Parma for the surrender
             of the town.
           </p>
+
+          <section/>
+          <section/>
+          <section/>
 
 
 </body>

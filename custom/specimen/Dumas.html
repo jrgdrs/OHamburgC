@@ -7,23 +7,55 @@
     @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
     @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
 
+
     @media print {}
 
-    @page {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom: 28mm;
-    }
+@page {
+    size: 125mm 198mm;
+    margin: 14mm;
+    margin-bottom: 28mm;
+    background-color: linen;
+}
 
-    @page:first {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom:0mm;
-    }
+@page:first {
+    size: 125mm 198mm;
+    margin: 14mm;
+    margin-bottom: 0mm;
+    background-color: rgb(32, 232, 65);
+}
 
-    body { 
-      background-color: white;
+@page :right {
+    @bottom-left {
+        content: counter(page);
+        font-family: Regular;
+        font-size: 10pt;
+        text-align: right;
+        border: 6pt solid transparent;
+        margin-bottom: 18pt;
     }
+}
+
+@page :left {
+    @bottom-right {
+        content: counter(page);
+        font-family: Regular;
+        font-size: 10pt;
+        text-align: left;
+        border: 6pt solid transparent;
+        padding-bottom: 18pt;
+
+    }
+}
+
+.title {
+    color: linen;
+    font-family: Bold;
+    font-size: 48pt;
+    line-height: 40pt;
+    margin-top: 0;
+}
+
+body { }
 
     h1 {
         padding-top: calc(1.15em * 3);

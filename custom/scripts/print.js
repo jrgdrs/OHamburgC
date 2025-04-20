@@ -27,6 +27,7 @@ console.log( "print " + INFILE + " " + FONTFILE + " " + PDFFILE + " "  );
         path: PDFFILE, 
         printBackground: true, 
         preferCSSPageSize: true, 
+        
         displayHeaderFooter: true,
         headerTemplate: '<html></html>',
         footerTemplate: 

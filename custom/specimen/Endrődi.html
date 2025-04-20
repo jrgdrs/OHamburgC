@@ -2,106 +2,9 @@
 <html lang="de">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+
   <style>
-    @font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
-    @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
-    @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
-
-    @media print {}
-
-    @page {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom: 28mm;
-    }
-
-    @page:first {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom:0mm;
-    }
-
-    body { 
-      background-color: white;
-    }
-
-    h1 {
-        padding-top: calc(1.25em * 3);
-        font-family: Reular;
-        font-weight: normal;
-        font-size: 15spt;
-        line-height: 1.25em;  
-        letter-spacing: .02em;
-    }
-
-    h2, h3 {
-        font-family: Regular;
-        font-weight: normal;
-        line-height: 1.25em;
-    }
-
-    p {
-        font-family: Regular;
-        font-size: 13pt;
-        line-height: 1.15em;
-        margin: 0;
-        text-indent:1em;
-        text-align: justify;
-        hyphens: auto;
-        font-variant-numeric: oldstyle-nums; /* <numeric-figure-values> */
-
-    }
-
-    i {
-        font-family: Italic;
-        font-style: normal;
-    }
-
-    .ini { 
-        text-indent:0; 
-        padding-top: calc(1.25em * 10);
-    }
-
-    .ini::first-letter {
-        -webkit-initial-letter: 3;
-        initial-letter: 3;
-    }
-
-    table.poem {
-        font-family: Italic;
-        font-size: 11pt;
-        line-height: 1.35em;
-        margin: 0;
-        text-align: left;
-        margin:1em;
-    }
-
-    .head {
-        page-break-after: always;
-    }
-
-    .right {
-        text-align: right;
-    }
-
-    .left { 
-        text-align: left; 
-        text-indent: 0;
-    }
-
-    .center { 
-        text-align: center; 
-        text-indent: 0;
-    }
-
-    .brand { 
-        position: absolute; 
-        top:125mm; 
-        width: 97mm;
-        text-align: center; 
-        text-indent: 0;
-    }
-
 
     div h1 {
         page-break-before: always;
@@ -111,17 +14,33 @@
 </head>
 <body>
 
-    <div class="brand">
-        <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
-        <p class="center">Type specimen in Hungarian language<br/>
-          DRM free content from FadedPage.com<br/>
-          set in OHamburgC-Regular<br /></p>
-        </div>
+    <section id="intro">
 
-    <div class="head">    
-        <h3 class="author">Sándor Endrődi</h3>
-        <h2 class="title">Magyar népdalok</h2>
-    </div>
+        <div class="brand">
+            <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
+            <p class="center">Type specimen in Hungarian language<br/>
+              DRM free content from FadedPage.com<br/>
+              set in OHamburgC-Regular<br /></p>
+            </div>
+    
+        
+        <div class="head">
+          <h3 class="author"></h3>
+          <h2 class="title"><span style="color:black">Sándor Endrődi</span><br />Magyar népdalok</h2>
+        </div>
+    
+        <div class="head">
+        </div>
+    
+        <div class="head">
+          <h3 class="author">Sándor Endrődi<br />Magyar népdalok</h2>
+        </div>
+    
+        <div class="head">
+        </div>
+    
+      </section>
+    
     
     
     <h2>BEVEZETÉS.</h2>

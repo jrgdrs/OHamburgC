@@ -38,38 +38,39 @@ for i in $AMFF ; do
   node scripts/print.js qa/Spacing.html ../fonts/ttf/$i.ttf ../out/qa/2-Spacing-$i.pdf
   node scripts/print.js qa/Kerning.html ../fonts/ttf/$i.ttf ../out/qa/3-Kerning-$i.pdf
   node scripts/print.js qa/Frequency.html ../fonts/ttf/$i.ttf ../out/qa/4-Frequency-$i.pdf
- # node scripts/print.js qa/Kafka.html ../fonts/ttf/$i.ttf ../out/qa/5-Kafka-$i.pdf
- # node scripts/print.js qa/News.html ../fonts/ttf/$i.ttf ../out/qa/6-News-$i.pdf
+  node scripts/print.js qa/Kafka.html ../fonts/ttf/$i.ttf ../out/qa/5-Kafka-$i.pdf
+  node scripts/print.js qa/News.html ../fonts/ttf/$i.ttf ../out/qa/6-News-$i.pdf
   node scripts/print.js qa/Diacritics.html ../fonts/ttf/$i.ttf ../out/qa/7-Diacritics-$i.pdf
 done
 
 
-echo '-- create atlas'
 
-for i in $AMFF ; do 
-  node scripts/atlas.js ../fonts/otf/$i.otf > ../out/qa/0-Atlas-$i.html
-  node scripts/print.js ../out/qa/0-Atlas-$i.html
-  rm ../out/qa/0-Atlas-$i.html
-done
+## echo '-- create atlas'
+
+## for i in $AMFF ; do 
+##   node scripts/atlas.js ../fonts/otf/$i.otf > ../out/qa/0-Atlas-$i.html
+##   node scripts/print.js ../out/qa/0-Atlas-$i.html
+##   rm ../out/qa/0-Atlas-$i.html
+## done
+
 
 cp ../out/qa/*.pdf ../documentation
 
 
 echo '-- create specimen for documentation'
 
-node scripts/print.js specimen/Specimen.html
-node scripts/print.js specimen/Etik.html
-node scripts/print.js specimen/Brentano.html
-node scripts/print.js specimen/Woolf.html
-node scripts/print.js specimen/Schiller.html
-node scripts/print.js specimen/Martens.html
-node scripts/print.js specimen/Dumas.html
-node scripts/print.js specimen/Adamson.html
-node scripts/print.js specimen/Endrődi.html
-node scripts/print.js specimen/Heisenberg.html
-node scripts/print.js specimen/Cicero.html
-node scripts/print.js specimen/Aristoteles.html
-
+node scripts/printwo.js specimen/Specimen.html
+node scripts/printwo.js specimen/Etik.html
+node scripts/printwo.js specimen/Brentano.html
+node scripts/printwo.js specimen/Woolf.html
+node scripts/printwo.js specimen/Schiller.html
+node scripts/printwo.js specimen/Martens.html
+node scripts/printwo.js specimen/Dumas.html
+node scripts/printwo.js specimen/Adamson.html
+node scripts/printwo.js specimen/Endrődi.html
+node scripts/printwo.js specimen/Heisenberg.html
+node scripts/printwo.js specimen/Cicero.html
+node scripts/printwo.js specimen/Aristoteles.html
 
 mv specimen/*.pdf ../documentation
 

@@ -6,27 +6,27 @@
 
         <style>
                 
-
-                @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgC-Italic.ttf"); }
-                @font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf"); }
-                @font-face { font-family: Black; src: url("../fonts/ttf/OHamburgC-Black.ttf"); }
-                @font-face { font-family: SC; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf"); }
-                @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgC-Bold.ttf");
-    font-variation-settings: "wght" 600; font-weight: 600;
-}
-
+                @font-face { font-family: OHamburgC; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
+                @font-face { font-family: OHamburgC-SmallCaps; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
+                @font-face { font-family: OHamburgC-Italic; src: url("../fonts/ttf/OHamburgC-Italic.ttf");}
+                @font-face { font-family: OHamburgC-Bold; src: url("../fonts/ttf/OHamburgC-Bold.ttf");}
+                @font-face { font-family: OHamburgC-Black; src: url("../fonts/ttf/OHamburgC-Black.ttf");}
 
                 @page {
                         size: 297mm 210mm;
                         margin: 6mm; 
+                        background-image: url("hahnemuehle.jpg"); 
+
+                        background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .5)), url('hahnemuehle.jpg'); backdrop-filter: blur(4px);
                 }
 
                 body {
-                        color: rgba(0, 0, 0, 1);
-                        __background-image: url("hahnemuehle.jpg"); 
-                        __background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('hahnemuehle.jpg'); __backdrop-filter: blur(2px);
-                        __text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35) ;
+                        color: rgba(0, 0, 0, .85);
+                        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35) ;
                         margin: 0;
+                        background-image: url("hahnemuehle.jpg"); 
+                        background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .5)), url('hahnemuehle.jpg'); backdrop-filter: blur(4px);
+
                 }
 
                 p, body {
@@ -106,7 +106,7 @@
         <div class="fullbox section">
                 <div class="fitcomb">
                         <p class="info">Typobold :: Typefaces Schriften Caractères<br /><br /><img
-                                        src="typobold_logo_200.png" width="140"/></p>
+                                        src="typobold_logo_200.png" /></p>
 
 
                         <p style="
@@ -126,12 +126,13 @@ border-top:0;
 
 
         <script>
+                
 
-setSample("Regular", 300);
-setSample("SC", 300);
-setSample("Italic", 300);
-setSample("Bold", 600 )
-setSample("Black", 900);
+                setSample("OHamburgC", 300);
+                setSample("OHamburgC-SmallCaps", 300);
+                setSample("OHamburgC-Italic", 300);
+                setSample("OHamburgC-Bold", 600);
+                setSample("OHamburgC-Black", 900);
 
 
                 function setSample(fontFamily, fontWeight) {
@@ -142,19 +143,31 @@ setSample("Black", 900);
 
                         spFit(fontFamily, fontWeight, 10, 10, 20, 20, "german");
 
-                        spBlock(fontFamily, fontWeight, 24, 26, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 24, 28, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 16, 18, 0, 0, "german");
+
+                        spBlock(fontFamily, fontWeight, 12, 16, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 12, 14, 0, 0, "german");
 
                         document.write("</div><div class=\"halfbox\">")
 
                         spBlock(fontFamily, fontWeight, 16, 18, 0, 0, "german");
-                        spBlock(fontFamily, fontWeight, 12, 14, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 12, 16, 0, 0, "german");
+                        spLong(fontFamily, fontWeight, 10, 12, 0, 0, "german");
+                        spLong(fontFamily, fontWeight, 8, 10, 0, 0, "german");
 
                         document.write("</div><div class=\"thirdbox\">")
 
-                        spBlock(fontFamily, fontWeight, 10, 11, 0, 0, "german");
-                        spBlock(fontFamily, fontWeight, 10, 10, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 10, 12, 0, 0, "german");
+
+                        spBlock(fontFamily, fontWeight, 9, 11, 0, 0, "german");
+                        spBlock(fontFamily, fontWeight, 9, 10, 0, 0, "german");
                         spBlock(fontFamily, fontWeight, 9, 9, 0, 0, "german");
+
+                        spLong(fontFamily, fontWeight, 8, 10, 0, 0, "german");
+                        spLong(fontFamily, fontWeight, 8, 9, 0, 0, "german");
                         spLong(fontFamily, fontWeight, 8, 8, 0, 0, "german");
+
                         document.write("</div>")
 
                 }
@@ -176,7 +189,7 @@ setSample("Black", 900);
                 // fit Worte ausgeben
                 function spFit(fontFamily, fontWeight, fontSize, lineHeight, letterSpacing, wordSpacing, text) {
                         document.write(
-                                "<div class=\"fitcomb section\" style=\"font-family: " + fontFamily + "; font-variation-settings: 'wght' " + fontWeight + "; font-size: " + fontSize + "pt; line-height: " + lineHeight + "pt; letter-spacing: " + letterSpacing / 100 + "em; word-spacing: " + wordSpacing / 100 + "em; padding, margin: 0;\"><p class=\"info\">" + fontFamily + " " + fontWeight + " </p><!--p><span class=\"fit\" style=\"letter-spacing:-.01em;\">Hamburg</span></p><p><span class=\"fit\">PARKHAUS</span></p><p><span class=\"fit\" style=\"letter-spacing:.01em;\">ALSTERKRUGCHAUSSEE</span></p><p><span class=\"fit\" style=\"letter-spacing:-.01em;\">typobold</span></p><p><span class=\"fit\">Köhlbrandbrücke</span></p><!--p><span class=\"fit\">MONARCH</span></p><p><span class=\"fit\">NORMAN KINGS</span></p><p><span class=\"fit\">RECENT HEROISM</span></p><p><span class=\"fit\">ASK WHAT MAKES YOU</span></p><p><span class=\"fit\">COME ALIVE</span></p><p><span class=\"fit\">AND GO DO IT</span></p><p><span class=\"fit\">SIZE &amp; FORM</span></p><p><span class=\"fit\">WEIGHT</span></p><p><span class=\"fit\">LAYOUT</span></p><p><span class=\"fit\">SPACING</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Deliziosamente</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">monsieur</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Kriminalkommissar</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bibliotheken</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bundesdruckerei</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Editoriale</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bluegrass</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Central</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Basketball</span></p--><p><span class=\"fit\">Imperial</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Handgloves</span></p><p><span class=\"fit\">OHamburgefontsiv</span></p></div>"
+                                "<div class=\"fitcomb section\" style=\"font-family: " + fontFamily + "; font-variation-settings: 'wght' " + fontWeight + "; font-size: " + fontSize + "pt; line-height: " + lineHeight + "pt; letter-spacing: " + letterSpacing / 100 + "em; word-spacing: " + wordSpacing / 100 + "em; padding, margin: 0;\"><p class=\"info\">" + fontFamily + " " + fontWeight + " </p><p><span class=\"fit\" style=\"letter-spacing:-.01em;\">Hamburg</span></p><p><span class=\"fit\">PARKHAUS</span></p><p><span class=\"fit\" style=\"letter-spacing:.01em;\">ALSTERKRUGCHAUSSEE</span></p><!--p><span class=\"fit\" style=\"letter-spacing:-.01em;\">typobold</span></p--><p><span class=\"fit\">Köhlbrandbrücke</span></p><p><span class=\"fit\">MONARCH</span></p><p><span class=\"fit\">NORMAN KINGS</span></p><p><span class=\"fit\">RECENT HEROISM</span></p><p><span class=\"fit\">ASK WHAT MAKES YOU</span></p><p><span class=\"fit\">COME ALIVE</span></p><p><span class=\"fit\">AND GO DO IT</span></p><p><span class=\"fit\">SIZE &amp; FORM</span></p><p><span class=\"fit\">WEIGHT</span></p><p><span class=\"fit\">LAYOUT</span></p><p><span class=\"fit\">SPACING</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Deliziosamente</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">monsieur</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Kriminalkommissar</span></p--><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bibliotheken</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bundesdruckerei</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Editoriale</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Bluegrass</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Central</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Basketball</span></p><p><span class=\"fit\">Imperial</span></p><p><span class=\"fit\" style=\"letter-spacing:0em;\">Handgloves</span></p><p><span class=\"fit\">OHamburgefontsiv</span></p></div>"
                         );
                 }
 
@@ -190,7 +203,7 @@ setSample("Black", 900);
                 // Figurenverzeichnis ausgeben
                 function spFigures(fontFamily, fontWeight, fontSize, lineHeight, letterSpacing, wordSpacing, text) {
                         document.write(
-                                "<div class=\"fitcomb\" style=\"font-family: " + fontFamily + "; font-variation-settings: 'wght' " + fontWeight + "; font-size: " + fontSize + "pt; line-height: " + lineHeight + "pt; letter-spacing: " + letterSpacing / 100 + "em; word-spacing: " + wordSpacing / 100 + "em; padding, margin: 0;\"><p class=\"info\">" + fontFamily + " " + fontWeight + " <br/> w" + letterSpacing + "/" + letterSpacing / 100 + "</p><p>ABCDEFGHIJKLMN OPQRSTUVWXYZ abcdefghijklmn opqursßtuvwxyz 0123456789 .,:;…!¡?¿*/-(){}[]‚„“”‘’«»‹›' @&¶§° &#x2619;&#x2740;&#x2766;&#x2767;</p></div>"
+                                "<div class=\"fitcomb\" style=\"font-family: " + fontFamily + "; font-variation-settings: 'wght' " + fontWeight + "; font-size: " + fontSize + "pt; line-height: " + lineHeight + "pt; letter-spacing: " + letterSpacing / 100 + "em; word-spacing: " + wordSpacing / 100 + "em; padding, margin: 0;\"><p class=\"info\">" + fontFamily + " " + fontWeight + " <br/> w" + letterSpacing + "/" + letterSpacing / 100 + "</p><p>AÄÆBCDEÉFGHIJKLMN OÖPQRSTUÜVWXYZ aäæbcdeéfghijklmn oöpqursßtuüvwxyz 0123456789 .,:;…!¡?¿*/-(){}[]‚„“”‘’«»‹›' @&¶§°</p></div>"
                         );
                 }
 
@@ -237,10 +250,10 @@ setSample("Black", 900);
                         </p>
 
                         <p style="margin-top:200px;">
-                                <img src="typobold_logo_200.png" width="140" />
+                                <img src="typobold_logo_200.png" />
                         </p>
 
-                        <p class="info">
+                        <p class="info">Typobold is a nickname of me<br />
                                 typobold@joerg-drees.de<br /><br />
                         </p>
 

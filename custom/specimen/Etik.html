@@ -2,127 +2,51 @@
 <html lang="da">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+
   <style>
-    @font-face { font-family: Regular; src: url("../fonts/ttf/OHamburgC-Regular.ttf");}
-    @font-face { font-family: Italic; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
-    @font-face { font-family: Bold; src: url("../fonts/ttf/OHamburgCSC-Regular.ttf");}
 
-    @media print {}
-
-    @page {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom: 28mm;
-    }
-
-    @page:first {
-      size: 125mm 198mm;
-      margin: 14mm;
-      margin-bottom:0mm;
-    }
-
-    body { 
-      background-color: white;
-    }
-
-    h1 {
-        padding-top: calc(1.25em * 3);
-        font-family: Reular;
-        font-weight: normal;
-        font-size: 15spt;
-        line-height: 1.25em;  
-        letter-spacing: .02em;
-    }
-
-    h2, h3 {
-        font-family: Regular;
-        font-weight: normal;
-        line-height: 1.25em;
-    }
-
-    p {
-        font-family: Regular;
-        font-size: 13pt;
-        line-height: 1.1em;
-        margin: 0;
-        text-indent:1em;
-        text-align: justify;
-        hyphens: auto;
-        font-variant-numeric: oldstyle-nums; /* <numeric-figure-values> */
-
-    }
-
-    i {
-        font-family: Italic;
-        font-style: normal;
-
-    }
-
-    .ini { 
-        text-indent:0; 
-        padding-top: calc(1.25em * 10);
-    }
-
-    .ini::first-letter {
-        -webkit-initial-letter: 3;
-        initial-letter: 3;
-        padding-right:3pt;
-    }
-
-    table.poem {
-        font-family: Italic;
-        font-size: 11pt;
-        line-height: 1.35em;
-        margin: 0;
-        text-align: left;
-        margin:1em;
-    }
-
-    .head {
-        page-break-after: always;
-    }
-
-    .right {
-        text-align: right;
-    }
-
-    .left { 
-        text-align: left; 
-        text-indent: 0;
-    }
-
-    .center { 
-        text-align: center; 
-        text-indent: 0;
-    }
-
-    .brand { 
-        position: absolute; 
-        top:125mm; 
-        width: 97mm;
-        text-align: center; 
-        text-indent: 0;
-    }
+@page:first {
+  background-color: rgb(27, 72, 208);
+}
 
     div h1 {
         page-break-before: always;
     }
 
+    sup { display: none; }
+
   </style>
 </head>
 <body>
 
-    <div class="brand">
-        <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
-        <p class="center">Type specimen in Danish language<br/>
-          DRM free content from Wittgenstein Project<br/>
-          set in OHamburgC-Regular<br /></p>
-        </div>
+    <section id="intro">
 
-    <div class="head">    
-        <h3 class="author">Ludwig Wittgenstein</h3>
-        <h2 class="title">Forelæsning om etik</h2>
-    </div>
+        <div class="brand">
+            <img src="typobold_logo_200.png" width="40pt" style=" filter: grayscale(100%);"/>
+            <p class="center">Type specimen in Danish language<br/>
+              DRM free content from Wittgenstein Project<br/>
+              set in OHamburgC-Regular<br /></p>
+            </div>
+        
+        <div class="head">
+          <h3 class="author"></h3>
+          <h2 class="title"><span style="color:black">Ludwig Wittgenstein</span><br />Forelæsning <br/>om etik</h2>
+        </div>
+    
+        <div class="head">
+        </div>
+    
+        <div class="head">
+          <h3 class="author">Ludwig Wittgenstein<br />Forelæsning om etik</h2>
+        </div>
+    
+        <div class="head">
+        </div>
+    
+      </section>
+
+      
 
     <p class="ini">
     Lad mig, før jeg begynder at tale om mit egentlige emne, lave nogle få indledende bemærkninger. Jeg fornemmer, at jeg vil have store vanskeligheder i at kommunikere mine tanker til jer og jeg tror nogle af dem kan blive formindsket ved at nævne dem til jer på forhånd. Den første, som jeg næsten ikke behøver at nævne, er at mit engelske er ikke mit modersmål og derfor mangler mit udtryk denne præcisering og subtilitet, som ville være ønskværdigt, hvis man taler om et vanskeligt emne. Alt, hvad jeg kan gøre, er at bede jer om at gøre min opgave nemmere med at få min mening ud på trods af de fejl jeg vil konstant begå i den engelske grammatik. Den anden vanskelighed jeg vil nævne er dette: At sandsynligvis møder mange af jer op til min forelæsning med lidt misvisende forventninger. Og for at sætte jer i den rette bås vil jeg sige nogle få ord om grunden til at vælge emnet, som jeg har valgt: Da jeres tidligere sekretær hædrede mig ved at bede mig om at læse en afhandling op til jeres selskab var min første tanke, at jeg ville helt sikkert gøre det og min anden tanke var, at hvis jeg havde muligheden for at tale til jer, skulle jeg tale om noget, som jeg er ivrigt i at fortælle jer og at jeg burde ikke misbruge denne mulighed ved at give jer en forelæsning om, lad os sige, logik. Jeg ville mene dette er et misbrug, da dét at forklare et videnskabeligt emne til jer ville behøve en serie af forelæsninger og ikke kun en times afhandling. Et andet alternativ ville have været at give jer, hvad der kaldes et populærvidenskabeligt foredrag, det vil sige et foredrag beregnet til at få jer til at tro, at I forstår noget, som I faktisk ikke forstår og at tilfredsstille, hvad jeg mener er ét af moderne menneskers laveste lyster, nemlig den overfladiske nysgerrighed omkring de seneste opdagelser i videnskaben. Jeg afslog disse alternativer og valgte at tale til jer om et emne, som jeg synes har en general betydning. Jeg håber, at det må hjælpe med at klargøre jeres tanker omkring dette emne (selv hvis I skulle være fuldstændigt uenige med dét jeg siger omkring det). Min tredje og sidste vanskelighed er én, der faktisk følger de mest langvarige filosofiske forelæsninger og det er, at modtageren er ude af stand til at se både vejen han er ført og målet den fører hen imod. Det vil sige: Han enten tænker ”jeg forstår alt, hvad han siger, men hvor i alverden er han i gang med at føre det hen” eller også tænker han ”jeg ser, hvor han fører hen, men hvordan i alverden kommer han derhen.” Alt hvad jeg vil gøre er igen at bede jer om at være tålmodige og at håbe, at til sidst vil I se både vejen og hvor den leder hen. 
