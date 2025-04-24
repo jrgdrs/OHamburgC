@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillacomb" format="2">
+  <unicode hex="0327"/>
+  <anchor x="227" y="0" name="_bottom"/>
+  <anchor x="162" y="-231" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="193" y="2" type="line"/>
+      <point x="173" y="-28"/>
+      <point x="149" y="-69"/>
+      <point x="132" y="-97" type="curve"/>
+      <point x="129" y="-101"/>
+      <point x="132" y="-104"/>
+      <point x="141" y="-104" type="curve" smooth="yes"/>
+      <point x="199" y="-104"/>
+      <point x="236" y="-122"/>
+      <point x="228" y="-149" type="curve" smooth="yes"/>
+      <point x="215" y="-197"/>
+      <point x="154" y="-212"/>
+      <point x="86" y="-188" type="curve" smooth="yes"/>
+      <point x="80" y="-186"/>
+      <point x="71" y="-195"/>
+      <point x="66" y="-213" type="curve" smooth="yes"/>
+      <point x="65" y="-217"/>
+      <point x="69" y="-221"/>
+      <point x="79" y="-223" type="curve" smooth="yes"/>
+      <point x="183" y="-247"/>
+      <point x="267" y="-214"/>
+      <point x="286" y="-145" type="curve" smooth="yes"/>
+      <point x="300" y="-97"/>
+      <point x="267" y="-62"/>
+      <point x="204" y="-64" type="curve"/>
+      <point x="249" y="3" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>360</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.tf" format="2">
+  <advance width="486"/>
+  <outline>
+    <contour>
+      <point x="235" y="-11" type="line"/>
+      <point x="343" y="-11"/>
+      <point x="419" y="59"/>
+      <point x="419" y="159" type="curve"/>
+      <point x="419" y="313"/>
+      <point x="153" y="383"/>
+      <point x="153" y="503" type="curve" smooth="yes"/>
+      <point x="153" y="570"/>
+      <point x="188" y="616"/>
+      <point x="241" y="616" type="curve"/>
+      <point x="241" y="652" type="line"/>
+      <point x="147" y="652"/>
+      <point x="81" y="578"/>
+      <point x="81" y="474" type="curve" smooth="yes"/>
+      <point x="81" y="313"/>
+      <point x="349" y="232"/>
+      <point x="349" y="131" type="curve"/>
+      <point x="349" y="69"/>
+      <point x="302" y="25"/>
+      <point x="235" y="25" type="curve"/>
+    </contour>
+    <contour>
+      <point x="235" y="-11" type="curve"/>
+      <point x="235" y="25" type="line"/>
+      <point x="174" y="25"/>
+      <point x="131" y="77"/>
+      <point x="131" y="151" type="curve" smooth="yes"/>
+      <point x="131" y="211"/>
+      <point x="173" y="277"/>
+      <point x="233" y="313" type="curve"/>
+      <point x="204" y="328" type="line"/>
+      <point x="120" y="281"/>
+      <point x="61" y="202"/>
+      <point x="61" y="124" type="curve" smooth="yes"/>
+      <point x="61" y="45"/>
+      <point x="133" y="-11"/>
+    </contour>
+    <contour>
+      <point x="241" y="652" type="curve"/>
+      <point x="241" y="616" type="line"/>
+      <point x="302" y="616"/>
+      <point x="335" y="564"/>
+      <point x="335" y="490" type="curve" smooth="yes"/>
+      <point x="335" y="431"/>
+      <point x="293" y="373"/>
+      <point x="233" y="337" type="curve"/>
+      <point x="262" y="322" type="line"/>
+      <point x="346" y="369"/>
+      <point x="405" y="440"/>
+      <point x="405" y="517" type="curve" smooth="yes"/>
+      <point x="405" y="597"/>
+      <point x="343" y="652"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>659</integer>
+            <integer>47</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-9</integer>
+            <integer>38</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>303</integer>
+            <integer>64</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>28</integer>
+            <integer>73</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

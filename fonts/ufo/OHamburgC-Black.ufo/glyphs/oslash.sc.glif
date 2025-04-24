@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.sc" format="2">
+  <advance width="603"/>
+  <anchor x="302" y="0" name="bottom"/>
+  <anchor x="302" y="399" name="top"/>
+  <anchor x="321.3735" y="223.6752" name="center"/>
+  <anchor x="568.2214" y="7.056" name="ogonek"/>
+  <anchor x="28.5823" y="447.3504" name="topleft"/>
+  <anchor x="614.1646999999999" y="447.3504" name="topright"/>
+  <outline>
+    <contour>
+      <point x="511" y="435" type="line"/>
+      <point x="62" y="27" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="540" y="408" type="line"/>
+    </contour>
+    <component base="O" xScale="0.7787" yScale="0.7056" xOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

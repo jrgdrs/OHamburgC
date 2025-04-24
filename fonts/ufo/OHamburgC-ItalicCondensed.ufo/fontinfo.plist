@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>637</integer>
+    <key>capHeight</key>
+    <integer>616</integer>
+    <key>descender</key>
+    <integer>-230</integer>
+    <key>familyName</key>
+    <string>OHamburgC</string>
+    <key>italicAngle</key>
+    <integer>-15</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2025/02/16 11:19:15</string>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>3</integer>
+    </array>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-8</integer>
+      <integer>0</integer>
+      <integer>402</integer>
+      <integer>413</integer>
+      <integer>616</integer>
+      <integer>627</integer>
+      <integer>637</integer>
+      <integer>648</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-238</integer>
+      <integer>-230</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>28</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>81</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleMapFamilyName</key>
+    <string>OHamburgC Condensed</string>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
+    <key>styleName</key>
+    <string>Italic Condensed</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>32</integer>
+    <key>xHeight</key>
+    <integer>402</integer>
+  </dict>
+</plist>

@@ -44,14 +44,13 @@ for i in $AMFF ; do
 done
 
 
+echo '-- create atlas'
 
-## echo '-- create atlas'
-
-## for i in $AMFF ; do 
-##   node scripts/atlas.js ../fonts/otf/$i.otf > ../out/qa/0-Atlas-$i.html
-##   node scripts/print.js ../out/qa/0-Atlas-$i.html
-##   rm ../out/qa/0-Atlas-$i.html
-## done
+for i in $AMFF ; do 
+  node scripts/atlas.js ../fonts/otf/$i.otf > ../out/qa/0-Atlas-$i.html
+  node scripts/print.js ../out/qa/0-Atlas-$i.html
+  rm ../out/qa/0-Atlas-$i.html
+done
 
 
 cp ../out/qa/*.pdf ../documentation

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.sc" format="2">
+  <advance width="486"/>
+  <anchor x="237.2739" y="0.0" name="bottom"/>
+  <anchor x="237.2739" y="223.6752" name="center"/>
+  <anchor x="237.2739" y="447.3504" name="top"/>
+  <anchor x="466.99039999999997" y="447.3504" name="topright"/>
+  <outline>
+    <contour>
+      <point x="23" y="216" type="line"/>
+      <point x="37" y="182" type="line"/>
+      <point x="224" y="247" type="line"/>
+      <point x="211" y="281" type="line"/>
+    </contour>
+    <component base="L" xScale="0.7787" yScale="0.7056" xOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

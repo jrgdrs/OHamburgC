@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300"/>
+    <axis tag="wdth" name="Width" minimum="80" maximum="120" default="100"/>
+  </axes>
+  <sources>
+    <source filename="OHamburgC-Regular.ufo" name="OHamburgC Regular" familyname="OHamburgC" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OHamburgC-Black.ufo" name="OHamburgC Black" familyname="OHamburgC" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OHamburgC-RegularExtended.ufo" name="OHamburgC Regular Extended" familyname="OHamburgC" stylename="Regular Extended">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="120"/>
+      </location>
+    </source>
+    <source filename="OHamburgC-RegularCondensed.ufo" name="OHamburgC Regular Condensed" familyname="OHamburgC" stylename="Regular Condensed">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="80"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="OHamburgC Black" familyname="OHamburgC" stylename="Black" filename="../../instance_ufo/OHamburgC-Black.ufo" stylemapfamilyname="OHamburgC Black" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="OHamburgC Bold" familyname="OHamburgC" stylename="Bold" filename="../../instance_ufo/OHamburgC-Bold.ufo" stylemapfamilyname="OHamburgC Bold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="OHamburgC Regular" familyname="OHamburgC" stylename="Regular" filename="../../instance_ufo/OHamburgC-Regular.ufo" stylemapfamilyname="OHamburgC" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Use Typo Metrics</string>
+              <true/>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>m002</key>
+        <dict>
+          <key>HH</key>
+          <string>22</string>
+          <key>HV</key>
+          <string>75</string>
+          <key>nV</key>
+          <string>72</string>
+          <key>nd</key>
+          <string>20</string>
+          <key>oV</key>
+          <string>88</string>
+        </dict>
+        <key>m005</key>
+        <dict>
+          <key>HH</key>
+          <string>45</string>
+          <key>HV</key>
+          <string>78</string>
+          <key>OH</key>
+          <string>40</string>
+          <key>OV</key>
+          <string>96</string>
+          <key>nV</key>
+          <string>72</string>
+          <key>nd</key>
+          <string>22</string>
+          <key>oH</key>
+          <string>36</string>
+          <key>oV</key>
+          <string>85</string>
+          <key>tH</key>
+          <string>45:55</string>
+        </dict>
+        <key>m017</key>
+        <dict>
+          <key>nV</key>
+          <string>72.42</string>
+          <key>nd</key>
+          <string>12.21</string>
+          <key>oH</key>
+          <string>74.40</string>
+          <key>oV</key>
+          <string>68.39</string>
+        </dict>
+      </dict>
+      <key>Letterink-FileVersion</key>
+      <integer>9</integer>
+      <key>Letterink-MinimumCompatibleMarketingVersion</key>
+      <string>1.0.12 (2021-11-02)</string>
+      <key>Letterink-NibStyles</key>
+      <array>
+        <dict>
+          <key>Id</key>
+          <integer>1</integer>
+          <key>NibData</key>
+          <dict>
+            <key>AngleInDegrees</key>
+            <integer>-55</integer>
+          </dict>
+          <key>Title</key>
+          <string>s</string>
+        </dict>
+      </array>
+      <key>Letterink-StrokeType</key>
+      <string>Brush</string>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>Ohm</string>
+        <string>_metrum</string>
+        <string>f_f</string>
+        <string>f_f_i</string>
+        <string>f_f_l</string>
+        <string>f_i</string>
+        <string>f_l</string>
+        <string>f_t</string>
+        <string>i.original</string>
+        <string>increment</string>
+        <string>integral</string>
+        <string>j.original</string>
+        <string>micro</string>
+        <string>minute</string>
+        <string>partialdiff</string>
+        <string>product</string>
+        <string>radical</string>
+        <string>second</string>
+        <string>summation</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

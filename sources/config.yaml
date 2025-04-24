@@ -7,8 +7,8 @@
 # sources/ directory, so all paths should be relative to that
 # directory.     
 sources:
-  - OHamburgC-14MU2.glyphs
-  - OHamburgC-Italic.glyphs 
+  - OHamburgC-14MU3.glyphs
+  - OHamburgC-Italic3.glyphs  
 # You don't have to supply the family name, but builds are slightly
 # faster if you do. 
 familyName: "OHamburgC"
@@ -17,7 +17,7 @@ familyName: "OHamburgC"
 # binaries to live. But we'd recommend you stick to the defaults
 # especially if you are planning to upload your font to Google Fonts.
 
-# outputDir: ../fonts
+# outputDir: ../fonts 
 # vfDir: $outputDir/variable
 # ttDir: $outputDir/ttf
 # otDir: $outputDir/otf

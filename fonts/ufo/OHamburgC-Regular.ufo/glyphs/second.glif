@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="second" format="2">
+  <advance width="432"/>
+  <unicode hex="2033"/>
+  <outline>
+    <component base="quotesingle" xScale="0.9663462737479585" xyScale="-0.25724478461853356" yxScale="0.25724478461853356" yScale="0.9663462737479585" xOffset="-115" yOffset="75"/>
+    <component base="quotesingle" xScale="0.9663462737479585" xyScale="-0.25724478461853356" yxScale="0.25724478461853356" yScale="0.9663462737479585" xOffset="41" yOffset="75"/>
+  </outline>
+</glyph>

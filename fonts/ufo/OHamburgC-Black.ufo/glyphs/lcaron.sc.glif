@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.sc" format="2">
+  <advance width="497"/>
+  <anchor x="249" y="0" name="bottom"/>
+  <anchor x="249" y="200" name="center"/>
+  <anchor x="249" y="399" name="top"/>
+  <anchor x="477" y="399" name="topright"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="caroncomb.alt.sc" xOffset="158" yOffset="-175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb.alt.sc</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

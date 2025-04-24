@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflexacute" format="2">
+  <advance width="477"/>
+  <unicode hex="1EBF"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="433" y="10" name="ogonek"/>
+  <anchor x="246" y="811" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="circumflexcomb_acutecomb" xOffset="95"/>
+  </outline>
+</glyph>
