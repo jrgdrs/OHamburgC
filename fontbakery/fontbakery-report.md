@@ -29,19 +29,19 @@ fontbakery version: 0.13.2
 <li>
 <p>'OHamburgC SC' was found in:</p>
 <ul>
-<li>OHamburgCSC-Bold.ttf (nameID 1)</li>
 <li>OHamburgCSC-Italic.ttf (nameID 1)</li>
-<li>OHamburgCSC-Black.ttf (nameID 16)</li>
 <li>OHamburgCSC-Regular.ttf (nameID 1)</li>
+<li>OHamburgCSC-Black.ttf (nameID 16)</li>
+<li>OHamburgCSC-Bold.ttf (nameID 1)</li>
 </ul>
 </li>
 <li>
 <p>'OHamburgC' was found in:</p>
 <ul>
-<li>OHamburgC-Bold.ttf (nameID 16)</li>
-<li>OHamburgC-Italic.ttf (nameID 16)</li>
-<li>OHamburgC-Black.ttf (nameID 16)</li>
 <li>OHamburgC-Regular.ttf (nameID 1)</li>
+<li>OHamburgC-Bold.ttf (nameID 16)</li>
+<li>OHamburgC-Black.ttf (nameID 16)</li>
+<li>OHamburgC-Italic.ttf (nameID 16)</li>
 </ul>
 </li>
 </ul>
@@ -64,14 +64,14 @@ fontbakery version: 0.13.2
 
 * 🔥 **FAIL** <p>Thickness of the underline is not the same across this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
 Detected underlineThickness values are:
-fonts/ttf/OHamburgCSC-Bold.ttf: 53
-fonts/ttf/OHamburgCSC-Italic.ttf: 50
-fonts/ttf/OHamburgC-Bold.ttf: 53
-fonts/ttf/OHamburgCSC-Black.ttf: 53
+fonts/ttf/OHamburgCSC-Italic.ttf: 72
+fonts/ttf/OHamburgC-Regular.ttf: 53
 fonts/ttf/OHamburgCSC-Regular.ttf: 53
-fonts/ttf/OHamburgC-Italic.ttf: 50
+fonts/ttf/OHamburgCSC-Black.ttf: 53
+fonts/ttf/OHamburgCSC-Bold.ttf: 53
+fonts/ttf/OHamburgC-Bold.ttf: 53
 fonts/ttf/OHamburgC-Black.ttf: 53
-fonts/ttf/OHamburgC-Regular.ttf: 53</p>
+fonts/ttf/OHamburgC-Italic.ttf: 72</p>
  [code: inconsistent-underline-thickness]
 
 
@@ -89,7 +89,7 @@ fonts/ttf/OHamburgC-Regular.ttf: 53</p>
 
 
 
-* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgCSC-Bold.ttf has no STAT table</p>
+* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgCSC-Regular.ttf has no STAT table</p>
  [code: no-stat]
 
 
@@ -99,7 +99,7 @@ fonts/ttf/OHamburgC-Regular.ttf: 53</p>
 
 
 
-* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgC-Bold.ttf has no STAT table</p>
+* 🔥 **FAIL** <p>Font fonts/ttf/OHamburgC-Regular.ttf has no STAT table</p>
  [code: no-stat]
 
 
@@ -123,92 +123,92 @@ fonts/ttf/OHamburgC-Regular.ttf: 53</p>
 
 
 * 🔥 **FAIL** <p>sTypoAscender is not the same across the family:
-OHamburgC SC Bold: 920
 OHamburgC SC Italic: 637
-OHamburgC Bold: 920
-OHamburgC SC Black: 920
+OHamburgC: 920
 OHamburgC SC: 920
-OHamburgC Italic: 637
+OHamburgC SC Black: 920
+OHamburgC SC Bold: 920
+OHamburgC Bold: 920
 OHamburgC Black: 920
-OHamburgC: 920</p>
+OHamburgC Italic: 637</p>
  [code: sTypoAscender-mismatch]
 
 
 
 * 🔥 **FAIL** <p>sTypoDescender is not the same across the family:
-OHamburgC SC Bold: -280
 OHamburgC SC Italic: -230
-OHamburgC Bold: -280
-OHamburgC SC Black: -280
+OHamburgC: -280
 OHamburgC SC: -280
-OHamburgC Italic: -230
+OHamburgC SC Black: -280
+OHamburgC SC Bold: -280
+OHamburgC Bold: -280
 OHamburgC Black: -280
-OHamburgC: -280</p>
+OHamburgC Italic: -230</p>
  [code: sTypoDescender-mismatch]
 
 
 
 * 🔥 **FAIL** <p>sTypoLineGap is not the same across the family:
-OHamburgC SC Bold: 0
 OHamburgC SC Italic: 333
-OHamburgC Bold: 0
-OHamburgC SC Black: 0
+OHamburgC: 0
 OHamburgC SC: 0
-OHamburgC Italic: 333
+OHamburgC SC Black: 0
+OHamburgC SC Bold: 0
+OHamburgC Bold: 0
 OHamburgC Black: 0
-OHamburgC: 0</p>
+OHamburgC Italic: 333</p>
  [code: sTypoLineGap-mismatch]
 
 
 
 * 🔥 **FAIL** <p>usWinAscent is not the same across the family:
-OHamburgC SC Bold: 920
 OHamburgC SC Italic: 970
-OHamburgC Bold: 920
-OHamburgC SC Black: 920
+OHamburgC: 920
 OHamburgC SC: 920
-OHamburgC Italic: 970
+OHamburgC SC Black: 920
+OHamburgC SC Bold: 920
+OHamburgC Bold: 920
 OHamburgC Black: 920
-OHamburgC: 920</p>
+OHamburgC Italic: 970</p>
  [code: usWinAscent-mismatch]
 
 
 
 * 🔥 **FAIL** <p>usWinDescent is not the same across the family:
-OHamburgC SC Bold: 280
 OHamburgC SC Italic: 230
-OHamburgC Bold: 280
-OHamburgC SC Black: 280
+OHamburgC: 280
 OHamburgC SC: 280
-OHamburgC Italic: 230
+OHamburgC SC Black: 280
+OHamburgC SC Bold: 280
+OHamburgC Bold: 280
 OHamburgC Black: 280
-OHamburgC: 280</p>
+OHamburgC Italic: 230</p>
  [code: usWinDescent-mismatch]
 
 
 
 * 🔥 **FAIL** <p>ascent is not the same across the family:
-OHamburgC SC Bold: 920
 OHamburgC SC Italic: 970
-OHamburgC Bold: 920
-OHamburgC SC Black: 920
+OHamburgC: 920
 OHamburgC SC: 920
-OHamburgC Italic: 970
+OHamburgC SC Black: 920
+OHamburgC SC Bold: 920
+OHamburgC Bold: 920
 OHamburgC Black: 920
-OHamburgC: 920</p>
+OHamburgC Italic: 970</p>
  [code: ascent-mismatch]
 
 
 
 * 🔥 **FAIL** <p>descent is not the same across the family:
-OHamburgC SC Bold: -280
 OHamburgC SC Italic: -230
-OHamburgC Bold: -280
-OHamburgC SC Black: -280
+OHamburgC: -280
 OHamburgC SC: -280
-OHamburgC Italic: -230
+OHamburgC SC Black: -280
+OHamburgC SC Bold: -280
+OHamburgC Bold: -280
 OHamburgC Black: -280
-OHamburgC: -280</p>
+OHamburgC Italic: -230</p>
  [code: descent-mismatch]
 
 
@@ -228,7 +228,7 @@ OHamburgC: -280</p>
 
 * 🔥 **FAIL** <ul>
 <li>
-<p>Bold contains encoded codepoints not found in other related fonts:	- U+2000</p>
+<p>Regular contains encoded codepoints not found in other related fonts:	- U+2000</p>
 <ul>
 <li>
 <p>U+2001</p>
@@ -2566,7 +2566,7 @@ OHamburgC: -280</p>
 </ul>
 </li>
 <li>
-<p>Regular contains encoded codepoints not found in other related fonts:	- U+2000</p>
+<p>Bold contains encoded codepoints not found in other related fonts:	- U+2000</p>
 <ul>
 <li>
 <p>U+2001</p>
@@ -3752,7 +3752,7 @@ OHamburgC: -280</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/OHamburgCSC-Bold.ttf', 'fonts/ttf/OHamburgCSC-Italic.ttf', 'fonts/ttf/OHamburgC-Bold.ttf', 'fonts/ttf/OHamburgCSC-Black.ttf', 'fonts/ttf/OHamburgC-Italic.ttf', 'fonts/ttf/OHamburgC-Black.ttf'].</p>
+* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/OHamburgCSC-Italic.ttf', 'fonts/ttf/OHamburgCSC-Black.ttf', 'fonts/ttf/OHamburgCSC-Bold.ttf', 'fonts/ttf/OHamburgC-Bold.ttf', 'fonts/ttf/OHamburgC-Black.ttf', 'fonts/ttf/OHamburgC-Italic.ttf'].</p>
  [code: missing-os2-fsselection-bit7]
 
 
@@ -3762,7 +3762,7 @@ OHamburgC: -280</p>
 </div>
 </details>
 
-<details><summary>[25] OHamburgC-Bold.ttf</summary>
+<details><summary>[23] OHamburgCSC-Black.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
@@ -3774,13 +3774,8 @@ OHamburgC: -280</p>
 
 
 
-* 🔥 **FAIL** <p>fsSelection Bold flag False does not match font style Bold</p>
- [code: bad-BOLD]
-
-
-
-* 🔥 **FAIL** <p>fsSelection Regular flag True does not match font style Bold</p>
- [code: bad-REGULAR]
+* 🔥 **FAIL** <p>fsSelection Bold flag False does not match macStyle True flag</p>
+ [code: fsselection-macstyle-bold]
 
 
 
@@ -3797,7 +3792,7 @@ OHamburgC: -280</p>
 
 
 
-* 🔥 **FAIL** <p>head macStyle BOLD bit should be set.</p>
+* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
  [code: bad-BOLD]
 
 
@@ -3853,26 +3848,8 @@ OHamburgC: -280</p>
 
 
 
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
  [code: different-widths]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>&quot;OHamburgC&quot; contains an abbreviation.</p>
- [code: abbreviation]
 
 
 
@@ -3912,65 +3889,6 @@ OHamburgC: -280</p>
 
 * 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
  [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>OHamburgC Bold</strong></td>
-<td align="left"><strong>OHamburgC</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left"><strong>Regular</strong></td>
-<td align="left"><strong>Bold</strong></td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left">OHamburgC Bold</td>
-<td align="left">OHamburgC Bold</td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left">OHamburgC-Bold</td>
-<td align="left">OHamburgC-Bold</td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left"><strong>OHamburgC</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Bold</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
 
 
 
@@ -4059,24 +3977,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x2122 (TRADE MARK SIGN)
 </code></pre>
  [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-weightclass">googlefonts/weightclass</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Best SubFamily name is 'Bold'. Expected OS/2 usWeightClass is 700, got 600.</p>
- [code: bad-value]
 
 
 
@@ -4199,6 +4099,46 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 576 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 570:
+multiply</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ots">ots</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>ots-sanitize passed this file, however warnings were printed:</p>
+<p>WARNING: OS/2: Adjusting head.macStyle (regular) to match fsSelection</p>
+ [code: ots-sanitize-warn]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -4209,7 +4149,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* IJ (U+0132): L&lt;&lt;324.0,609.0&gt;--&lt;324.0,634.0&gt;&gt; has the same coordinates as a previous segment.
 
 * d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -4375,11 +4315,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -4390,1314 +4330,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2126 OHM SIGN: try adding math</li>
-<li>U+2205 EMPTY SET: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
-<li>U+2740 WHITE FLORETTE: try adding symbols</li>
-<li>U+2766 FLORAL HEART: try adding symbols</li>
-<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
-<td align="left">el_Grek (Greek)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">ca_Latn (Catalan)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ſ</td>
-<td align="left">de_Latn (German) and fr_Latn (French)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
-<td align="left">en_Latn (English)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ª</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">fi_Latn (Finnish) and nb_Latn (Norwegian Bokmål)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋ į̛̌ į̛̒</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt; -&gt; L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;176.0,667.0&gt;--&lt;173.0,560.0&gt;&gt; -&gt; L&lt;&lt;173.0,560.0&gt;--&lt;172.0,355.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,94.0&gt;&gt;
-
-* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
-
-* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
-
-* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcaron (U+010F): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,94.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcroat (U+0111): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,541.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* h (U+0068): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,333.0&gt;&gt;
-
-* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* hbar (U+0127): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,519.0&gt;&gt;
-
-* hcircumflex (U+0125): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,333.0&gt;&gt;
-
-* hyphen (U+002D): L&lt;&lt;82.0,250.0&gt;--&lt;261.0,266.0&gt;&gt; -&gt; L&lt;&lt;261.0,266.0&gt;--&lt;315.0,266.0&gt;&gt;
-
-* ij (U+0133): L&lt;&lt;452.0,402.0&gt;--&lt;450.0,323.0&gt;&gt; -&gt; L&lt;&lt;450.0,323.0&gt;--&lt;450.0,77.0&gt;&gt;
-
-* j (U+006A): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
-
-* jcircumflex (U+0135): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
-
-* k (U+006B): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,213.0&gt;&gt;
-
-* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
-
-* l (U+006C): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
-
-* lacute (U+013A): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
-
-* lslash (U+0142): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,394.0&gt;&gt;
-
-* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
-
-* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
-
-* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
-
-* u (U+0075): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uacute (U+00FA): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* ubreve (U+016D): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* ucircumflex (U+00FB): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* udieresis (U+00FC): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* ugrave (U+00F9): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uhorn (U+01B0): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uhungarumlaut (U+0171): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* umacron (U+016B): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni006A0301: L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
-
-* uni0137 (U+0137): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,213.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
-
-* uni0237 (U+0237): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
-
-* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE5 (U+1EE5): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EE7 (U+1EE7): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EE9 (U+1EE9): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EEB (U+1EEB): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EED (U+1EED): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EEF (U+1EEF): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni1EF1 (U+1EF1): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* uni2010 (U+2010): L&lt;&lt;36.0,241.0&gt;--&lt;82.0,250.0&gt;&gt; -&gt; L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt;
-
-* uni2010 (U+2010): L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt; -&gt; L&lt;&lt;243.0,266.0&gt;--&lt;297.0,266.0&gt;&gt;
-
-* uogonek (U+0173): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* uring (U+016F): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-
-* utilde (U+0169): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* c_t: L&lt;&lt;387.0,349.0&gt;--&lt;387.0,359.0&gt;&gt;/B&lt;&lt;387.0,359.0&gt;-&lt;384.0,338.0&gt;-&lt;381.0,307.0&gt;&gt; = 8.13010235415596
-
-* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
-
-* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
-
-* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* s_t: L&lt;&lt;333.0,349.0&gt;--&lt;333.0,363.0&gt;&gt;/B&lt;&lt;333.0,363.0&gt;-&lt;330.0,346.0&gt;-&lt;327.5,323.0&gt;&gt; = 10.007979801441312
-
-* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
-
-* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
-
-* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
-
-* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
-
-* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;474.0,323.0&gt;--&lt;473.0,576.0&gt;&gt;
-
-* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
-
-* M (U+004D): L&lt;&lt;715.0,104.0&gt;--&lt;713.0,512.0&gt;&gt;
-
-* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
-
-* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;172.0,323.0&gt;--&lt;171.0,80.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;173.0,560.0&gt;--&lt;172.0,355.0&gt;&gt;
-
-* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;350.0,-164.0&gt;--&lt;351.0,49.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;351.0,74.0&gt;--&lt;352.0,323.0&gt;&gt;
-
-* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
-
-* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
-
-* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
-
-* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
-
-* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[22] OHamburgCSC-Black.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fsSelection Bold flag False does not match macStyle True flag</p>
- [code: fsselection-macstyle-bold]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-mac-style">opentype/mac_style</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
- [code: bad-BOLD]
-
-
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
- [code: ascent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
- [code: notdef-is-blank]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x2122 (TRADE MARK SIGN)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking with ots-sanitize. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ots">ots</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>ots-sanitize passed this file, however warnings were printed:</p>
-<p>WARNING: OS/2: Adjusting head.macStyle (regular) to match fsSelection</p>
- [code: ots-sanitize-warn]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- CGPT
-
-- a.calt1
-
-- a.calt2
-
-- d.calt1
-
-- d.calt2
-
-- e.calt1
-
-- e.calt2
-
-- eight.bsf
-
-- eight.btf
-
-- five.bsf
-
-- five.btf
-
-- four.bsf
-
-- four.btf
-
-- h.calt1
-
-- h.calt2
-
-- n.calt1
-
-- n.calt2
-
-- nine.bsf
-
-- nine.btf
-
-- one.bsf
-
-- one.btf
-
-- r.calt1
-
-- r.calt2
-
-- s.calt1
-
-- s.calt2
-
-- seven.bsf
-
-- seven.btf
-
-- six.bsf
-
-- six.btf
-
-- t.calt1
-
-- t.calt2
-
-- three.bsf
-
-- three.btf
-
-- two.bsf
-
-- two.btf
-
-- typobold
-
-- uni00690307.sc
-
-- zero.bsf
-
-- zero.btf
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: try adding symbols2</li>
-<li>U+2001 EM QUAD: try adding symbols2</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -12465,9 +11098,9 @@ definitions.</p>
 
 * Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;203.0,676.0&gt;--&lt;200.0,569.0&gt;&gt; -&gt; L&lt;&lt;200.0,569.0&gt;--&lt;199.0,365.0&gt;&gt;
+* b (U+0062): L&lt;&lt;209.0,676.0&gt;--&lt;206.0,569.0&gt;&gt; -&gt; L&lt;&lt;206.0,569.0&gt;--&lt;205.0,365.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* d (U+0064): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
 
 * d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
 
@@ -12477,13 +11110,13 @@ definitions.</p>
 
 * d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
 
 * delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
 
@@ -12509,17 +11142,17 @@ definitions.</p>
 
 * five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* h (U+0068): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,342.0&gt;&gt;
 
 * h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
 * h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,500.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,342.0&gt;&gt;
 
-* hyphen (U+002D): L&lt;&lt;86.0,261.0&gt;--&lt;283.0,278.0&gt;&gt; -&gt; L&lt;&lt;283.0,278.0&gt;--&lt;342.0,278.0&gt;&gt;
+* hyphen (U+002D): L&lt;&lt;80.0,261.0&gt;--&lt;277.0,278.0&gt;&gt; -&gt; L&lt;&lt;277.0,278.0&gt;--&lt;336.0,278.0&gt;&gt;
 
 * ij (U+0133): L&lt;&lt;524.0,411.0&gt;--&lt;522.0,332.0&gt;&gt; -&gt; L&lt;&lt;522.0,332.0&gt;--&lt;522.0,86.0&gt;&gt;
 
@@ -12527,17 +11160,17 @@ definitions.</p>
 
 * jcircumflex (U+0135): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,229.0&gt;&gt;
+* k (U+006B): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,229.0&gt;&gt;
 
 * kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* l (U+006C): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;205.0,372.0&gt;&gt;
 
 * nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
 
@@ -12545,35 +11178,35 @@ definitions.</p>
 
 * omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
 
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
+* paragraph (U+00B6): L&lt;&lt;387.0,519.0&gt;--&lt;385.0,310.0&gt;&gt; -&gt; L&lt;&lt;385.0,310.0&gt;--&lt;387.0,148.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;160.0,339.0&gt;--&lt;159.0,287.0&gt;&gt; -&gt; L&lt;&lt;159.0,287.0&gt;--&lt;159.0,0.0&gt;&gt;
 
 * psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
 
-* u (U+0075): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* u (U+0075): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uacute (U+00FA): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uacute (U+00FA): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* ubreve (U+016D): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ubreve (U+016D): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* ucircumflex (U+00FB): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ucircumflex (U+00FB): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* udieresis (U+00FC): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* udieresis (U+00FC): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* ugrave (U+00F9): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ugrave (U+00F9): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uhorn (U+01B0): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uhorn (U+01B0): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uhungarumlaut (U+0171): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uhungarumlaut (U+0171): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* umacron (U+016B): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* umacron (U+016B): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
 * uni006A0301: L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,229.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,229.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
 * uni0237 (U+0237): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
 
@@ -12581,23 +11214,23 @@ definitions.</p>
 
 * uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EE5 (U+1EE5): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE5 (U+1EE5): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EE7 (U+1EE7): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE7 (U+1EE7): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EE9 (U+1EE9): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE9 (U+1EE9): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EEB (U+1EEB): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EEB (U+1EEB): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EED (U+1EED): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EED (U+1EED): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EEF (U+1EEF): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EEF (U+1EEF): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* uni1EF1 (U+1EF1): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EF1 (U+1EF1): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
 * uni2010 (U+2010): L&lt;&lt;86.0,261.0&gt;--&lt;283.0,278.0&gt;&gt; -&gt; L&lt;&lt;283.0,278.0&gt;--&lt;342.0,278.0&gt;&gt;
 
-* uogonek (U+0173): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uogonek (U+0173): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
 * upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
@@ -12607,9 +11240,9 @@ definitions.</p>
 
 * upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
-* uring (U+016F): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uring (U+016F): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 
-* utilde (U+0169): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* utilde (U+0169): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -12695,7 +11328,7 @@ definitions.</p>
 
 * CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
 
-* M (U+004D): L&lt;&lt;751.0,104.0&gt;--&lt;753.0,498.0&gt;&gt;
+* M (U+004D): L&lt;&lt;711.0,104.0&gt;--&lt;713.0,498.0&gt;&gt;
 
 * Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
 
@@ -12705,9 +11338,9 @@ definitions.</p>
 
 * ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;199.0,328.0&gt;--&lt;198.0,80.0&gt;&gt;
+* b (U+0062): L&lt;&lt;205.0,328.0&gt;--&lt;204.0,80.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;200.0,569.0&gt;--&lt;199.0,365.0&gt;&gt;
+* b (U+0062): L&lt;&lt;206.0,569.0&gt;--&lt;205.0,365.0&gt;&gt;
 
 * c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
 
@@ -12729,25 +11362,2821 @@ definitions.</p>
 
 * five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* l (U+006C): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;205.0,364.0&gt;--&lt;204.0,68.0&gt;&gt;
 
 * oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;15.0,385.0&gt;--&lt;161.0,384.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;359.0,-164.0&gt;--&lt;360.0,45.0&gt;&gt;
+* q (U+0071): L&lt;&lt;371.0,-164.0&gt;--&lt;372.0,45.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;360.0,71.0&gt;--&lt;361.0,349.0&gt;&gt;
+* q (U+0071): L&lt;&lt;372.0,71.0&gt;--&lt;373.0,349.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;132.0,660.0&gt;--&lt;131.0,341.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+</code></pre>
+ [code: found-semi-vertical]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[26] OHamburgC-Bold.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>fsSelection Bold flag False does not match font style Bold</p>
+ [code: bad-BOLD]
+
+
+
+* 🔥 **FAIL** <p>fsSelection Regular flag True does not match font style Bold</p>
+ [code: bad-REGULAR]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-mac-style">opentype/mac_style</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head macStyle BOLD bit should be set.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
+ [code: ascent]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
+ [code: notdef-is-blank]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>&quot;OHamburgC&quot; contains an abbreviation.</p>
+ [code: abbreviation]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font names are incorrect:</p>
+<table>
+<thead>
+<tr>
+<th align="left">nameID</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Family Name</td>
+<td align="left"><strong>OHamburgC Bold</strong></td>
+<td align="left"><strong>OHamburgC</strong></td>
+</tr>
+<tr>
+<td align="left">Subfamily Name</td>
+<td align="left"><strong>Regular</strong></td>
+<td align="left"><strong>Bold</strong></td>
+</tr>
+<tr>
+<td align="left">Full Name</td>
+<td align="left">OHamburgC Bold</td>
+<td align="left">OHamburgC Bold</td>
+</tr>
+<tr>
+<td align="left">Postscript Name</td>
+<td align="left">OHamburgC-Bold</td>
+<td align="left">OHamburgC-Bold</td>
+</tr>
+<tr>
+<td align="left">Typographic Family Name</td>
+<td align="left"><strong>OHamburgC</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">Typographic Subfamily Name</td>
+<td align="left"><strong>Bold</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+</tbody>
+</table>
+ [code: bad-names]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
+ [code: drm]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x0060 (GRAVE ACCENT)
+
+
+- 0x00A8 (DIAERESIS)
+
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+- 0x00AF (MACRON)
+
+
+- 0x00B4 (ACUTE ACCENT)
+
+
+- 0x00B8 (CEDILLA)
+
+
+- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
+
+
+- 0x02C7 (CARON)
+
+
+- 0x02D8 (BREVE)
+
+
+- 0x02D9 (DOT ABOVE)
+
+
+- 0x02DA (RING ABOVE)
+
+
+- 0x02DB (OGONEK)
+
+
+- 0x02DC (SMALL TILDE)
+
+
+- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+- 0x2122 (TRADE MARK SIGN)
+</code></pre>
+ [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-weightclass">googlefonts/weightclass</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Best SubFamily name is 'Bold'. Expected OS/2 usWeightClass is 700, got 600.</p>
+ [code: bad-value]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 585 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 582:
+multiply</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt; has the same coordinates as a previous segment.
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- CGPT
+
+- a.calt1
+
+- a.calt2
+
+- d.calt1
+
+- d.calt2
+
+- e.calt1
+
+- e.calt2
+
+- eight.bsf
+
+- eight.btf
+
+- five.bsf
+
+- five.btf
+
+- four.bsf
+
+- four.btf
+
+- h.calt1
+
+- h.calt2
+
+- n.calt1
+
+- n.calt2
+
+- nine.bsf
+
+- nine.btf
+
+- one.bsf
+
+- one.btf
+
+- r.calt1
+
+- r.calt2
+
+- s.calt1
+
+- s.calt2
+
+- seven.bsf
+
+- seven.btf
+
+- six.bsf
+
+- six.btf
+
+- t.calt1
+
+- t.calt2
+
+- three.bsf
+
+- three.btf
+
+- two.bsf
+
+- two.btf
+
+- typobold
+
+- uni00690307.sc
+
+- zero.bsf
+
+- zero.btf
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: try adding symbols2</li>
+<li>U+2001 EM QUAD: try adding symbols2</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
+<td align="left">el_Grek (Greek)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ª</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fi_Latn (Finnish) and nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋ į̛̌ į̛̒</p>
+ [code: soft-dotted]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt; -&gt; L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;179.0,667.0&gt;--&lt;176.0,560.0&gt;&gt; -&gt; L&lt;&lt;176.0,560.0&gt;--&lt;175.0,355.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,94.0&gt;&gt;
+
+* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
+
+* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcaron (U+010F): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,94.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcroat (U+0111): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,543.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* h (U+0068): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,333.0&gt;&gt;
+
+* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* hbar (U+0127): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,517.0&gt;&gt;
+
+* hcircumflex (U+0125): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,333.0&gt;&gt;
+
+* hyphen (U+002D): L&lt;&lt;79.0,250.0&gt;--&lt;258.0,266.0&gt;&gt; -&gt; L&lt;&lt;258.0,266.0&gt;--&lt;312.0,266.0&gt;&gt;
+
+* ij (U+0133): L&lt;&lt;452.0,402.0&gt;--&lt;450.0,323.0&gt;&gt; -&gt; L&lt;&lt;450.0,323.0&gt;--&lt;450.0,77.0&gt;&gt;
+
+* j (U+006A): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
+
+* jcircumflex (U+0135): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
+
+* k (U+006B): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,213.0&gt;&gt;
+
+* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
+
+* l (U+006C): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
+
+* lacute (U+013A): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
+
+* lcaron (U+013E): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
+
+* lslash (U+0142): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,392.0&gt;&gt;
+
+* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
+
+* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* paragraph (U+00B6): L&lt;&lt;392.0,519.0&gt;--&lt;390.0,310.0&gt;&gt; -&gt; L&lt;&lt;390.0,310.0&gt;--&lt;392.0,148.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;162.0,339.0&gt;--&lt;161.0,287.0&gt;&gt; -&gt; L&lt;&lt;161.0,287.0&gt;--&lt;161.0,0.0&gt;&gt;
+
+* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
+
+* u (U+0075): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uacute (U+00FA): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* ubreve (U+016D): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* ucircumflex (U+00FB): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* udieresis (U+00FC): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* ugrave (U+00F9): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uhorn (U+01B0): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uhungarumlaut (U+0171): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* umacron (U+016B): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni006A0301: L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
+
+* uni0137 (U+0137): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,213.0&gt;&gt;
+
+* uni013C (U+013C): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
+
+* uni0237 (U+0237): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
+
+* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;407.0,394.0&gt;--&lt;405.0,321.0&gt;&gt; -&gt; L&lt;&lt;405.0,321.0&gt;--&lt;402.0,76.0&gt;&gt;
+
+* uni1EE5 (U+1EE5): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EE7 (U+1EE7): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EE9 (U+1EE9): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EEB (U+1EEB): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EED (U+1EED): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EEF (U+1EEF): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni1EF1 (U+1EF1): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* uni2010 (U+2010): L&lt;&lt;36.0,241.0&gt;--&lt;82.0,250.0&gt;&gt; -&gt; L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt;
+
+* uni2010 (U+2010): L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt; -&gt; L&lt;&lt;243.0,266.0&gt;--&lt;297.0,266.0&gt;&gt;
+
+* uogonek (U+0173): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* uring (U+016F): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+
+* utilde (U+0169): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
+
+* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
+
+* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* s_t: L&lt;&lt;336.0,349.0&gt;--&lt;336.0,350.0&gt;&gt;/B&lt;&lt;336.0,350.0&gt;-&lt;334.0,335.0&gt;-&lt;332.0,315.5&gt;&gt; = 7.594643368591447
+
+* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
+
+* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
+
+* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
+
+* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
+
+* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;474.0,323.0&gt;--&lt;473.0,576.0&gt;&gt;
+
+* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
+
+* M (U+004D): L&lt;&lt;696.0,104.0&gt;--&lt;694.0,512.0&gt;&gt;
+
+* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
+
+* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;175.0,323.0&gt;--&lt;174.0,80.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;176.0,560.0&gt;--&lt;175.0,355.0&gt;&gt;
+
+* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;17.0,385.0&gt;--&lt;163.0,384.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;356.0,-164.0&gt;--&lt;357.0,49.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;357.0,74.0&gt;--&lt;358.0,323.0&gt;&gt;
+
+* thorn (U+00FE): L&lt;&lt;138.0,660.0&gt;--&lt;137.0,341.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;83.0,111.0&gt;--&lt;82.0,301.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* z (U+007A): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
+
+* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zacute (U+017A): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
+
+* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zcaron (U+017E): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
+
+* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zdotaccent (U+017C): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
+
+* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+</code></pre>
+ [code: found-semi-vertical]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[25] OHamburgC-Black.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>fsSelection Bold flag True does not match font style Black</p>
+ [code: bad-BOLD]
+
+
+
+* 🔥 **FAIL** <p>fsSelection Regular flag False does not match font style Black</p>
+ [code: bad-REGULAR]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-mac-style">opentype/mac_style</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
+ [code: bad-BOLD]
+
+
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
+ [code: ascent]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
+ [code: notdef-is-blank]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>&quot;OHamburgC&quot; contains an abbreviation.</p>
+ [code: abbreviation]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font names are incorrect:</p>
+<table>
+<thead>
+<tr>
+<th align="left">nameID</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Family Name</td>
+<td align="left">OHamburgC Black</td>
+<td align="left">OHamburgC Black</td>
+</tr>
+<tr>
+<td align="left">Subfamily Name</td>
+<td align="left"><strong>Bold</strong></td>
+<td align="left"><strong>Regular</strong></td>
+</tr>
+<tr>
+<td align="left">Full Name</td>
+<td align="left">OHamburgC Black</td>
+<td align="left">OHamburgC Black</td>
+</tr>
+<tr>
+<td align="left">Postscript Name</td>
+<td align="left">OHamburgC-Black</td>
+<td align="left">OHamburgC-Black</td>
+</tr>
+<tr>
+<td align="left">Typographic Family Name</td>
+<td align="left">OHamburgC</td>
+<td align="left">OHamburgC</td>
+</tr>
+<tr>
+<td align="left">Typographic Subfamily Name</td>
+<td align="left">Black</td>
+<td align="left">Black</td>
+</tr>
+</tbody>
+</table>
+ [code: bad-names]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
+ [code: drm]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x0060 (GRAVE ACCENT)
+
+
+- 0x00A8 (DIAERESIS)
+
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+- 0x00AF (MACRON)
+
+
+- 0x00B4 (ACUTE ACCENT)
+
+
+- 0x00B8 (CEDILLA)
+
+
+- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
+
+
+- 0x02C7 (CARON)
+
+
+- 0x02D8 (BREVE)
+
+
+- 0x02D9 (DOT ABOVE)
+
+
+- 0x02DA (RING ABOVE)
+
+
+- 0x02DB (OGONEK)
+
+
+- 0x02DC (SMALL TILDE)
+
+
+- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+- 0x2122 (TRADE MARK SIGN)
+</code></pre>
+ [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 576 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 570:
+multiply</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* IJ (U+0132): L&lt;&lt;324.0,609.0&gt;--&lt;324.0,634.0&gt;&gt; has the same coordinates as a previous segment.
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- CGPT
+
+- a.calt1
+
+- a.calt2
+
+- d.calt1
+
+- d.calt2
+
+- e.calt1
+
+- e.calt2
+
+- eight.bsf
+
+- eight.btf
+
+- five.bsf
+
+- five.btf
+
+- four.bsf
+
+- four.btf
+
+- h.calt1
+
+- h.calt2
+
+- n.calt1
+
+- n.calt2
+
+- nine.bsf
+
+- nine.btf
+
+- one.bsf
+
+- one.btf
+
+- r.calt1
+
+- r.calt2
+
+- s.calt1
+
+- s.calt2
+
+- seven.bsf
+
+- seven.btf
+
+- six.bsf
+
+- six.btf
+
+- t.calt1
+
+- t.calt2
+
+- three.bsf
+
+- three.btf
+
+- two.bsf
+
+- two.btf
+
+- typobold
+
+- uni00690307.sc
+
+- zero.bsf
+
+- zero.btf
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: try adding symbols2</li>
+<li>U+2001 EM QUAD: try adding symbols2</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
+<td align="left">el_Grek (Greek)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ª</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fi_Latn (Finnish) and nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋ į̛̌ į̛̒</p>
+ [code: soft-dotted]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;209.0,676.0&gt;--&lt;206.0,569.0&gt;&gt; -&gt; L&lt;&lt;206.0,569.0&gt;--&lt;205.0,365.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
+
+* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
+
+* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcaron (U+010F): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcroat (U+0111): L&lt;&lt;518.0,676.0&gt;--&lt;516.0,575.0&gt;&gt; -&gt; L&lt;&lt;516.0,575.0&gt;--&lt;516.0,103.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* h (U+0068): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,342.0&gt;&gt;
+
+* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* hbar (U+0127): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,500.0&gt;&gt;
+
+* hcircumflex (U+0125): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,342.0&gt;&gt;
+
+* hyphen (U+002D): L&lt;&lt;80.0,261.0&gt;--&lt;277.0,278.0&gt;&gt; -&gt; L&lt;&lt;277.0,278.0&gt;--&lt;336.0,278.0&gt;&gt;
+
+* ij (U+0133): L&lt;&lt;524.0,411.0&gt;--&lt;522.0,332.0&gt;&gt; -&gt; L&lt;&lt;522.0,332.0&gt;--&lt;522.0,86.0&gt;&gt;
+
+* j (U+006A): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+
+* jcircumflex (U+0135): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+
+* k (U+006B): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,229.0&gt;&gt;
+
+* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
+
+* l (U+006C): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lacute (U+013A): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lcaron (U+013E): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lslash (U+0142): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;205.0,372.0&gt;&gt;
+
+* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
+
+* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* paragraph (U+00B6): L&lt;&lt;387.0,519.0&gt;--&lt;385.0,310.0&gt;&gt; -&gt; L&lt;&lt;385.0,310.0&gt;--&lt;387.0,148.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;160.0,339.0&gt;--&lt;159.0,287.0&gt;&gt; -&gt; L&lt;&lt;159.0,287.0&gt;--&lt;159.0,0.0&gt;&gt;
+
+* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
+
+* u (U+0075): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uacute (U+00FA): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* ubreve (U+016D): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* ucircumflex (U+00FB): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* udieresis (U+00FC): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* ugrave (U+00F9): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uhorn (U+01B0): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uhungarumlaut (U+0171): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* umacron (U+016B): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni006A0301: L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+
+* uni0137 (U+0137): L&lt;&lt;206.0,676.0&gt;--&lt;204.0,575.0&gt;&gt; -&gt; L&lt;&lt;204.0,575.0&gt;--&lt;204.0,229.0&gt;&gt;
+
+* uni013C (U+013C): L&lt;&lt;208.0,676.0&gt;--&lt;205.0,575.0&gt;&gt; -&gt; L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* uni0237 (U+0237): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+
+* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EE5 (U+1EE5): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EE7 (U+1EE7): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EE9 (U+1EE9): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EEB (U+1EEB): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EED (U+1EED): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EEF (U+1EEF): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni1EF1 (U+1EF1): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* uni2010 (U+2010): L&lt;&lt;86.0,261.0&gt;--&lt;283.0,278.0&gt;&gt; -&gt; L&lt;&lt;283.0,278.0&gt;--&lt;342.0,278.0&gt;&gt;
+
+* uogonek (U+0173): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* uring (U+016F): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+
+* utilde (U+0169): L&lt;&lt;495.0,412.0&gt;--&lt;493.0,339.0&gt;&gt; -&gt; L&lt;&lt;493.0,339.0&gt;--&lt;490.0,94.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
+
+* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
+
+* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
+
+* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
+
+* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
+
+* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
+
+* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;483.0,332.0&gt;--&lt;482.0,585.0&gt;&gt;
+
+* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
+
+* M (U+004D): L&lt;&lt;711.0,104.0&gt;--&lt;713.0,498.0&gt;&gt;
+
+* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
+
+* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;205.0,328.0&gt;--&lt;204.0,80.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;206.0,569.0&gt;--&lt;205.0,365.0&gt;&gt;
+
+* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* l (U+006C): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lacute (U+013A): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lcaron (U+013E): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* lslash (U+0142): L&lt;&lt;205.0,364.0&gt;--&lt;204.0,68.0&gt;&gt;
+
+* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;15.0,385.0&gt;--&lt;161.0,384.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;371.0,-164.0&gt;--&lt;372.0,45.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;372.0,71.0&gt;--&lt;373.0,349.0&gt;&gt;
+
+* thorn (U+00FE): L&lt;&lt;132.0,660.0&gt;--&lt;131.0,341.0&gt;&gt;
+
+* uni013C (U+013C): L&lt;&lt;205.0,575.0&gt;--&lt;204.0,68.0&gt;&gt;
 
 * uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
 
@@ -13775,11 +15204,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -13853,7 +15282,7 @@ definitions.</p>
 
 * d (U+0064): L&lt;&lt;419.0,538.0&gt;--&lt;350.0,308.0&gt;&gt; -&gt; L&lt;&lt;350.0,308.0&gt;--&lt;324.0,217.0&gt;&gt;
 
-* paragraph (U+00B6): L&lt;&lt;497.0,519.0&gt;--&lt;436.0,310.0&gt;&gt; -&gt; L&lt;&lt;436.0,310.0&gt;--&lt;393.0,148.0&gt;&gt;
+* paragraph (U+00B6): L&lt;&lt;484.0,519.0&gt;--&lt;423.0,310.0&gt;&gt; -&gt; L&lt;&lt;423.0,310.0&gt;--&lt;380.0,148.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -13873,31 +15302,31 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* M (U+004D): L&lt;&lt;399.0,117.0&gt;--&lt;394.0,107.0&gt;&gt;/L&lt;&lt;394.0,107.0&gt;--&lt;782.0,616.0&gt;&gt; = 10.752460639626584
+<pre><code>* M (U+004D): L&lt;&lt;417.0,117.0&gt;--&lt;412.0,107.0&gt;&gt;/L&lt;&lt;412.0,107.0&gt;--&lt;800.0,616.0&gt;&gt; = 10.752460639626584
 
-* four (U+0034): L&lt;&lt;339.0,352.0&gt;--&lt;362.0,374.0&gt;&gt;/L&lt;&lt;362.0,374.0&gt;--&lt;36.0,66.0&gt;&gt; = 0.35322717665818615
+* four (U+0034): L&lt;&lt;345.0,352.0&gt;--&lt;368.0,374.0&gt;&gt;/L&lt;&lt;368.0,374.0&gt;--&lt;42.0,66.0&gt;&gt; = 0.35322717665818615
 
-* h (U+0068): B&lt;&lt;153.0,308.0&gt;-&lt;153.0,307.0&gt;-&lt;152.0,306.0&gt;&gt;/B&lt;&lt;152.0,306.0&gt;-&lt;185.0,356.0&gt;-&lt;220.5,385.0&gt;&gt; = 11.575188817396214
+* h (U+0068): B&lt;&lt;143.0,308.0&gt;-&lt;143.0,307.0&gt;-&lt;142.0,306.0&gt;&gt;/B&lt;&lt;142.0,306.0&gt;-&lt;175.0,356.0&gt;-&lt;210.5,385.0&gt;&gt; = 11.575188817396214
 
-* h (U+0068): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;207.0,480.0&gt;-&lt;188.5,423.0&gt;&gt; = 2.299799421792004
+* h (U+0068): B&lt;&lt;218.0,541.0&gt;-&lt;207.0,510.0&gt;-&lt;214.0,538.0&gt;&gt;/B&lt;&lt;214.0,538.0&gt;-&lt;197.0,480.0&gt;-&lt;178.5,423.0&gt;&gt; = 2.299799421792004
 
 * k (U+006B): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;209.0,489.0&gt;-&lt;193.5,439.5&gt;&gt; = 2.9842821435933584
 
-* m (U+006D): B&lt;&lt;383.0,261.5&gt;-&lt;380.0,251.0&gt;-&lt;379.0,247.0&gt;&gt;/B&lt;&lt;379.0,247.0&gt;-&lt;422.0,329.0&gt;-&lt;473.5,372.5&gt;&gt; = 13.635834754832322
+* m (U+006D): B&lt;&lt;372.0,261.5&gt;-&lt;369.0,251.0&gt;-&lt;368.0,247.0&gt;&gt;/B&lt;&lt;368.0,247.0&gt;-&lt;411.0,329.0&gt;-&lt;462.5,372.5&gt;&gt; = 13.635834754832322
 
-* n (U+006E): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
+* n (U+006E): B&lt;&lt;185.0,332.0&gt;-&lt;173.0,281.0&gt;-&lt;162.0,237.0&gt;&gt;/B&lt;&lt;162.0,237.0&gt;-&lt;206.0,324.0&gt;-&lt;258.5,370.0&gt;&gt; = 12.791630542388019
 
-* ntilde (U+00F1): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
+* ntilde (U+00F1): B&lt;&lt;185.0,332.0&gt;-&lt;173.0,281.0&gt;-&lt;162.0,237.0&gt;&gt;/B&lt;&lt;162.0,237.0&gt;-&lt;206.0,324.0&gt;-&lt;258.5,370.0&gt;&gt; = 12.791630542388019
 
-* u (U+0075): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+* u (U+0075): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
 
-* uacute (U+00FA): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+* uacute (U+00FA): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
 
-* ucircumflex (U+00FB): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+* ucircumflex (U+00FB): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
 
-* udieresis (U+00FC): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+* udieresis (U+00FC): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
 
-* ugrave (U+00F9): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
+* ugrave (U+00F9): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -13944,10 +15373,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[24] OHamburgC-Black.ttf</summary>
+<details><summary>[20] OHamburgCSC-Italic.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsSelection value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fsselection">opentype/fsselection</a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
 
 
@@ -13956,13 +15385,13 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>fsSelection Bold flag True does not match font style Black</p>
- [code: bad-BOLD]
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 970 instead</p>
+ [code: ascent]
 
 
 
-* 🔥 **FAIL** <p>fsSelection Regular flag False does not match font style Black</p>
- [code: bad-REGULAR]
+* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 270, but got 230 instead</p>
+ [code: descent]
 
 
 
@@ -13970,7 +15399,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-mac-style">opentype/mac_style</a></summary>
+    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#linegaps">linegaps</a></summary>
     <div>
 
 
@@ -13979,16 +15408,960 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>head macStyle BOLD bit should be unset.</p>
- [code: bad-BOLD]
-
-
+* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
+<p><em>Overridden</em>: This check was originally a WARN but was
+overridden by the universal profile:
+For Google Fonts, all messages from this check are considered FAILs.</p>
+ [code: OS/2]
 
 
 
 </div>
 </details>
 
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2 sTypoAscender (637) and hhea ascent (970) must be equal.</p>
+ [code: ascender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
+ [code: missing-whitespace-glyph-0x00A0]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>No GF glyphset was found to be supported &gt;80%, so language shaping support couldn't get checked.</p>
+ [code: no-glyphset-supported]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
+ [code: drm]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x0022 (QUOTATION MARK)
+
+
+- 0x0023 (NUMBER SIGN)
+
+
+- 0x0024 (DOLLAR SIGN)
+
+
+- 0x0025 (PERCENT SIGN)
+
+
+- 0x002A (ASTERISK)
+
+
+- 0x002B (PLUS SIGN)
+
+
+- 0x002F (SOLIDUS)
+
+
+- 0x003C (LESS-THAN SIGN)
+
+
+- 0x003D (EQUALS SIGN)
+
+
+- 0x003E (GREATER-THAN SIGN)
+
+
+- 0x005C (REVERSE SOLIDUS)
+
+
+- 0x005E (CIRCUMFLEX ACCENT)
+
+
+- 0x005F (LOW LINE)
+
+
+- 0x0060 (GRAVE ACCENT)
+
+
+- 0x007C (VERTICAL LINE)
+
+
+- 0x007E (TILDE)
+
+
+- 0x00A0 (NO-BREAK SPACE)
+
+
+- 0x00A2 (CENT SIGN)
+
+
+- 0x00A3 (POUND SIGN)
+
+
+- 0x00A5 (YEN SIGN)
+
+
+- 0x00A7 (SECTION SIGN)
+
+
+- 0x00A8 (DIAERESIS)
+
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+- 0x00AE (REGISTERED SIGN)
+
+
+- 0x00AF (MACRON)
+
+
+- 0x00B0 (DEGREE SIGN)
+
+
+- 0x00B4 (ACUTE ACCENT)
+
+
+- 0x00B7 (MIDDLE DOT)
+
+
+- 0x00B8 (CEDILLA)
+
+
+- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+
+- 0x00C6 (LATIN CAPITAL LETTER AE)
+
+
+- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
+
+
+- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
+
+
+- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
+
+
+- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
+
+
+- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
+
+
+- 0x00D0 (LATIN CAPITAL LETTER ETH)
+
+
+- 0x00D7 (MULTIPLICATION SIGN)
+
+
+- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
+
+
+- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
+
+
+- 0x00DE (LATIN CAPITAL LETTER THORN)
+
+
+- 0x00E6 (LATIN SMALL LETTER AE)
+
+
+- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
+
+
+- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
+
+
+- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
+
+
+- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
+
+
+- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
+
+
+- 0x00F0 (LATIN SMALL LETTER ETH)
+
+
+- 0x00F7 (DIVISION SIGN)
+
+
+- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
+
+
+- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
+
+
+- 0x00FE (LATIN SMALL LETTER THORN)
+
+
+- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
+
+
+- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
+
+
+- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
+
+
+- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
+
+
+- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
+
+
+- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
+
+
+- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
+
+
+- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
+
+
+- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
+
+
+- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
+
+
+- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
+
+
+- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
+
+
+- 0x010D (LATIN SMALL LETTER C WITH CARON)
+
+
+- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
+
+
+- 0x010F (LATIN SMALL LETTER D WITH CARON)
+
+
+- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
+
+
+- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
+
+
+- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
+
+
+- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
+
+
+- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
+
+
+- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
+
+
+- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
+
+
+- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
+
+
+- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
+
+
+- 0x011B (LATIN SMALL LETTER E WITH CARON)
+
+
+- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
+
+
+- 0x011F (LATIN SMALL LETTER G WITH BREVE)
+
+
+- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
+
+
+- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
+
+
+- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
+
+
+- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
+
+
+- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
+
+
+- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
+
+
+- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
+
+
+- 0x012B (LATIN SMALL LETTER I WITH MACRON)
+
+
+- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
+
+
+- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
+
+
+- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
+
+
+- 0x0131 (LATIN SMALL LETTER DOTLESS I)
+
+
+- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
+
+
+- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
+
+
+- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
+
+
+- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
+
+
+- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
+
+
+- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
+
+
+- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
+
+
+- 0x013E (LATIN SMALL LETTER L WITH CARON)
+
+
+- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
+
+
+- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
+
+
+- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
+
+
+- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
+
+
+- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
+
+
+- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
+
+
+- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
+
+
+- 0x0148 (LATIN SMALL LETTER N WITH CARON)
+
+
+- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
+
+
+- 0x0152 (LATIN CAPITAL LIGATURE OE)
+
+
+- 0x0153 (LATIN SMALL LIGATURE OE)
+
+
+- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
+
+
+- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
+
+
+- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
+
+
+- 0x0159 (LATIN SMALL LETTER R WITH CARON)
+
+
+- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
+
+
+- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
+
+
+- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
+
+
+- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
+
+
+- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
+
+
+- 0x0161 (LATIN SMALL LETTER S WITH CARON)
+
+
+- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
+
+
+- 0x0165 (LATIN SMALL LETTER T WITH CARON)
+
+
+- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
+
+
+- 0x016B (LATIN SMALL LETTER U WITH MACRON)
+
+
+- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
+
+
+- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
+
+
+- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
+
+
+- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
+
+
+- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
+
+
+- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
+
+
+- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
+
+
+- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
+
+
+- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
+
+
+- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
+
+
+- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
+
+
+- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
+
+
+- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
+
+
+- 0x017E (LATIN SMALL LETTER Z WITH CARON)
+
+
+- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
+
+
+- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
+
+
+- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
+
+
+- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
+
+
+- 0x0237 (LATIN SMALL LETTER DOTLESS J)
+
+
+- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
+
+
+- 0x02C7 (CARON)
+
+
+- 0x02D8 (BREVE)
+
+
+- 0x02D9 (DOT ABOVE)
+
+
+- 0x02DA (RING ABOVE)
+
+
+- 0x02DB (OGONEK)
+
+
+- 0x02DC (SMALL TILDE)
+
+
+- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
+
+
+- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
+
+
+- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
+
+
+- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
+
+
+- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
+
+
+- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
+
+
+- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
+
+
+- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
+
+
+- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
+
+
+- 0x2013 (EN DASH)
+
+
+- 0x2014 (EM DASH)
+
+
+- 0x2018 (LEFT SINGLE QUOTATION MARK)
+
+
+- 0x2019 (RIGHT SINGLE QUOTATION MARK)
+
+
+- 0x201A (SINGLE LOW-9 QUOTATION MARK)
+
+
+- 0x201C (LEFT DOUBLE QUOTATION MARK)
+
+
+- 0x201D (RIGHT DOUBLE QUOTATION MARK)
+
+
+- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
+
+
+- 0x2022 (BULLET)
+
+
+- 0x2026 (HORIZONTAL ELLIPSIS)
+
+
+- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
+
+
+- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
+
+
+- 0x20AC (EURO SIGN)
+
+
+- 0x2122 (TRADE MARK SIGN)
+
+
+- 0x2212 (MINUS SIGN)
+</code></pre>
+ [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;333&quot; it should be 0</p>
+ [code: bad-OS/2.sTypoLineGap]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: w	Contours detected: 2	Expected: 1
+
+- Glyph name: w	Contours detected: 2	Expected: 1
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 817.0, but got 637 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0308.case.001
+
+- uni030C.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+0384 GREEK TONOS: try adding greek</li>
+<li>U+0385 GREEK DIALYTIKA TONOS: try adding greek</li>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* d (U+0064): L&lt;&lt;262.0,221.0&gt;--&lt;278.0,281.0&gt;&gt; -&gt; L&lt;&lt;278.0,281.0&gt;--&lt;298.0,344.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;419.0,538.0&gt;--&lt;350.0,308.0&gt;&gt; -&gt; L&lt;&lt;350.0,308.0&gt;--&lt;324.0,217.0&gt;&gt;
+
+* paragraph (U+00B6): L&lt;&lt;484.0,519.0&gt;--&lt;423.0,310.0&gt;&gt; -&gt; L&lt;&lt;423.0,310.0&gt;--&lt;380.0,148.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* M (U+004D): L&lt;&lt;417.0,117.0&gt;--&lt;412.0,107.0&gt;&gt;/L&lt;&lt;412.0,107.0&gt;--&lt;800.0,616.0&gt;&gt; = 10.752460639626584
+
+* four (U+0034): L&lt;&lt;345.0,352.0&gt;--&lt;368.0,374.0&gt;&gt;/L&lt;&lt;368.0,374.0&gt;--&lt;42.0,66.0&gt;&gt; = 0.35322717665818615
+
+* h (U+0068): B&lt;&lt;143.0,308.0&gt;-&lt;143.0,307.0&gt;-&lt;142.0,306.0&gt;&gt;/B&lt;&lt;142.0,306.0&gt;-&lt;175.0,356.0&gt;-&lt;210.5,385.0&gt;&gt; = 11.575188817396214
+
+* h (U+0068): B&lt;&lt;218.0,541.0&gt;-&lt;207.0,510.0&gt;-&lt;214.0,538.0&gt;&gt;/B&lt;&lt;214.0,538.0&gt;-&lt;197.0,480.0&gt;-&lt;178.5,423.0&gt;&gt; = 2.299799421792004
+
+* k (U+006B): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;209.0,489.0&gt;-&lt;193.5,439.5&gt;&gt; = 2.9842821435933584
+
+* m (U+006D): B&lt;&lt;372.0,261.5&gt;-&lt;369.0,251.0&gt;-&lt;368.0,247.0&gt;&gt;/B&lt;&lt;368.0,247.0&gt;-&lt;411.0,329.0&gt;-&lt;462.5,372.5&gt;&gt; = 13.635834754832322
+
+* n (U+006E): B&lt;&lt;185.0,332.0&gt;-&lt;173.0,281.0&gt;-&lt;162.0,237.0&gt;&gt;/B&lt;&lt;162.0,237.0&gt;-&lt;206.0,324.0&gt;-&lt;258.5,370.0&gt;&gt; = 12.791630542388019
+
+* ntilde (U+00F1): B&lt;&lt;185.0,332.0&gt;-&lt;173.0,281.0&gt;-&lt;162.0,237.0&gt;&gt;/B&lt;&lt;162.0,237.0&gt;-&lt;206.0,324.0&gt;-&lt;258.5,370.0&gt;&gt; = 12.791630542388019
+
+* u (U+0075): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
+
+* uacute (U+00FA): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
+
+* ucircumflex (U+00FB): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
+
+* udieresis (U+00FC): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
+
+* ugrave (U+00F9): B&lt;&lt;285.0,128.0&gt;-&lt;293.0,156.0&gt;-&lt;301.0,182.0&gt;&gt;/B&lt;&lt;301.0,182.0&gt;-&lt;256.0,90.0&gt;-&lt;205.5,41.0&gt;&gt; = 8.961935109233377
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
+ [code: unknown]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[22] OHamburgC-Regular.ttf</summary>
+<div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
@@ -14035,7 +16408,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
  [code: different-widths]
 
 
@@ -14094,65 +16467,6 @@ definitions.</p>
 
 * 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
  [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left">OHamburgC Black</td>
-<td align="left">OHamburgC Black</td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left"><strong>Bold</strong></td>
-<td align="left"><strong>Regular</strong></td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left">OHamburgC Black</td>
-<td align="left">OHamburgC Black</td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left">OHamburgC-Black</td>
-<td align="left">OHamburgC-Black</td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left">OHamburgC</td>
-<td align="left">OHamburgC</td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left">Black</td>
-<td align="left">Black</td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
 
 
 
@@ -14241,6 +16555,24 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x2122 (TRADE MARK SIGN)
 </code></pre>
  [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-weightclass">googlefonts/weightclass</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300.</p>
+ [code: bad-value]
 
 
 
@@ -14373,7 +16705,11 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; has the same coordinates as a previous segment.
+
+* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; has the same coordinates as a previous segment.
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
 
 * dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
@@ -14537,11 +16873,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -14552,7 +16888,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -14971,7 +17307,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
+<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; -&gt; L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
 
 * Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
 
@@ -14979,9 +17317,11 @@ definitions.</p>
 
 * Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;203.0,676.0&gt;--&lt;200.0,569.0&gt;&gt; -&gt; L&lt;&lt;200.0,569.0&gt;--&lt;199.0,365.0&gt;&gt;
+* b (U+0062): L&lt;&lt;149.0,658.0&gt;--&lt;146.0,551.0&gt;&gt; -&gt; L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; -&gt; L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
 
 * d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
 
@@ -14991,13 +17331,13 @@ definitions.</p>
 
 * d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;506.0,676.0&gt;--&lt;504.0,575.0&gt;&gt; -&gt; L&lt;&lt;504.0,575.0&gt;--&lt;504.0,103.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,529.0&gt;&gt;
 
 * delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
 
@@ -15023,35 +17363,35 @@ definitions.</p>
 
 * five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* h (U+0068): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
 * h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
 * h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,511.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,342.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
-* hyphen (U+002D): L&lt;&lt;86.0,261.0&gt;--&lt;283.0,278.0&gt;&gt; -&gt; L&lt;&lt;283.0,278.0&gt;--&lt;342.0,278.0&gt;&gt;
+* hyphen (U+002D): L&lt;&lt;77.0,239.0&gt;--&lt;239.0,253.0&gt;&gt; -&gt; L&lt;&lt;239.0,253.0&gt;--&lt;288.0,253.0&gt;&gt;
 
-* ij (U+0133): L&lt;&lt;524.0,411.0&gt;--&lt;522.0,332.0&gt;&gt; -&gt; L&lt;&lt;522.0,332.0&gt;--&lt;522.0,86.0&gt;&gt;
+* ij (U+0133): L&lt;&lt;380.0,393.0&gt;--&lt;378.0,314.0&gt;&gt; -&gt; L&lt;&lt;378.0,314.0&gt;--&lt;378.0,68.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+* j (U+006A): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
 
-* jcircumflex (U+0135): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,229.0&gt;&gt;
+* k (U+006B): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
 
 * kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* l (U+006C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,385.0&gt;&gt;
 
 * nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
 
@@ -15061,57 +17401,57 @@ definitions.</p>
 
 * paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;163.0,339.0&gt;--&lt;162.0,287.0&gt;&gt; -&gt; L&lt;&lt;162.0,287.0&gt;--&lt;162.0,0.0&gt;&gt;
 
 * psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
 
-* u (U+0075): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* u (U+0075): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uacute (U+00FA): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uacute (U+00FA): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* ubreve (U+016D): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ubreve (U+016D): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* ucircumflex (U+00FB): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ucircumflex (U+00FB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* udieresis (U+00FC): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* udieresis (U+00FC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* ugrave (U+00F9): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* ugrave (U+00F9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uhorn (U+01B0): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uhorn (U+01B0): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uhungarumlaut (U+0171): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uhungarumlaut (U+0171): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* umacron (U+016B): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* umacron (U+016B): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni006A0301: L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+* uni006A0301: L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;218.0,676.0&gt;--&lt;216.0,575.0&gt;&gt; -&gt; L&lt;&lt;216.0,575.0&gt;--&lt;216.0,229.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;220.0,676.0&gt;--&lt;217.0,575.0&gt;&gt; -&gt; L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;218.0,411.0&gt;--&lt;216.0,332.0&gt;&gt; -&gt; L&lt;&lt;216.0,332.0&gt;--&lt;216.0,86.0&gt;&gt;
+* uni0237 (U+0237): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
 
 * uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
 
-* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+* uni03BC (U+03BC): L&lt;&lt;414.0,394.0&gt;--&lt;412.0,321.0&gt;&gt; -&gt; L&lt;&lt;412.0,321.0&gt;--&lt;409.0,76.0&gt;&gt;
 
-* uni1EE5 (U+1EE5): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE5 (U+1EE5): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EE7 (U+1EE7): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE7 (U+1EE7): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EE9 (U+1EE9): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EE9 (U+1EE9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EEB (U+1EEB): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EEB (U+1EEB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EED (U+1EED): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EED (U+1EED): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EEF (U+1EEF): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EEF (U+1EEF): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni1EF1 (U+1EF1): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uni1EF1 (U+1EF1): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* uni2010 (U+2010): L&lt;&lt;86.0,261.0&gt;--&lt;283.0,278.0&gt;&gt; -&gt; L&lt;&lt;283.0,278.0&gt;--&lt;342.0,278.0&gt;&gt;
+* uni2010 (U+2010): L&lt;&lt;36.0,231.0&gt;--&lt;77.0,239.0&gt;&gt; -&gt; L&lt;&lt;77.0,239.0&gt;--&lt;203.0,253.0&gt;&gt;
 
-* uogonek (U+0173): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uogonek (U+0173): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
 * upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
@@ -15121,9 +17461,9 @@ definitions.</p>
 
 * upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
-* uring (U+016F): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* uring (U+016F): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 
-* utilde (U+0169): L&lt;&lt;489.0,412.0&gt;--&lt;487.0,339.0&gt;&gt; -&gt; L&lt;&lt;487.0,339.0&gt;--&lt;484.0,94.0&gt;&gt;
+* utilde (U+0169): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -15175,6 +17515,8 @@ definitions.</p>
 
 * thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
 
+* three (U+0033): B&lt;&lt;309.5,418.0&gt;-&lt;269.0,389.0&gt;-&lt;215.0,367.0&gt;&gt;/B&lt;&lt;215.0,367.0&gt;-&lt;253.0,374.0&gt;-&lt;289.0,374.0&gt;&gt; = 11.728870470964262
+
 * three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
 
 * three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
@@ -15205,11 +17547,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;483.0,332.0&gt;--&lt;482.0,585.0&gt;&gt;
+<pre><code>* AE (U+00C6): L&lt;&lt;465.0,314.0&gt;--&lt;464.0,567.0&gt;&gt;
 
 * CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
-
-* M (U+004D): L&lt;&lt;751.0,104.0&gt;--&lt;753.0,498.0&gt;&gt;
 
 * Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
 
@@ -15219,9 +17559,9 @@ definitions.</p>
 
 * ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;199.0,328.0&gt;--&lt;198.0,80.0&gt;&gt;
+* b (U+0062): L&lt;&lt;145.0,315.0&gt;--&lt;144.0,79.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;200.0,569.0&gt;--&lt;199.0,365.0&gt;&gt;
+* b (U+0062): L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
 
 * c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
 
@@ -15243,27 +17583,17 @@ definitions.</p>
 
 * five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
-
-* lacute (U+013A): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
-
-* lslash (U+0142): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
-
 * oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;18.0,385.0&gt;--&lt;164.0,384.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;359.0,-164.0&gt;--&lt;360.0,45.0&gt;&gt;
+* q (U+0071): L&lt;&lt;341.0,-164.0&gt;--&lt;342.0,52.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;360.0,71.0&gt;--&lt;361.0,349.0&gt;&gt;
+* q (U+0071): L&lt;&lt;342.0,76.0&gt;--&lt;343.0,290.0&gt;&gt;
 
 * thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;217.0,575.0&gt;--&lt;216.0,68.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
+* uni03BC (U+03BC): L&lt;&lt;90.0,111.0&gt;--&lt;89.0,301.0&gt;&gt;
 
 * upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
@@ -15273,11 +17603,19 @@ definitions.</p>
 
 * upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
+* z (U+007A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
 * z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zacute (U+017A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
 
 * zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 
+* zcaron (U+017E): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
 * zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zdotaccent (U+017C): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
 
 * zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 </code></pre>
@@ -15308,7 +17646,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[19] OHamburgCSC-Bold.ttf</summary>
+<details><summary>[19] OHamburgCSC-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
@@ -15356,7 +17694,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
  [code: different-widths]
 
 
@@ -15617,6 +17955,7618 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; has the same coordinates as a previous segment.
+
+* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; has the same coordinates as a previous segment.
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- CGPT
+
+- a.calt1
+
+- a.calt2
+
+- d.calt1
+
+- d.calt2
+
+- e.calt1
+
+- e.calt2
+
+- eight.bsf
+
+- eight.btf
+
+- five.bsf
+
+- five.btf
+
+- four.bsf
+
+- four.btf
+
+- h.calt1
+
+- h.calt2
+
+- n.calt1
+
+- n.calt2
+
+- nine.bsf
+
+- nine.btf
+
+- one.bsf
+
+- one.btf
+
+- r.calt1
+
+- r.calt2
+
+- s.calt1
+
+- s.calt2
+
+- seven.bsf
+
+- seven.btf
+
+- six.bsf
+
+- six.btf
+
+- t.calt1
+
+- t.calt2
+
+- three.bsf
+
+- three.btf
+
+- two.bsf
+
+- two.btf
+
+- typobold
+
+- uni00690307.sc
+
+- zero.bsf
+
+- zero.btf
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: try adding symbols2</li>
+<li>U+2001 EM QUAD: try adding symbols2</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
+<li>U+2206 INCREMENT: try adding math</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
+<li>U+2740 WHITE FLORETTE: try adding symbols</li>
+<li>U+2766 FLORAL HEART: try adding symbols</li>
+<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ả' and shaping the text 'ả' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ằ' and shaping the text 'ằ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẳ' and shaping the text 'ẳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẵ' and shaping the text 'ẵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ắ' and shaping the text 'ắ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ặ' and shaping the text 'ặ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ầ' and shaping the text 'ầ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẩ' and shaping the text 'ẩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẫ' and shaping the text 'ẫ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ấ' and shaping the text 'ấ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ậ' and shaping the text 'ậ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẻ' and shaping the text 'ẻ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ề' and shaping the text 'ề' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ể' and shaping the text 'ể' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ễ' and shaping the text 'ễ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ế' and shaping the text 'ế' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỉ' and shaping the text 'ỉ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĩ' and shaping the text 'ĩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỏ' and shaping the text 'ỏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ồ' and shaping the text 'ồ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ổ' and shaping the text 'ổ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỗ' and shaping the text 'ỗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ố' and shaping the text 'ố' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ơ' and shaping the text 'ơ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ờ' and shaping the text 'ờ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ở' and shaping the text 'ở' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỡ' and shaping the text 'ỡ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ớ' and shaping the text 'ớ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ợ' and shaping the text 'ợ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ủ' and shaping the text 'ủ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ũ' and shaping the text 'ũ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ư' and shaping the text 'ư' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ừ' and shaping the text 'ừ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ử' and shaping the text 'ử' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ữ' and shaping the text 'ữ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ứ' and shaping the text 'ứ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ự' and shaping the text 'ự' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỳ' and shaping the text 'ỳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỷ' and shaping the text 'ỷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỹ' and shaping the text 'ỹ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỵ' and shaping the text 'ỵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">vi_Latn (Vietnamese)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
+<td align="left">el_Grek (Greek)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ě' and shaping the text 'ě' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ů' and shaping the text 'ů' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cs_Latn (Czech)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẃ' and shaping the text 'ẃ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẁ' and shaping the text 'ẁ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŵ' and shaping the text 'ŵ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẅ' and shaping the text 'ẅ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ỳ' and shaping the text 'ỳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŷ' and shaping the text 'ŷ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǿ' and shaping the text 'ǿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">da_Latn (Danish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">de_Latn (German)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ª</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: º</td>
+<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">es_Latn (Spanish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ð' and shaping the text 'ð' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ě' and shaping the text 'ě' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ė' and shaping the text 'ė' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ģ' and shaping the text 'ģ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ȟ' and shaping the text 'ȟ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ħ' and shaping the text 'ħ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'į' and shaping the text 'į' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǩ' and shaping the text 'ǩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ķ' and shaping the text 'ķ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĺ' and shaping the text 'ĺ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ļ' and shaping the text 'ļ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ņ' and shaping the text 'ņ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ś' and shaping the text 'ś' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŝ' and shaping the text 'ŝ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ș' and shaping the text 'ș' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ţ' and shaping the text 'ţ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ț' and shaping the text 'ț' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ů' and shaping the text 'ů' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ų' and shaping the text 'ų' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ź' and shaping the text 'ź' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'þ' and shaping the text 'þ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">hr_Latn (Croatian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">hu_Latn (Hungarian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ð' and shaping the text 'ð' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'þ' and shaping the text 'þ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">is_Latn (Icelandic)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">it_Latn (Italian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ė' and shaping the text 'ė' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'į' and shaping the text 'į' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ų' and shaping the text 'ų' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĩ' and shaping the text 'ĩ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ũ' and shaping the text 'ũ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lt_Latn (Lithuanian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ģ' and shaping the text 'ģ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ķ' and shaping the text 'ķ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ļ' and shaping the text 'ļ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ņ' and shaping the text 'ņ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŗ' and shaping the text 'ŗ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">lv_Latn (Latvian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ġ' and shaping the text 'ġ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ħ' and shaping the text 'ħ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">mt_Latn (Maltese)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĳ' and shaping the text 'ĳ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ś' and shaping the text 'ś' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ź' and shaping the text 'ź' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pl_Latn (Polish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">pt_Latn (Portuguese)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ș' and shaping the text 'ș' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ț' and shaping the text 'ț' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ţ' and shaping the text 'ţ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">ro_Latn (Romanian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĺ' and shaping the text 'ĺ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sk_Latn (Slovak)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sq_Latn (Albanian)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sr_Latn (Serbian (Latin))</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">sv_Latn (Swedish)</td>
+</tr>
+<tr>
+<td align="left">Small caps for Latin letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
+<td align="left">tr_Latn (Turkish)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; -&gt; L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
+
+* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;149.0,658.0&gt;--&lt;146.0,551.0&gt;&gt; -&gt; L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
+
+* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; -&gt; L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
+
+* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
+
+* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
+
+* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcaron (U+010F): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
+
+* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
+
+* dcroat (U+0111): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,529.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
+
+* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* h (U+0068): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* hbar (U+0127): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,511.0&gt;&gt;
+
+* hcircumflex (U+0125): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
+
+* hyphen (U+002D): L&lt;&lt;77.0,239.0&gt;--&lt;239.0,253.0&gt;&gt; -&gt; L&lt;&lt;239.0,253.0&gt;--&lt;288.0,253.0&gt;&gt;
+
+* ij (U+0133): L&lt;&lt;380.0,393.0&gt;--&lt;378.0,314.0&gt;&gt; -&gt; L&lt;&lt;378.0,314.0&gt;--&lt;378.0,68.0&gt;&gt;
+
+* j (U+006A): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
+
+* jcircumflex (U+0135): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
+
+* k (U+006B): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
+
+* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
+
+* l (U+006C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
+
+* lacute (U+013A): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
+
+* lcaron (U+013E): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
+
+* lslash (U+0142): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,385.0&gt;&gt;
+
+* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
+
+* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
+
+* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;163.0,339.0&gt;--&lt;162.0,287.0&gt;&gt; -&gt; L&lt;&lt;162.0,287.0&gt;--&lt;162.0,0.0&gt;&gt;
+
+* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
+
+* u (U+0075): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uacute (U+00FA): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* ubreve (U+016D): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* ucircumflex (U+00FB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* udieresis (U+00FC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* ugrave (U+00F9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uhorn (U+01B0): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uhungarumlaut (U+0171): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* umacron (U+016B): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni006A0301: L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
+
+* uni0137 (U+0137): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
+
+* uni013C (U+013C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
+
+* uni0237 (U+0237): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
+
+* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;414.0,394.0&gt;--&lt;412.0,321.0&gt;&gt; -&gt; L&lt;&lt;412.0,321.0&gt;--&lt;409.0,76.0&gt;&gt;
+
+* uni1EE5 (U+1EE5): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EE7 (U+1EE7): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EE9 (U+1EE9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EEB (U+1EEB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EED (U+1EED): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EEF (U+1EEF): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni1EF1 (U+1EF1): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* uni2010 (U+2010): L&lt;&lt;36.0,231.0&gt;--&lt;77.0,239.0&gt;&gt; -&gt; L&lt;&lt;77.0,239.0&gt;--&lt;203.0,253.0&gt;&gt;
+
+* uogonek (U+0173): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* uring (U+016F): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+
+* utilde (U+0169): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+
+* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
+
+* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
+
+* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
+
+* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
+
+* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+
+* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
+
+* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
+
+* three (U+0033): B&lt;&lt;309.5,418.0&gt;-&lt;269.0,389.0&gt;-&lt;215.0,367.0&gt;&gt;/B&lt;&lt;215.0,367.0&gt;-&lt;253.0,374.0&gt;-&lt;289.0,374.0&gt;&gt; = 11.728870470964262
+
+* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
+
+* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
+
+* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
+
+* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
+
+* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;465.0,314.0&gt;--&lt;464.0,567.0&gt;&gt;
+
+* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
+
+* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
+
+* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
+
+* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;145.0,315.0&gt;--&lt;144.0,79.0&gt;&gt;
+
+* b (U+0062): L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
+
+* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
+
+* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
+
+* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
+
+* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
+
+* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
+
+* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
+
+* pi (U+03C0): L&lt;&lt;18.0,385.0&gt;--&lt;164.0,384.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;341.0,-164.0&gt;--&lt;342.0,52.0&gt;&gt;
+
+* q (U+0071): L&lt;&lt;342.0,76.0&gt;--&lt;343.0,290.0&gt;&gt;
+
+* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
+
+* uni03BC (U+03BC): L&lt;&lt;90.0,111.0&gt;--&lt;89.0,301.0&gt;&gt;
+
+* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
+
+* z (U+007A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
+* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zacute (U+017A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
+* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zcaron (U+017E): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
+* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+
+* zdotaccent (U+017C): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+
+* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
+</code></pre>
+ [code: found-semi-vertical]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[20] OHamburgCSC-Bold.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
+ [code: ascent]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
+ [code: notdef-is-blank]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 180 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
+ [code: missing]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
+The font may be embedded but must only be installed temporarily on other systems.</p>
+<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
+ [code: drm]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x0060 (GRAVE ACCENT)
+
+
+- 0x00A8 (DIAERESIS)
+
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+
+- 0x00AF (MACRON)
+
+
+- 0x00B4 (ACUTE ACCENT)
+
+
+- 0x00B8 (CEDILLA)
+
+
+- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
+
+
+- 0x02C7 (CARON)
+
+
+- 0x02D8 (BREVE)
+
+
+- 0x02D9 (DOT ABOVE)
+
+
+- 0x02DA (RING ABOVE)
+
+
+- 0x02DB (OGONEK)
+
+
+- 0x02DC (SMALL TILDE)
+
+
+- 0x02DD (DOUBLE ACUTE ACCENT)
+
+
+- 0x2122 (TRADE MARK SIGN)
+</code></pre>
+ [code: missing-codepoints]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: Uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
+
+- Glyph name: beta	Contours detected: 1	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: ohorn	Contours detected: 3	Expected: 2
+
+- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+ [code: contour-count]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 585 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 582:
+multiply</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* AE (U+00C6): L&lt;&lt;404.0,626.0&gt;--&lt;404.0,626.0&gt;&gt; has the same coordinates as a previous segment.
 
 * d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
@@ -15783,11 +25733,11 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, tifinagh, canadian-aboriginal, old-permic, malayalam, coptic, syriac, tai-le, math, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
@@ -15798,7 +25748,7 @@ definitions.</p>
 <li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
+<li>U+2010 HYPHEN: try adding one of: cham, kharoshthi, lisu, yi, kaithi, sora-sompeng, sundanese, arabic, armenian, coptic, syloti-nagri, kayah-li, hebrew</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
@@ -22568,9 +32518,9 @@ definitions.</p>
 
 * Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;176.0,667.0&gt;--&lt;173.0,560.0&gt;&gt; -&gt; L&lt;&lt;173.0,560.0&gt;--&lt;172.0,355.0&gt;&gt;
+* b (U+0062): L&lt;&lt;179.0,667.0&gt;--&lt;176.0,560.0&gt;&gt; -&gt; L&lt;&lt;176.0,560.0&gt;--&lt;175.0,355.0&gt;&gt;
 
-* d (U+0064): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,94.0&gt;&gt;
+* d (U+0064): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,94.0&gt;&gt;
 
 * d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
 
@@ -22580,13 +32530,13 @@ definitions.</p>
 
 * d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcaron (U+010F): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,94.0&gt;&gt;
+* dcaron (U+010F): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,94.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
 
 * dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
 
-* dcroat (U+0111): L&lt;&lt;461.0,667.0&gt;--&lt;459.0,566.0&gt;&gt; -&gt; L&lt;&lt;459.0,566.0&gt;--&lt;459.0,541.0&gt;&gt;
+* dcroat (U+0111): L&lt;&lt;467.0,667.0&gt;--&lt;465.0,566.0&gt;&gt; -&gt; L&lt;&lt;465.0,566.0&gt;--&lt;465.0,543.0&gt;&gt;
 
 * delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
 
@@ -22612,17 +32562,17 @@ definitions.</p>
 
 * five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
 
-* h (U+0068): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,333.0&gt;&gt;
+* h (U+0068): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,333.0&gt;&gt;
 
 * h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
 * h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,519.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,517.0&gt;&gt;
 
-* hcircumflex (U+0125): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,333.0&gt;&gt;
+* hcircumflex (U+0125): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,333.0&gt;&gt;
 
-* hyphen (U+002D): L&lt;&lt;82.0,250.0&gt;--&lt;261.0,266.0&gt;&gt; -&gt; L&lt;&lt;261.0,266.0&gt;--&lt;315.0,266.0&gt;&gt;
+* hyphen (U+002D): L&lt;&lt;79.0,250.0&gt;--&lt;258.0,266.0&gt;&gt; -&gt; L&lt;&lt;258.0,266.0&gt;--&lt;312.0,266.0&gt;&gt;
 
 * ij (U+0133): L&lt;&lt;452.0,402.0&gt;--&lt;450.0,323.0&gt;&gt; -&gt; L&lt;&lt;450.0,323.0&gt;--&lt;450.0,77.0&gt;&gt;
 
@@ -22630,17 +32580,17 @@ definitions.</p>
 
 * jcircumflex (U+0135): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
 
-* k (U+006B): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,213.0&gt;&gt;
+* k (U+006B): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,213.0&gt;&gt;
 
 * kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
+* l (U+006C): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
 
-* lcaron (U+013E): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,394.0&gt;&gt;
+* lslash (U+0142): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,392.0&gt;&gt;
 
 * nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
 
@@ -22648,61 +32598,61 @@ definitions.</p>
 
 * omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
 
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
+* paragraph (U+00B6): L&lt;&lt;392.0,519.0&gt;--&lt;390.0,310.0&gt;&gt; -&gt; L&lt;&lt;390.0,310.0&gt;--&lt;392.0,148.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;162.0,339.0&gt;--&lt;161.0,287.0&gt;&gt; -&gt; L&lt;&lt;161.0,287.0&gt;--&lt;161.0,0.0&gt;&gt;
 
 * psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
 
-* u (U+0075): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* u (U+0075): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uacute (U+00FA): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uacute (U+00FA): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* ubreve (U+016D): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* ubreve (U+016D): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* ucircumflex (U+00FB): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* ucircumflex (U+00FB): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* udieresis (U+00FC): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* udieresis (U+00FC): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* ugrave (U+00F9): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* ugrave (U+00F9): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uhorn (U+01B0): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uhorn (U+01B0): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uhungarumlaut (U+0171): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uhungarumlaut (U+0171): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* umacron (U+016B): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* umacron (U+016B): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
 * uni006A0301: L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
 
-* uni0137 (U+0137): L&lt;&lt;182.0,667.0&gt;--&lt;180.0,566.0&gt;&gt; -&gt; L&lt;&lt;180.0,566.0&gt;--&lt;180.0,213.0&gt;&gt;
+* uni0137 (U+0137): L&lt;&lt;176.0,667.0&gt;--&lt;174.0,566.0&gt;&gt; -&gt; L&lt;&lt;174.0,566.0&gt;--&lt;174.0,213.0&gt;&gt;
 
-* uni013C (U+013C): L&lt;&lt;184.0,667.0&gt;--&lt;181.0,566.0&gt;&gt; -&gt; L&lt;&lt;181.0,566.0&gt;--&lt;181.0,68.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;178.0,667.0&gt;--&lt;175.0,566.0&gt;&gt; -&gt; L&lt;&lt;175.0,566.0&gt;--&lt;175.0,68.0&gt;&gt;
 
 * uni0237 (U+0237): L&lt;&lt;182.0,402.0&gt;--&lt;180.0,323.0&gt;&gt; -&gt; L&lt;&lt;180.0,323.0&gt;--&lt;180.0,77.0&gt;&gt;
 
 * uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
 
-* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
+* uni03BC (U+03BC): L&lt;&lt;407.0,394.0&gt;--&lt;405.0,321.0&gt;&gt; -&gt; L&lt;&lt;405.0,321.0&gt;--&lt;402.0,76.0&gt;&gt;
 
-* uni1EE5 (U+1EE5): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EE5 (U+1EE5): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EE7 (U+1EE7): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EE7 (U+1EE7): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EE9 (U+1EE9): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EE9 (U+1EE9): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EEB (U+1EEB): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EEB (U+1EEB): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EED (U+1EED): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EED (U+1EED): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EEF (U+1EEF): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EEF (U+1EEF): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* uni1EF1 (U+1EF1): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uni1EF1 (U+1EF1): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
 * uni2010 (U+2010): L&lt;&lt;36.0,241.0&gt;--&lt;82.0,250.0&gt;&gt; -&gt; L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt;
 
 * uni2010 (U+2010): L&lt;&lt;82.0,250.0&gt;--&lt;243.0,266.0&gt;&gt; -&gt; L&lt;&lt;243.0,266.0&gt;--&lt;297.0,266.0&gt;&gt;
 
-* uogonek (U+0173): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uogonek (U+0173): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
 * upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
@@ -22712,9 +32662,9 @@ definitions.</p>
 
 * upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
-* uring (U+016F): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* uring (U+016F): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 
-* utilde (U+0169): L&lt;&lt;444.0,403.0&gt;--&lt;442.0,330.0&gt;&gt; -&gt; L&lt;&lt;442.0,330.0&gt;--&lt;439.0,85.0&gt;&gt;
+* utilde (U+0169): L&lt;&lt;447.0,403.0&gt;--&lt;445.0,330.0&gt;&gt; -&gt; L&lt;&lt;445.0,330.0&gt;--&lt;442.0,85.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -22734,9 +32684,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* c_t: L&lt;&lt;387.0,349.0&gt;--&lt;387.0,359.0&gt;&gt;/B&lt;&lt;387.0,359.0&gt;-&lt;384.0,338.0&gt;-&lt;381.0,307.0&gt;&gt; = 8.13010235415596
-
-* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
+<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
 
 * d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
 
@@ -22764,7 +32712,7 @@ definitions.</p>
 
 * rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
 
-* s_t: L&lt;&lt;333.0,349.0&gt;--&lt;333.0,363.0&gt;&gt;/B&lt;&lt;333.0,363.0&gt;-&lt;330.0,346.0&gt;-&lt;327.5,323.0&gt;&gt; = 10.007979801441312
+* s_t: L&lt;&lt;336.0,349.0&gt;--&lt;336.0,350.0&gt;&gt;/B&lt;&lt;336.0,350.0&gt;-&lt;334.0,335.0&gt;-&lt;332.0,315.5&gt;&gt; = 7.594643368591447
 
 * thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
 
@@ -22804,7 +32752,7 @@ definitions.</p>
 
 * CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
 
-* M (U+004D): L&lt;&lt;715.0,104.0&gt;--&lt;713.0,512.0&gt;&gt;
+* M (U+004D): L&lt;&lt;696.0,104.0&gt;--&lt;694.0,512.0&gt;&gt;
 
 * Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
 
@@ -22814,9 +32762,9 @@ definitions.</p>
 
 * ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;172.0,323.0&gt;--&lt;171.0,80.0&gt;&gt;
+* b (U+0062): L&lt;&lt;175.0,323.0&gt;--&lt;174.0,80.0&gt;&gt;
 
-* b (U+0062): L&lt;&lt;173.0,560.0&gt;--&lt;172.0,355.0&gt;&gt;
+* b (U+0062): L&lt;&lt;176.0,560.0&gt;--&lt;175.0,355.0&gt;&gt;
 
 * c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
 
@@ -22840,15 +32788,15 @@ definitions.</p>
 
 * oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
 
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
+* pi (U+03C0): L&lt;&lt;17.0,385.0&gt;--&lt;163.0,384.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;350.0,-164.0&gt;--&lt;351.0,49.0&gt;&gt;
+* q (U+0071): L&lt;&lt;356.0,-164.0&gt;--&lt;357.0,49.0&gt;&gt;
 
-* q (U+0071): L&lt;&lt;351.0,74.0&gt;--&lt;352.0,323.0&gt;&gt;
+* q (U+0071): L&lt;&lt;357.0,74.0&gt;--&lt;358.0,323.0&gt;&gt;
 
-* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
+* thorn (U+00FE): L&lt;&lt;138.0,660.0&gt;--&lt;137.0,341.0&gt;&gt;
 
-* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
+* uni03BC (U+03BC): L&lt;&lt;83.0,111.0&gt;--&lt;82.0,301.0&gt;&gt;
 
 * upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
@@ -22858,9883 +32806,19 @@ definitions.</p>
 
 * upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
 
-* z (U+007A): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
+* z (U+007A): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
 
 * z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 
-* zacute (U+017A): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
+* zacute (U+017A): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
 
 * zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 
-* zcaron (U+017E): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
+* zcaron (U+017E): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
 
 * zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 
-* zdotaccent (U+017C): L&lt;&lt;273.0,358.0&gt;--&lt;155.0,357.0&gt;&gt;
-
-* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[20] OHamburgCSC-Italic.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 970 instead</p>
- [code: ascent]
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 270, but got 230 instead</p>
- [code: descent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#linegaps">linegaps</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoAscender (637) and hhea ascent (970) must be equal.</p>
- [code: ascender]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>No GF glyphset was found to be supported &gt;80%, so language shaping support couldn't get checked.</p>
- [code: no-glyphset-supported]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0022 (QUOTATION MARK)
-
-
-- 0x0023 (NUMBER SIGN)
-
-
-- 0x0024 (DOLLAR SIGN)
-
-
-- 0x0025 (PERCENT SIGN)
-
-
-- 0x002A (ASTERISK)
-
-
-- 0x002B (PLUS SIGN)
-
-
-- 0x002F (SOLIDUS)
-
-
-- 0x003C (LESS-THAN SIGN)
-
-
-- 0x003D (EQUALS SIGN)
-
-
-- 0x003E (GREATER-THAN SIGN)
-
-
-- 0x005C (REVERSE SOLIDUS)
-
-
-- 0x005E (CIRCUMFLEX ACCENT)
-
-
-- 0x005F (LOW LINE)
-
-
-- 0x0060 (GRAVE ACCENT)
-
-
-- 0x007C (VERTICAL LINE)
-
-
-- 0x007E (TILDE)
-
-
-- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x00A2 (CENT SIGN)
-
-
-- 0x00A3 (POUND SIGN)
-
-
-- 0x00A5 (YEN SIGN)
-
-
-- 0x00A7 (SECTION SIGN)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00AE (REGISTERED SIGN)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B0 (DEGREE SIGN)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B7 (MIDDLE DOT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00C6 (LATIN CAPITAL LETTER AE)
-
-
-- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
-
-
-- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
-
-
-- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
-
-
-- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
-
-
-- 0x00D0 (LATIN CAPITAL LETTER ETH)
-
-
-- 0x00D7 (MULTIPLICATION SIGN)
-
-
-- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
-
-
-- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
-
-
-- 0x00DE (LATIN CAPITAL LETTER THORN)
-
-
-- 0x00E6 (LATIN SMALL LETTER AE)
-
-
-- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
-
-
-- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
-
-
-- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
-
-
-- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
-
-
-- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
-
-
-- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
-- 0x00F7 (DIVISION SIGN)
-
-
-- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
-
-
-- 0x00FE (LATIN SMALL LETTER THORN)
-
-
-- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
-
-
-- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-- 0x0131 (LATIN SMALL LETTER DOTLESS I)
-
-
-- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-- 0x0152 (LATIN CAPITAL LIGATURE OE)
-
-
-- 0x0153 (LATIN SMALL LIGATURE OE)
-
-
-- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-- 0x2013 (EN DASH)
-
-
-- 0x2014 (EM DASH)
-
-
-- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-- 0x2022 (BULLET)
-
-
-- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x20AC (EURO SIGN)
-
-
-- 0x2122 (TRADE MARK SIGN)
-
-
-- 0x2212 (MINUS SIGN)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;333&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: w	Contours detected: 2	Expected: 1
-
-- Glyph name: w	Contours detected: 2	Expected: 1
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 817.0, but got 637 instead</p>
- [code: typoAscender]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- uni0308.case.001
-
-- uni030C.alt
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0384 GREEK TONOS: try adding greek</li>
-<li>U+0385 GREEK DIALYTIKA TONOS: try adding greek</li>
-<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
-<li>U+2740 WHITE FLORETTE: try adding symbols</li>
-<li>U+2766 FLORAL HEART: try adding symbols</li>
-<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* d (U+0064): L&lt;&lt;262.0,221.0&gt;--&lt;278.0,281.0&gt;&gt; -&gt; L&lt;&lt;278.0,281.0&gt;--&lt;298.0,344.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;419.0,538.0&gt;--&lt;350.0,308.0&gt;&gt; -&gt; L&lt;&lt;350.0,308.0&gt;--&lt;324.0,217.0&gt;&gt;
-
-* paragraph (U+00B6): L&lt;&lt;497.0,519.0&gt;--&lt;436.0,310.0&gt;&gt; -&gt; L&lt;&lt;436.0,310.0&gt;--&lt;393.0,148.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* M (U+004D): L&lt;&lt;399.0,117.0&gt;--&lt;394.0,107.0&gt;&gt;/L&lt;&lt;394.0,107.0&gt;--&lt;782.0,616.0&gt;&gt; = 10.752460639626584
-
-* four (U+0034): L&lt;&lt;339.0,352.0&gt;--&lt;362.0,374.0&gt;&gt;/L&lt;&lt;362.0,374.0&gt;--&lt;36.0,66.0&gt;&gt; = 0.35322717665818615
-
-* h (U+0068): B&lt;&lt;153.0,308.0&gt;-&lt;153.0,307.0&gt;-&lt;152.0,306.0&gt;&gt;/B&lt;&lt;152.0,306.0&gt;-&lt;185.0,356.0&gt;-&lt;220.5,385.0&gt;&gt; = 11.575188817396214
-
-* h (U+0068): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;207.0,480.0&gt;-&lt;188.5,423.0&gt;&gt; = 2.299799421792004
-
-* k (U+006B): B&lt;&lt;228.0,541.0&gt;-&lt;217.0,510.0&gt;-&lt;224.0,538.0&gt;&gt;/B&lt;&lt;224.0,538.0&gt;-&lt;209.0,489.0&gt;-&lt;193.5,439.5&gt;&gt; = 2.9842821435933584
-
-* m (U+006D): B&lt;&lt;383.0,261.5&gt;-&lt;380.0,251.0&gt;-&lt;379.0,247.0&gt;&gt;/B&lt;&lt;379.0,247.0&gt;-&lt;422.0,329.0&gt;-&lt;473.5,372.5&gt;&gt; = 13.635834754832322
-
-* n (U+006E): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
-
-* ntilde (U+00F1): B&lt;&lt;199.0,332.0&gt;-&lt;187.0,281.0&gt;-&lt;176.0,237.0&gt;&gt;/B&lt;&lt;176.0,237.0&gt;-&lt;220.0,324.0&gt;-&lt;272.5,370.0&gt;&gt; = 12.791630542388019
-
-* u (U+0075): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
-
-* uacute (U+00FA): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
-
-* ucircumflex (U+00FB): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
-
-* udieresis (U+00FC): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
-
-* ugrave (U+00F9): B&lt;&lt;291.0,128.0&gt;-&lt;299.0,156.0&gt;-&lt;307.0,182.0&gt;&gt;/B&lt;&lt;307.0,182.0&gt;-&lt;262.0,90.0&gt;-&lt;211.5,41.0&gt;&gt; = 8.961935109233377
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[19] OHamburgCSC-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
- [code: ascent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
- [code: notdef-is-blank]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x2122 (TRADE MARK SIGN)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; has the same coordinates as a previous segment.
-
-* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; has the same coordinates as a previous segment.
-
-* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- CGPT
-
-- a.calt1
-
-- a.calt2
-
-- d.calt1
-
-- d.calt2
-
-- e.calt1
-
-- e.calt2
-
-- eight.bsf
-
-- eight.btf
-
-- five.bsf
-
-- five.btf
-
-- four.bsf
-
-- four.btf
-
-- h.calt1
-
-- h.calt2
-
-- n.calt1
-
-- n.calt2
-
-- nine.bsf
-
-- nine.btf
-
-- one.bsf
-
-- one.btf
-
-- r.calt1
-
-- r.calt2
-
-- s.calt1
-
-- s.calt2
-
-- seven.bsf
-
-- seven.btf
-
-- six.bsf
-
-- six.btf
-
-- t.calt1
-
-- t.calt2
-
-- three.bsf
-
-- three.btf
-
-- two.bsf
-
-- two.btf
-
-- typobold
-
-- uni00690307.sc
-
-- zero.bsf
-
-- zero.btf
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: try adding symbols2</li>
-<li>U+2001 EM QUAD: try adding symbols2</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2126 OHM SIGN: try adding math</li>
-<li>U+2205 EMPTY SET: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
-<li>U+2740 WHITE FLORETTE: try adding symbols</li>
-<li>U+2766 FLORAL HEART: try adding symbols</li>
-<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ả' and shaping the text 'ả' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ạ' and shaping the text 'ạ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ằ' and shaping the text 'ằ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẳ' and shaping the text 'ẳ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẵ' and shaping the text 'ẵ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ắ' and shaping the text 'ắ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ặ' and shaping the text 'ặ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ầ' and shaping the text 'ầ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẩ' and shaping the text 'ẩ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẫ' and shaping the text 'ẫ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ấ' and shaping the text 'ấ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ậ' and shaping the text 'ậ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẻ' and shaping the text 'ẻ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẹ' and shaping the text 'ẹ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ề' and shaping the text 'ề' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ể' and shaping the text 'ể' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ễ' and shaping the text 'ễ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ế' and shaping the text 'ế' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ệ' and shaping the text 'ệ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỉ' and shaping the text 'ỉ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĩ' and shaping the text 'ĩ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ị' and shaping the text 'ị' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỏ' and shaping the text 'ỏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ọ' and shaping the text 'ọ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ồ' and shaping the text 'ồ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ổ' and shaping the text 'ổ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỗ' and shaping the text 'ỗ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ố' and shaping the text 'ố' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ộ' and shaping the text 'ộ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ơ' and shaping the text 'ơ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ờ' and shaping the text 'ờ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ở' and shaping the text 'ở' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỡ' and shaping the text 'ỡ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ớ' and shaping the text 'ớ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ợ' and shaping the text 'ợ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ủ' and shaping the text 'ủ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ũ' and shaping the text 'ũ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ụ' and shaping the text 'ụ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ư' and shaping the text 'ư' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ừ' and shaping the text 'ừ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ử' and shaping the text 'ử' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ữ' and shaping the text 'ữ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ứ' and shaping the text 'ứ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ự' and shaping the text 'ự' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỳ' and shaping the text 'ỳ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỷ' and shaping the text 'ỷ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỹ' and shaping the text 'ỹ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỵ' and shaping the text 'ỵ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">vi_Latn (Vietnamese)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
-<td align="left">el_Grek (Greek)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">ca_Latn (Catalan)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">ca_Latn (Catalan)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ě' and shaping the text 'ě' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ů' and shaping the text 'ů' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">cs_Latn (Czech)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẃ' and shaping the text 'ẃ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẁ' and shaping the text 'ẁ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŵ' and shaping the text 'ŵ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẅ' and shaping the text 'ẅ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ỳ' and shaping the text 'ỳ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŷ' and shaping the text 'ŷ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">cy_Latn (Welsh)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ǿ' and shaping the text 'ǿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">da_Latn (Danish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ſ</td>
-<td align="left">de_Latn (German) and fr_Latn (French)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">de_Latn (German)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
-<td align="left">en_Latn (English)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">en_Latn (English)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ª</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">es_Latn (Spanish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ð' and shaping the text 'ð' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ě' and shaping the text 'ě' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ė' and shaping the text 'ė' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ǧ' and shaping the text 'ǧ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ģ' and shaping the text 'ģ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ȟ' and shaping the text 'ȟ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ħ' and shaping the text 'ħ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'į' and shaping the text 'į' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ǩ' and shaping the text 'ǩ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ķ' and shaping the text 'ķ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĺ' and shaping the text 'ĺ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ļ' and shaping the text 'ļ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ņ' and shaping the text 'ņ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ś' and shaping the text 'ś' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŝ' and shaping the text 'ŝ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ș' and shaping the text 'ș' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ţ' and shaping the text 'ţ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ț' and shaping the text 'ț' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ů' and shaping the text 'ů' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ų' and shaping the text 'ų' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ź' and shaping the text 'ź' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'þ' and shaping the text 'þ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ǔ' and shaping the text 'ǔ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">fr_Latn (French)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">hr_Latn (Croatian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">hu_Latn (Hungarian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ð' and shaping the text 'ð' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'þ' and shaping the text 'þ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">is_Latn (Icelandic)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">it_Latn (Italian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ė' and shaping the text 'ė' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'į' and shaping the text 'į' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ų' and shaping the text 'ų' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ẽ' and shaping the text 'ẽ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĩ' and shaping the text 'ĩ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ũ' and shaping the text 'ũ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">lt_Latn (Lithuanian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ģ' and shaping the text 'ģ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ķ' and shaping the text 'ķ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ļ' and shaping the text 'ļ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ņ' and shaping the text 'ņ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŗ' and shaping the text 'ŗ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">lv_Latn (Latvian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ċ' and shaping the text 'ċ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ġ' and shaping the text 'ġ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ħ' and shaping the text 'ħ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">mt_Latn (Maltese)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ǎ' and shaping the text 'ǎ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĳ' and shaping the text 'ĳ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">nl_Latn (Dutch)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ą' and shaping the text 'ą' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ę' and shaping the text 'ę' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ł' and shaping the text 'ł' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ń' and shaping the text 'ń' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ś' and shaping the text 'ś' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ź' and shaping the text 'ź' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ż' and shaping the text 'ż' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">pl_Latn (Polish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'õ' and shaping the text 'õ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">pt_Latn (Portuguese)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ș' and shaping the text 'ș' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ț' and shaping the text 'ț' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ţ' and shaping the text 'ţ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">ro_Latn (Romanian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ď' and shaping the text 'ď' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĺ' and shaping the text 'ĺ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ľ' and shaping the text 'ľ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ň' and shaping the text 'ň' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŕ' and shaping the text 'ŕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ť' and shaping the text 'ť' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ý' and shaping the text 'ý' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ő' and shaping the text 'ő' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ř' and shaping the text 'ř' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ű' and shaping the text 'ű' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">sk_Latn (Slovak)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">sq_Latn (Albanian)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'č' and shaping the text 'č' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ć' and shaping the text 'ć' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'đ' and shaping the text 'đ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'š' and shaping the text 'š' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ž' and shaping the text 'ž' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">sr_Latn (Serbian (Latin))</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">sv_Latn (Swedish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'a' and shaping the text 'a' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'b' and shaping the text 'b' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'c' and shaping the text 'c' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ç' and shaping the text 'ç' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'd' and shaping the text 'd' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'e' and shaping the text 'e' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'f' and shaping the text 'f' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'g' and shaping the text 'g' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ğ' and shaping the text 'ğ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'h' and shaping the text 'h' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ı' and shaping the text 'ı' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'i' and shaping the text 'i' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'j' and shaping the text 'j' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'k' and shaping the text 'k' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'l' and shaping the text 'l' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'm' and shaping the text 'm' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'n' and shaping the text 'n' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'o' and shaping the text 'o' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ö' and shaping the text 'ö' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'p' and shaping the text 'p' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'r' and shaping the text 'r' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 's' and shaping the text 's' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ş' and shaping the text 'ş' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 't' and shaping the text 't' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'u' and shaping the text 'u' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ü' and shaping the text 'ü' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'v' and shaping the text 'v' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'y' and shaping the text 'y' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'z' and shaping the text 'z' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'á' and shaping the text 'á' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'à' and shaping the text 'à' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ă' and shaping the text 'ă' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'â' and shaping the text 'â' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'å' and shaping the text 'å' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ä' and shaping the text 'ä' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ã' and shaping the text 'ã' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ā' and shaping the text 'ā' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'æ' and shaping the text 'æ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'é' and shaping the text 'é' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'è' and shaping the text 'è' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĕ' and shaping the text 'ĕ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ê' and shaping the text 'ê' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ë' and shaping the text 'ë' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ē' and shaping the text 'ē' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'í' and shaping the text 'í' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ì' and shaping the text 'ì' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ĭ' and shaping the text 'ĭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'î' and shaping the text 'î' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ï' and shaping the text 'ï' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ī' and shaping the text 'ī' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ñ' and shaping the text 'ñ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ó' and shaping the text 'ó' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ò' and shaping the text 'ò' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŏ' and shaping the text 'ŏ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ô' and shaping the text 'ô' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ø' and shaping the text 'ø' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ō' and shaping the text 'ō' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'œ' and shaping the text 'œ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'q' and shaping the text 'q' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ß' and shaping the text 'ß' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ú' and shaping the text 'ú' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ù' and shaping the text 'ù' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŭ' and shaping the text 'ŭ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'û' and shaping the text 'û' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ū' and shaping the text 'ū' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'w' and shaping the text 'w' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'x' and shaping the text 'x' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ÿ' and shaping the text 'ÿ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">tr_Latn (Turkish)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; -&gt; L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;149.0,658.0&gt;--&lt;146.0,551.0&gt;&gt; -&gt; L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
-
-* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; -&gt; L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
-
-* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
-
-* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
-
-* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcaron (U+010F): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcroat (U+0111): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,529.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* h (U+0068): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* hbar (U+0127): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,511.0&gt;&gt;
-
-* hcircumflex (U+0125): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* hyphen (U+002D): L&lt;&lt;77.0,239.0&gt;--&lt;239.0,253.0&gt;&gt; -&gt; L&lt;&lt;239.0,253.0&gt;--&lt;288.0,253.0&gt;&gt;
-
-* ij (U+0133): L&lt;&lt;380.0,393.0&gt;--&lt;378.0,314.0&gt;&gt; -&gt; L&lt;&lt;378.0,314.0&gt;--&lt;378.0,68.0&gt;&gt;
-
-* j (U+006A): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* jcircumflex (U+0135): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* k (U+006B): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
-
-* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
-
-* l (U+006C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lacute (U+013A): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lslash (U+0142): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,385.0&gt;&gt;
-
-* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
-
-* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
-
-* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
-
-* u (U+0075): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uacute (U+00FA): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ubreve (U+016D): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ucircumflex (U+00FB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* udieresis (U+00FC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ugrave (U+00F9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uhorn (U+01B0): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uhungarumlaut (U+0171): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* umacron (U+016B): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni006A0301: L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* uni0137 (U+0137): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* uni0237 (U+0237): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE5 (U+1EE5): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE7 (U+1EE7): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE9 (U+1EE9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EEB (U+1EEB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EED (U+1EED): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EEF (U+1EEF): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EF1 (U+1EF1): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni2010 (U+2010): L&lt;&lt;36.0,231.0&gt;--&lt;77.0,239.0&gt;&gt; -&gt; L&lt;&lt;77.0,239.0&gt;--&lt;203.0,253.0&gt;&gt;
-
-* uogonek (U+0173): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* uring (U+016F): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* utilde (U+0169): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
-
-* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
-
-* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
-
-* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
-
-* three (U+0033): B&lt;&lt;326.5,418.0&gt;-&lt;286.0,389.0&gt;-&lt;232.0,367.0&gt;&gt;/B&lt;&lt;232.0,367.0&gt;-&lt;270.0,374.0&gt;-&lt;306.0,374.0&gt;&gt; = 11.728870470964262
-
-* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
-
-* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
-
-* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;465.0,314.0&gt;--&lt;464.0,567.0&gt;&gt;
-
-* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
-
-* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
-
-* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;145.0,315.0&gt;--&lt;144.0,79.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
-
-* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;341.0,-164.0&gt;--&lt;342.0,52.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;342.0,76.0&gt;--&lt;343.0,290.0&gt;&gt;
-
-* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[22] OHamburgC-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1082, but got 920 instead</p>
- [code: ascent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
- [code: notdef-is-blank]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 200 font units wide, non-breaking space named (uni00A0) is 198 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>&quot;OHamburgC&quot; contains an abbreviation.</p>
- [code: abbreviation]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-license">googlefonts/name/license</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0060 (GRAVE ACCENT)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x2122 (TRADE MARK SIGN)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-weightclass">googlefonts/weightclass</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Best SubFamily name is 'Regular'. Expected OS/2 usWeightClass is 400, got 300.</p>
- [code: bad-value]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
-
-- Glyph name: beta	Contours detected: 1	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: ohorn	Contours detected: 3	Expected: 2
-
-- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EED	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
- [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; has the same coordinates as a previous segment.
-
-* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; has the same coordinates as a previous segment.
-
-* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- CGPT
-
-- a.calt1
-
-- a.calt2
-
-- d.calt1
-
-- d.calt2
-
-- e.calt1
-
-- e.calt2
-
-- eight.bsf
-
-- eight.btf
-
-- five.bsf
-
-- five.btf
-
-- four.bsf
-
-- four.btf
-
-- h.calt1
-
-- h.calt2
-
-- n.calt1
-
-- n.calt2
-
-- nine.bsf
-
-- nine.btf
-
-- one.bsf
-
-- one.btf
-
-- r.calt1
-
-- r.calt2
-
-- s.calt1
-
-- s.calt2
-
-- seven.bsf
-
-- seven.btf
-
-- six.bsf
-
-- six.btf
-
-- t.calt1
-
-- t.calt2
-
-- three.bsf
-
-- three.btf
-
-- two.bsf
-
-- two.btf
-
-- typobold
-
-- uni00690307.sc
-
-- zero.bsf
-
-- zero.btf
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, old-permic, todhri, hebrew, tai-le, syriac, malayalam, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
-<li>U+0327 COMBINING CEDILLA: try adding math</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: try adding symbols2</li>
-<li>U+2001 EM QUAD: try adding symbols2</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: sundanese, armenian, coptic, kharoshthi, sora-sompeng, yi, kayah-li, hebrew, kaithi, syloti-nagri, arabic, cham, lisu</li>
-<li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2126 OHM SIGN: try adding math</li>
-<li>U+2205 EMPTY SET: try adding math</li>
-<li>U+2206 INCREMENT: try adding math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2619 REVERSED ROTATED FLORAL HEART BULLET: try adding symbols</li>
-<li>U+2740 WHITE FLORETTE: try adding symbols</li>
-<li>U+2766 FLORAL HEART: try adding symbols</li>
-<li>U+2767 ROTATED FLORAL HEART BULLET: try adding symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
-<td align="left">el_Grek (Greek)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">ca_Latn (Catalan)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ſ</td>
-<td align="left">de_Latn (German) and fr_Latn (French)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
-<td align="left">en_Latn (English)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ª</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: º</td>
-<td align="left">es_Latn (Spanish), it_Latn (Italian) and pt_Latn (Portuguese)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Small caps for Latin letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ŋ' and shaping the text 'ŋ' with features: smcp, the output is expected to be different, but was the same</td>
-<td align="left">fi_Latn (Finnish) and nb_Latn (Norwegian Bokmål)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
-<td align="left">nb_Latn (Norwegian Bokmål)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋ į̛̌ į̛̒</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt; -&gt; L&lt;&lt;406.0,617.0&gt;--&lt;406.0,617.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;107.0,104.0&gt;--&lt;109.0,327.0&gt;&gt; -&gt; L&lt;&lt;109.0,327.0&gt;--&lt;107.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,104.0&gt;--&lt;498.0,329.0&gt;&gt; -&gt; L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;496.0,551.0&gt;--&lt;396.0,553.0&gt;&gt; -&gt; L&lt;&lt;396.0,553.0&gt;--&lt;188.0,553.0&gt;&gt;
-
-* Pi (U+03A0): L&lt;&lt;498.0,329.0&gt;--&lt;496.0,512.0&gt;&gt; -&gt; L&lt;&lt;496.0,512.0&gt;--&lt;496.0,551.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;149.0,658.0&gt;--&lt;146.0,551.0&gt;&gt; -&gt; L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
-
-* c_t: L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt; -&gt; L&lt;&lt;555.0,468.0&gt;--&lt;555.0,468.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
-
-* d.calt1: L&lt;&lt;398.0,658.0&gt;--&lt;396.0,557.0&gt;&gt; -&gt; L&lt;&lt;396.0,557.0&gt;--&lt;396.0,85.0&gt;&gt;
-
-* d.calt2: L&lt;&lt;434.0,658.0&gt;--&lt;432.0,557.0&gt;&gt; -&gt; L&lt;&lt;432.0,557.0&gt;--&lt;432.0,85.0&gt;&gt;
-
-* d.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* d.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcaron (U+010F): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,85.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; -&gt; L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt;
-
-* dcaron.sc: L&lt;&lt;293.0,440.0&gt;--&lt;294.0,440.0&gt;&gt; -&gt; L&lt;&lt;294.0,440.0&gt;--&lt;294.0,440.0&gt;&gt;
-
-* dcroat (U+0111): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,529.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,197.0&gt;--&lt;340.0,200.0&gt;&gt; -&gt; L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;340.0,200.0&gt;--&lt;340.0,206.0&gt;&gt; -&gt; L&lt;&lt;340.0,206.0&gt;--&lt;340.0,207.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,174.0&gt;--&lt;341.0,175.0&gt;&gt; -&gt; L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,175.0&gt;--&lt;341.0,182.0&gt;&gt; -&gt; L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,182.0&gt;--&lt;341.0,185.0&gt;&gt; -&gt; L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt;
-
-* delta (U+03B4): L&lt;&lt;341.0,185.0&gt;--&lt;341.0,190.0&gt;&gt; -&gt; L&lt;&lt;341.0,190.0&gt;--&lt;341.0,192.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;0.0,231.0&gt;--&lt;83.0,239.0&gt;&gt; -&gt; L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;83.0,239.0&gt;--&lt;620.0,253.0&gt;&gt; -&gt; L&lt;&lt;620.0,253.0&gt;--&lt;702.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;0.0,231.0&gt;--&lt;80.0,239.0&gt;&gt; -&gt; L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;80.0,239.0&gt;--&lt;404.0,253.0&gt;&gt; -&gt; L&lt;&lt;404.0,253.0&gt;--&lt;486.0,253.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt; -&gt; L&lt;&lt;351.0,440.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt; -&gt; L&lt;&lt;417.0,617.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* h (U+0068): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* h.calt1: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* h.calt2: L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* hbar (U+0127): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,511.0&gt;&gt;
-
-* hcircumflex (U+0125): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,323.0&gt;&gt;
-
-* hyphen (U+002D): L&lt;&lt;77.0,239.0&gt;--&lt;239.0,253.0&gt;&gt; -&gt; L&lt;&lt;239.0,253.0&gt;--&lt;288.0,253.0&gt;&gt;
-
-* ij (U+0133): L&lt;&lt;380.0,393.0&gt;--&lt;378.0,314.0&gt;&gt; -&gt; L&lt;&lt;378.0,314.0&gt;--&lt;378.0,68.0&gt;&gt;
-
-* j (U+006A): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* jcircumflex (U+0135): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* k (U+006B): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
-
-* kappa (U+03BA): L&lt;&lt;146.0,388.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,211.0&gt;&gt;
-
-* l (U+006C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lacute (U+013A): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* lslash (U+0142): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,385.0&gt;&gt;
-
-* nu (U+03BD): L&lt;&lt;97.0,384.0&gt;--&lt;118.0,318.0&gt;&gt; -&gt; L&lt;&lt;118.0,318.0&gt;--&lt;209.0,36.0&gt;&gt;
-
-* omega (U+03C9): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* omegatonos (U+03CE): L&lt;&lt;285.0,318.0&gt;--&lt;314.0,318.0&gt;&gt; -&gt; L&lt;&lt;314.0,318.0&gt;--&lt;343.0,318.0&gt;&gt;
-
-* paragraph (U+00B6): L&lt;&lt;396.0,519.0&gt;--&lt;394.0,310.0&gt;&gt; -&gt; L&lt;&lt;394.0,310.0&gt;--&lt;396.0,148.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;145.0,339.0&gt;--&lt;144.0,287.0&gt;&gt; -&gt; L&lt;&lt;144.0,287.0&gt;--&lt;144.0,0.0&gt;&gt;
-
-* psi (U+03C8): L&lt;&lt;545.0,394.0&gt;--&lt;543.0,321.0&gt;&gt; -&gt; L&lt;&lt;543.0,321.0&gt;--&lt;540.0,166.0&gt;&gt;
-
-* u (U+0075): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uacute (U+00FA): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ubreve (U+016D): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ucircumflex (U+00FB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* udieresis (U+00FC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* ugrave (U+00F9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uhorn (U+01B0): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uhungarumlaut (U+0171): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* umacron (U+016B): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni006A0301: L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* uni0137 (U+0137): L&lt;&lt;146.0,658.0&gt;--&lt;144.0,557.0&gt;&gt; -&gt; L&lt;&lt;144.0,557.0&gt;--&lt;144.0,198.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;148.0,658.0&gt;--&lt;145.0,557.0&gt;&gt; -&gt; L&lt;&lt;145.0,557.0&gt;--&lt;145.0,68.0&gt;&gt;
-
-* uni0237 (U+0237): L&lt;&lt;146.0,393.0&gt;--&lt;144.0,314.0&gt;&gt; -&gt; L&lt;&lt;144.0,314.0&gt;--&lt;144.0,68.0&gt;&gt;
-
-* uni0256 (U+0256): L&lt;&lt;416.0,658.0&gt;--&lt;414.0,557.0&gt;&gt; -&gt; L&lt;&lt;414.0,557.0&gt;--&lt;414.0,-49.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE5 (U+1EE5): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE7 (U+1EE7): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EE9 (U+1EE9): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EEB (U+1EEB): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EED (U+1EED): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EEF (U+1EEF): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni1EF1 (U+1EF1): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* uni2010 (U+2010): L&lt;&lt;36.0,231.0&gt;--&lt;77.0,239.0&gt;&gt; -&gt; L&lt;&lt;77.0,239.0&gt;--&lt;203.0,253.0&gt;&gt;
-
-* uogonek (U+0173): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;416.0,394.0&gt;--&lt;414.0,321.0&gt;&gt; -&gt; L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* uring (U+016F): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-
-* utilde (U+0169): L&lt;&lt;399.0,394.0&gt;--&lt;397.0,321.0&gt;&gt; -&gt; L&lt;&lt;397.0,321.0&gt;--&lt;394.0,76.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* d.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* d.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* d.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* dcaron.sc: B&lt;&lt;368.0,375.0&gt;-&lt;329.0,399.0&gt;-&lt;279.0,401.0&gt;&gt;/L&lt;&lt;279.0,401.0&gt;--&lt;279.0,401.0&gt;&gt; = 2.2906100426384346
-
-* dcaron.sc: B&lt;&lt;409.5,27.0&gt;-&lt;349.0,-3.0&gt;-&lt;270.0,-5.0&gt;&gt;/L&lt;&lt;270.0,-5.0&gt;--&lt;270.0,-5.0&gt;&gt; = 1.4502162909332779
-
-* dcaron.sc: L&lt;&lt;255.0,-5.0&gt;--&lt;255.0,-5.0&gt;&gt;/B&lt;&lt;255.0,-5.0&gt;-&lt;210.0,-3.0&gt;-&lt;181.0,-3.0&gt;&gt; = 2.5448043798130455
-
-* p.sc: B&lt;&lt;295.5,380.5&gt;-&lt;272.0,406.0&gt;-&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt; = 2.935673446421099
-
-* p.sc: L&lt;&lt;233.0,408.0&gt;--&lt;233.0,408.0&gt;&gt;/L&lt;&lt;233.0,408.0&gt;--&lt;181.0,407.0&gt;&gt; = 1.1017061152063952
-
-* r.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* r.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* racute.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* racute.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* rcaron.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* rcaron.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-
-* thorn.sc: B&lt;&lt;274.0,288.0&gt;-&lt;251.0,314.0&gt;-&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt; = 1.5074357587748821
-
-* thorn.sc: L&lt;&lt;213.0,315.0&gt;--&lt;213.0,315.0&gt;&gt;/L&lt;&lt;213.0,315.0&gt;--&lt;163.0,314.0&gt;&gt; = 1.1457628381751443
-
-* three (U+0033): B&lt;&lt;326.5,418.0&gt;-&lt;286.0,389.0&gt;-&lt;232.0,367.0&gt;&gt;/B&lt;&lt;232.0,367.0&gt;-&lt;270.0,374.0&gt;-&lt;306.0,374.0&gt;&gt; = 11.728870470964262
-
-* three.lf: B&lt;&lt;213.5,430.5&gt;-&lt;177.0,400.0&gt;-&lt;134.0,377.0&gt;&gt;/B&lt;&lt;134.0,377.0&gt;-&lt;150.0,383.0&gt;-&lt;169.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.osf: B&lt;&lt;213.5,229.5&gt;-&lt;177.0,199.0&gt;-&lt;134.0,176.0&gt;&gt;/B&lt;&lt;134.0,176.0&gt;-&lt;150.0,182.0&gt;-&lt;169.0,186.0&gt;&gt; = 7.585556012678239
-
-* three.tf: B&lt;&lt;285.5,430.5&gt;-&lt;249.0,400.0&gt;-&lt;206.0,377.0&gt;&gt;/B&lt;&lt;206.0,377.0&gt;-&lt;222.0,383.0&gt;-&lt;241.0,387.0&gt;&gt; = 7.585556012678239
-
-* three.tosf: B&lt;&lt;279.5,229.5&gt;-&lt;243.0,199.0&gt;-&lt;200.0,176.0&gt;&gt;/B&lt;&lt;200.0,176.0&gt;-&lt;216.0,182.0&gt;-&lt;235.0,186.0&gt;&gt; = 7.585556012678239
-
-* uni0157.sc: B&lt;&lt;288.5,375.5&gt;-&lt;265.0,397.0&gt;-&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt; = 3.270487923183572
-
-* uni0157.sc: L&lt;&lt;230.0,399.0&gt;--&lt;230.0,399.0&gt;&gt;/L&lt;&lt;230.0,399.0&gt;--&lt;181.0,397.0&gt;&gt; = 2.3373058591238247
-</code></pre>
- [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;465.0,314.0&gt;--&lt;464.0,567.0&gt;&gt;
-
-* CGPT: L&lt;&lt;226.0,506.0&gt;--&lt;225.0,331.0&gt;&gt;
-
-* Psi (U+03A8): L&lt;&lt;170.0,539.0&gt;--&lt;171.0,386.0&gt;&gt;
-
-* Sigma (U+03A3): L&lt;&lt;94.0,42.0&gt;--&lt;268.0,41.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;361.0,64.0&gt;--&lt;362.0,188.0&gt;&gt;
-
-* ae.sc: L&lt;&lt;362.0,227.0&gt;--&lt;361.0,395.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;145.0,315.0&gt;--&lt;144.0,79.0&gt;&gt;
-
-* b (U+0062): L&lt;&lt;146.0,551.0&gt;--&lt;145.0,343.0&gt;&gt;
-
-* c.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cacute.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccaron.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccedilla.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* ccircumflex.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* cdotaccent.sc: L&lt;&lt;509.0,431.0&gt;--&lt;510.0,300.0&gt;&gt;
-
-* emdash (U+2014): L&lt;&lt;695.0,202.0&gt;--&lt;6.0,198.0&gt;&gt;
-
-* endash (U+2013): L&lt;&lt;480.0,196.0&gt;--&lt;6.0,192.0&gt;&gt;
-
-* five.bsf: L&lt;&lt;119.0,439.0&gt;--&lt;351.0,440.0&gt;&gt;
-
-* five.btf: L&lt;&lt;173.0,616.0&gt;--&lt;417.0,617.0&gt;&gt;
-
-* oe.sc: L&lt;&lt;528.0,204.0&gt;--&lt;529.0,79.0&gt;&gt;
-
-* pi (U+03C0): L&lt;&lt;0.0,385.0&gt;--&lt;146.0,384.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;341.0,-164.0&gt;--&lt;342.0,52.0&gt;&gt;
-
-* q (U+0071): L&lt;&lt;342.0,76.0&gt;--&lt;343.0,290.0&gt;&gt;
-
-* thorn (U+00FE): L&lt;&lt;144.0,660.0&gt;--&lt;143.0,341.0&gt;&gt;
-
-* uni03BC (U+03BC): L&lt;&lt;75.0,111.0&gt;--&lt;74.0,301.0&gt;&gt;
-
-* upsilon (U+03C5): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresis (U+03CB): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilondieresistonos (U+03B0): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* upsilontonos (U+03CD): L&lt;&lt;414.0,321.0&gt;--&lt;413.0,130.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* z.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* zacute.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
-
-* zcaron.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;273.0,349.0&gt;--&lt;138.0,348.0&gt;&gt;
+* zdotaccent (U+017C): L&lt;&lt;270.0,358.0&gt;--&lt;152.0,357.0&gt;&gt;
 
 * zdotaccent.sc: L&lt;&lt;143.0,32.0&gt;--&lt;287.0,33.0&gt;&gt;
 </code></pre>
@@ -32772,8 +32856,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 86 | 97 | 839 | 41 | 706 | 0 | 
-| 0% | 0% | 5% | 5% | 47% | 2% | 40% | 0% | 
+| 0 | 0 | 86 | 101 | 839 | 41 | 702 | 0 | 
+| 0% | 0% | 5% | 6% | 47% | 2% | 40% | 0% | 
 
 
 
