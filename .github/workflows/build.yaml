@@ -50,7 +50,7 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: cp scripts/index.html out/index.html
+      run: cp -a pages/* out
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       if: ${{ github.ref == 'refs/heads/main' }}
