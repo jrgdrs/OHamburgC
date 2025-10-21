@@ -1,8 +1,8 @@
 
         const words = [
-            'dream', 'light', 'time', 'space', 'future', 'mind', 'truth', 'fire', 'stone', 'river', 'wind', 'shadow', 'echo', 'path', 'voice', 'heart', 'storm', 'memory', 'wave', 'field', 'OHamburgC', 'typobold',
-            'sky', 'seed', 'thought', 'ocean', 'spark', 'dreamer', 'moment', 'vision', 'silence', 'forest', 'sound', 'cloud', 'mountain', 'dust', 'feather', 'flame', 'story', 'dreams', 'hope', 'tactile', 'OHamburgC', 
-            'soul', 'energy', 'mirror', 'night', 'day', 'world', 'circle', 'magic', 'shape', 'flow', 'OHamburgC'
+            'dream', 'light', 'time', 'space', 'future', 'mind', 'truth', 'fire', 'stone', 'river', 'wind', 'shadow', 'echo', 'path', 'voice', 'heart', 'storm', 'memory', 'wave', 'field', 'Augerellus', 'typobold',
+            'sky', 'seed', 'thought', 'ocean', 'spark', 'dreamer', 'moment', 'vision', 'silence', 'forest', 'sound', 'cloud', 'mountain', 'dust', 'feather', 'flame', 'story', 'dreams', 'hope', 'tactile', 'Augerellus', 
+            'soul', 'energy', 'mirror', 'night', 'day', 'world', 'circle', 'magic', 'shape', 'flow', 'Augerellus'
         ];
 
         function gaussian(mean = 0, sd = 1) {
@@ -13,7 +13,7 @@
         }
 
         const stage = document.getElementById('animationContainer');
-        const fontVariants = ['OHamburgC-Regular', 'OHamburgC-Italic', 'OHamburgC-Bold', 'OHamburgC-Black'];
+        const fontVariants = ['Augerellus-Regular'];
         function pickRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
         function randomTertiaryColor() {
             const hue = Math.floor(Math.random() * 360);

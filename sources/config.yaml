@@ -7,11 +7,11 @@
 # sources/ directory, so all paths should be relative to that
 # directory.     
 sources:
-  - OHamburgC-14MU3.glyphs
-  - OHamburgC-Italic3.glyphs  
+  - Augerellus.glyphs
+#  - Augerellus-Italic.glyphs  
 # You don't have to supply the family name, but builds are slightly
 # faster if you do. 
-familyName: "OHamburgC"
+familyName: "Augerellus"
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults
@@ -25,12 +25,11 @@ familyName: "OHamburgC"
 
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
-
 buildVariable: false
 buildStatic: true  
 buildTTF: true
-buildOTF: true
-# buildSmallCap: false
+buildOTF: false
+buildSmallCap: false
 
 # The next flags control autohinting.
 # autohintTTF: true

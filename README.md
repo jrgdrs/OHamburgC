@@ -28,7 +28,7 @@ Also a new testbed for justification checks
 
 ## Specimen
 
-Please find Specimen and Samples in the subfolder /documentation
+Please find Specimen and Samples in the subfolder /documentation and online at <a href="https://jrgdrs.github.io/OHamburgC/index.html">web font preview and checker</a>
 
 ## Status
 
